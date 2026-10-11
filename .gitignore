@@ -6,3 +6,5 @@ dist
 .env.local
 .vite
 *.zip
+public/previews/playstore
+public/previews/extracted
