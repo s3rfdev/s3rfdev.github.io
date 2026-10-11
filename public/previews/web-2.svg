@@ -1,24 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="web-2 cover">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1b0709"/><stop offset="1" stop-color="#240a0d"/>
-    </linearGradient>
-    <radialGradient id="core"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ff8a5b" stop-opacity="0"/></radialGradient>
-    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="45"/>
-    </filter>
-    <filter id="grain">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
-      <feColorMatrix type="saturate" values="0"/>
-    </filter>
-    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#000" stop-opacity="0.45"/><stop offset="0.5" stop-color="#000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0.6"/>
-    </linearGradient>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#05070a"/><stop offset="100%" stop-color="#09101a"/></linearGradient>
+    <linearGradient id="cyanGlow" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#56d9fe" stop-opacity="0.3"/><stop offset="100%" stop-color="#56d9fe" stop-opacity="0"/></linearGradient>
   </defs>
-  <rect width="1600" height="1000" fill="url(#bg)"/>
-  <rect x="0" y="681.41" width="1600" height="318.59" fill="#240a0d" opacity="0.95"/><rect x="-20" y="357.68" width="93.11" height="323.73" fill="#5c1220" opacity="0.75"/><rect x="24.29" y="538.47" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="12.13" y="460.73" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="77.28" y="245.85" width="84.62" height="435.55" fill="#5c1220" opacity="0.39"/><rect x="105.36" y="500.75" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="167.04" y="309.3" width="57.94" height="372.11" fill="#5c1220" opacity="0.46"/><rect x="184.29" y="421.58" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="200.53" y="428.82" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="237.89" y="489.14" width="86.08" height="192.27" fill="#5c1220" opacity="0.78"/><rect x="304.94" y="567.47" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="305.26" y="589.82" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="303.42" y="536.91" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="333.11" y="218.54" width="28.94" height="462.87" fill="#5c1220" opacity="0.41"/><rect x="352.19" y="535.14" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="367.06" y="212.04" width="29.04" height="469.37" fill="#5c1220" opacity="0.48"/><rect x="381.97" y="537.89" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="403.83" y="591.97" width="107.01" height="89.44" fill="#5c1220" opacity="0.47"/><rect x="473.9" y="615.56" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="525.48" y="399.22" width="106.8" height="282.18" fill="#5c1220" opacity="0.69"/><rect x="637.11" y="362.98" width="34.99" height="318.42" fill="#5c1220" opacity="0.6"/><rect x="654.31" y="488.42" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="649.38" y="505.74" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="652.88" y="508.85" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="688.21" y="243.91" width="67.42" height="437.5" fill="#5c1220" opacity="0.41"/><rect x="722.01" y="319.89" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="765.48" y="539.93" width="53.88" height="141.47" fill="#5c1220" opacity="0.47"/><rect x="789.14" y="580.99" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="778.26" y="562.94" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="786.42" y="582.58" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="835.86" y="335.02" width="28.85" height="346.39" fill="#5c1220" opacity="0.62"/><rect x="848.11" y="584.25" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="882.02" y="500.38" width="82.22" height="181.02" fill="#5c1220" opacity="0.46"/><rect x="970.59" y="527.63" width="77.38" height="153.78" fill="#5c1220" opacity="0.36"/><rect x="1061.09" y="486.37" width="113.63" height="195.04" fill="#5c1220" opacity="0.58"/><rect x="1068.63" y="599.2" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="1079.4" y="611.61" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="1121.24" y="613.49" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="1189.42" y="165.12" width="96.63" height="516.28" fill="#5c1220" opacity="0.6"/><rect x="1239.05" y="334.44" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="1293.91" y="199.49" width="68.69" height="481.92" fill="#5c1220" opacity="0.65"/><rect x="1317.7" y="299.53" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="1373.82" y="321.02" width="67.25" height="360.39" fill="#5c1220" opacity="0.38"/><rect x="1451.76" y="246.63" width="98.76" height="434.78" fill="#5c1220" opacity="0.84"/><rect x="1502.69" y="372.08" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="1567.32" y="560.9" width="30.65" height="120.5" fill="#5c1220" opacity="0.4"/><rect x="1578" y="572.54" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="1577.31" y="632.64" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="1574.01" y="646.19" width="3" height="5" fill="#ff8a5b" opacity="0.8"/><rect x="1605.15" y="528.99" width="99.78" height="152.41" fill="#5c1220" opacity="0.85"/><rect x="1657.36" y="605.03" width="3" height="5" fill="#ff8a5b" opacity="0.8"/>
-  <g filter="url(#soft)"><ellipse cx="218.19" cy="681.41" rx="800" ry="160" fill="#ffd166" opacity="0.35"/></g>
-  <rect width="1600" height="1000" fill="url(#vig)"/>
-  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.09" style="mix-blend-mode:overlay"/>
+  <rect width="1600" height="1000" fill="url(#bg2)"/>
+  
+  <g transform="translate(80, 60)">
+    <!-- Window frame -->
+    <rect width="1440" height="880" rx="16" fill="#080e17" stroke="rgba(86,217,254,0.2)" stroke-width="1.5"/>
+    <rect width="1440" height="52" rx="16" fill="#0d1624"/>
+    <rect y="40" width="1440" height="12" fill="#0d1624"/>
+    <line x1="0" y1="52" x2="1440" y2="52" stroke="rgba(255,255,255,0.08)"/>
+
+    <circle cx="28" cy="26" r="6" fill="#ff5f56"/>
+    <circle cx="48" cy="26" r="6" fill="#ffbd2e"/>
+    <circle cx="68" cy="26" r="6" fill="#27c93f"/>
+
+    <rect x="220" y="12" width="580" height="28" rx="6" fill="#142032"/>
+    <text x="240" y="31" font-family="monospace" font-size="12" fill="#8da4be">https://dispatch.ops/fleet-telemetry • LIVE [18,420 ACTIVE ORDERS]</text>
+    <rect x="730" y="16" width="60" height="20" rx="4" fill="rgba(86,217,254,0.2)"/>
+    <text x="738" y="30" font-family="monospace" font-size="10.5" font-weight="bold" fill="#56d9fe">28 ms</text>
+
+    <!-- Content layout -->
+    <g transform="translate(30, 72)">
+      <!-- Top Metrics -->
+      <g>
+        <rect width="330" height="88" rx="10" fill="#0e1826" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="26" font-family="monospace" font-size="11" fill="#7d90a6">ONLINE COURIERS &amp; VANS</text>
+        <text x="20" y="58" font-family="sans-serif" font-size="28" font-weight="bold" fill="#ffffff">1,420 Units</text>
+        <text x="20" y="76" font-family="monospace" font-size="10" fill="#4ade80">● 98.4% On-Time SLA</text>
+      </g>
+      <g transform="translate(350, 0)">
+        <rect width="330" height="88" rx="10" fill="#0e1826" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="26" font-family="monospace" font-size="11" fill="#7d90a6">HOURLY DISPATCH THROUGHPUT</text>
+        <text x="20" y="58" font-family="sans-serif" font-size="28" font-weight="bold" fill="#ffffff">3,840 Orders/hr</text>
+        <text x="20" y="76" font-family="monospace" font-size="10" fill="#56d9fe">Peak load auto-balancing</text>
+      </g>
+      <g transform="translate(700, 0)">
+        <rect width="330" height="88" rx="10" fill="#0e1826" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="26" font-family="monospace" font-size="11" fill="#7d90a6">ANOMALY &amp; FRAUD DETECTOR</text>
+        <text x="20" y="58" font-family="sans-serif" font-size="28" font-weight="bold" fill="#4ade80">0 Alerts Flagged</text>
+        <text x="20" y="76" font-family="monospace" font-size="10" fill="#64748b">ML Route deviation monitor: OK</text>
+      </g>
+      <g transform="translate(1050, 0)">
+        <rect width="330" height="88" rx="10" fill="#0e1826" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="26" font-family="monospace" font-size="11" fill="#7d90a6">DISPATCH WEBSOCKET CLUSTER</text>
+        <text x="20" y="58" font-family="sans-serif" font-size="28" font-weight="bold" fill="#ffffff">12 Nodes</text>
+        <text x="20" y="76" font-family="monospace" font-size="10" fill="#4ade80">● Zero packet loss</text>
+      </g>
+
+      <!-- Center Left: Live Vector Map / Geo Graph -->
+      <g transform="translate(0, 110)">
+        <rect width="880" height="670" rx="12" fill="#0b121e" stroke="rgba(255,255,255,0.08)"/>
+        <text x="24" y="36" font-family="sans-serif" font-weight="bold" font-size="14" fill="#ffffff">METROPOLITAN ROUTE TOPOLOGY &amp; GPS TELEMETRY</text>
+
+        <!-- Simulated Vector Map Grid -->
+        <g opacity="0.18" stroke="#56d9fe" stroke-width="1">
+          <path d="M40,100 L840,100 M40,200 L840,200 M40,300 L840,300 M40,400 L840,400 M40,500 L840,500 M40,600 L840,600 M100,60 L100,640 M240,60 L240,640 M380,60 L380,640 M520,60 L520,640 M660,60 L660,640 M780,60 L780,640"/>
+        </g>
+
+        <!-- Route paths -->
+        <path d="M120,480 Q 280,240 440,320 T 720,180" fill="none" stroke="#56d9fe" stroke-width="3" stroke-dasharray="6,4"/>
+        <path d="M200,580 Q 380,480 540,540 T 800,420" fill="none" stroke="#4ade80" stroke-width="3"/>
+        <path d="M300,180 Q 420,380 620,380" fill="none" stroke="#ffd166" stroke-width="2.5"/>
+
+        <!-- Waypoint Nodes -->
+        <circle cx="120" cy="480" r="8" fill="#56d9fe"/>
+        <circle cx="440" cy="320" r="10" fill="#0e1826" stroke="#56d9fe" stroke-width="3"/>
+        <circle cx="720" cy="180" r="9" fill="#4ade80"/>
+        <circle cx="540" cy="540" r="7" fill="#ffd166"/>
+
+        <rect x="420" y="270" width="130" height="40" rx="6" fill="#142032" stroke="#56d9fe"/>
+        <text x="430" y="288" font-family="monospace" font-size="10" font-weight="bold" fill="#ffffff">HUB-NORTH #04</text>
+        <text x="430" y="302" font-family="monospace" font-size="9" fill="#4ade80">● 42 Units en route</text>
+      </g>
+
+      <!-- Center Right: Live Dispatch Feed -->
+      <g transform="translate(900, 110)">
+        <rect width="480" height="670" rx="12" fill="#0b121e" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="36" font-family="sans-serif" font-weight="bold" font-size="14" fill="#ffffff">REALTIME DISPATCH FEED</text>
+
+        <!-- Feed item 1 -->
+        <g transform="translate(20, 60)">
+          <rect width="440" height="85" rx="8" fill="#101826" stroke="rgba(74,222,128,0.2)"/>
+          <text x="16" y="24" font-family="monospace" font-size="12" font-weight="bold" fill="#ffffff">ORDER #EXP-8891</text>
+          <rect x="340" y="12" width="85" height="20" rx="4" fill="rgba(74,222,128,0.15)"/>
+          <text x="348" y="26" font-family="monospace" font-size="10" font-weight="bold" fill="#4ade80">IN TRANSIT</text>
+          <text x="16" y="48" font-family="sans-serif" font-size="12" fill="#94a3b8">Driver: Michael S. (Van #204) • ETA: 8 min</text>
+          <text x="16" y="68" font-family="monospace" font-size="10.5" fill="#56d9fe">GeoHash: 9q8yy2 • Anomaly score: 0.01 (Optimal)</text>
+        </g>
+
+        <!-- Feed item 2 -->
+        <g transform="translate(20, 160)">
+          <rect width="440" height="85" rx="8" fill="#101826" stroke="rgba(86,217,254,0.15)"/>
+          <text x="16" y="24" font-family="monospace" font-size="12" font-weight="bold" fill="#ffffff">ORDER #EXP-8892</text>
+          <rect x="340" y="12" width="85" height="20" rx="4" fill="rgba(86,217,254,0.15)"/>
+          <text x="352" y="26" font-family="monospace" font-size="10" font-weight="bold" fill="#56d9fe">ASSIGNED</text>
+          <text x="16" y="48" font-family="sans-serif" font-size="12" fill="#94a3b8">Driver: Alex K. (Moto #08) • Pickup in 3 min</text>
+          <text x="16" y="68" font-family="monospace" font-size="10.5" fill="#56d9fe">GeoHash: 9q8yy7 • Smart Batching #3</text>
+        </g>
+
+        <!-- Feed item 3 -->
+        <g transform="translate(20, 260)">
+          <rect width="440" height="85" rx="8" fill="#101826" stroke="rgba(255,209,102,0.15)"/>
+          <text x="16" y="24" font-family="monospace" font-size="12" font-weight="bold" fill="#ffffff">BATCH #WH-7740</text>
+          <rect x="340" y="12" width="85" height="20" rx="4" fill="rgba(255,209,102,0.15)"/>
+          <text x="352" y="26" font-family="monospace" font-size="10" font-weight="bold" fill="#ffd166">ROUTING</text>
+          <text x="16" y="48" font-family="sans-serif" font-size="12" fill="#94a3b8">Zone 4 to Zone 7 cross-dock transfer</text>
+          <text x="16" y="68" font-family="monospace" font-size="10.5" fill="#4ade80">● Algorithm: OSRM High-Efficiency</text>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

@@ -1,23 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="mobile-2 cover">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#05141b"/><stop offset="1" stop-color="#031014"/>
-    </linearGradient>
-    <radialGradient id="core"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
-    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="45"/>
-    </filter>
-    <filter id="grain">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
-      <feColorMatrix type="saturate" values="0"/>
-    </filter>
-    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#000" stop-opacity="0.45"/><stop offset="0.5" stop-color="#000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0.6"/>
-    </linearGradient>
+    <linearGradient id="bgMob2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#05070a"/><stop offset="100%" stop-color="#0a121c"/></linearGradient>
   </defs>
-  <rect width="1600" height="1000" fill="url(#bg)"/>
-  <path d="M0 150 C 400 127.7, 960 172.3, 1600 141.08" fill="none" stroke="#2dd4bf" stroke-width="1.23" opacity="0.18"/><path d="M0 200 C 400 145.83, 960 254.17, 1600 178.33" fill="none" stroke="#a7f3d0" stroke-width="2.12" opacity="0.32"/><path d="M0 250 C 400 204.59, 960 295.41, 1600 231.84" fill="none" stroke="#031014" stroke-width="0.62" opacity="0.54"/><path d="M0 300 C 400 249.3, 960 350.7, 1600 279.72" fill="none" stroke="#2dd4bf" stroke-width="0.97" opacity="0.49"/><path d="M0 350 C 400 307.66, 960 392.34, 1600 333.07" fill="none" stroke="#a7f3d0" stroke-width="1.31" opacity="0.62"/><path d="M0 400 C 400 336.56, 960 463.44, 1600 374.63" fill="none" stroke="#031014" stroke-width="0.76" opacity="0.45"/><path d="M0 450 C 400 400.36, 960 499.64, 1600 430.14" fill="none" stroke="#2dd4bf" stroke-width="1.22" opacity="0.61"/><path d="M0 500 C 400 461.86, 960 538.14, 1600 484.74" fill="none" stroke="#a7f3d0" stroke-width="1.69" opacity="0.52"/><path d="M0 550 C 400 502.78, 960 597.22, 1600 531.11" fill="none" stroke="#031014" stroke-width="1.89" opacity="0.39"/><path d="M0 600 C 400 547.54, 960 652.46, 1600 579.02" fill="none" stroke="#2dd4bf" stroke-width="1.28" opacity="0.5"/><path d="M0 650 C 400 601.16, 960 698.84, 1600 630.47" fill="none" stroke="#a7f3d0" stroke-width="1.38" opacity="0.53"/><path d="M0 700 C 400 633.74, 960 766.26, 1600 673.5" fill="none" stroke="#031014" stroke-width="2.03" opacity="0.57"/><path d="M0 750 C 400 710.53, 960 789.47, 1600 734.21" fill="none" stroke="#2dd4bf" stroke-width="1.6" opacity="0.22"/><path d="M0 800 C 400 755.28, 960 844.72, 1600 782.11" fill="none" stroke="#a7f3d0" stroke-width="0.98" opacity="0.59"/><path d="M0 850 C 400 824.59, 960 875.41, 1600 839.84" fill="none" stroke="#031014" stroke-width="2.12" opacity="0.24"/><path d="M0 900 C 400 860.12, 960 939.88, 1600 884.05" fill="none" stroke="#2dd4bf" stroke-width="2.15" opacity="0.13"/>
-  <rect width="1600" height="1000" fill="url(#vig)"/>
-  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.09" style="mix-blend-mode:overlay"/>
+  <rect width="1600" height="1000" fill="url(#bgMob2)"/>
+
+  <g transform="translate(100, 140)">
+    <rect width="1400" height="720" rx="20" fill="#090d15" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+
+    <g transform="translate(60, 60)">
+      <text x="0" y="30" font-family="monospace" font-size="12" font-weight="bold" fill="#56d9fe">● HIGH-RELIABILITY FLUTTER CLIENT</text>
+      <text x="0" y="70" font-family="sans-serif" font-size="34" font-weight="bold" fill="#ffffff">Field Operations &amp; Courier</text>
+      <text x="0" y="105" font-family="sans-serif" font-size="16" fill="#8fa2b8">Offline-First Synchronisation Engine</text>
+
+      <g transform="translate(0, 150)">
+        <rect width="380" height="90" rx="10" fill="#0f1622" stroke="rgba(255,255,255,0.06)"/>
+        <text x="20" y="28" font-family="monospace" font-size="11" fill="#7d90a6">ZERO CONNECTION RESILIENCE</text>
+        <text x="20" y="56" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffffff">Two-Way SQLite Queue</text>
+        <text x="20" y="76" font-family="monospace" font-size="10" fill="#4ade80">● 100% data preservation offline</text>
+      </g>
+
+      <g transform="translate(0, 260)">
+        <rect width="380" height="90" rx="10" fill="#0f1622" stroke="rgba(255,255,255,0.06)"/>
+        <text x="20" y="28" font-family="monospace" font-size="11" fill="#7d90a6">GPS &amp; BATTERY EFFICIENCY</text>
+        <text x="20" y="56" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffffff">Smart Geofence Polling</text>
+        <text x="20" y="76" font-family="monospace" font-size="10" fill="#56d9fe">Full 12-hour shift on single charge</text>
+      </g>
+
+      <g transform="translate(0, 370)">
+        <rect width="380" height="90" rx="10" fill="#0f1622" stroke="rgba(255,255,255,0.06)"/>
+        <text x="20" y="28" font-family="monospace" font-size="11" fill="#7d90a6">DIGITAL SIGNATURE &amp; PROOF</text>
+        <text x="20" y="56" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffffff">Instant Customer Signoff</text>
+        <text x="20" y="76" font-family="monospace" font-size="10" fill="#4ade80">Geotagged photos + SHA hash</text>
+      </g>
+    </g>
+
+    <!-- Phone mockup -->
+    <g transform="translate(620, 40)">
+      <rect width="360" height="640" rx="42" fill="#030508" stroke="#1f2d3d" stroke-width="4"/>
+      <rect x="10" y="10" width="340" height="620" rx="34" fill="#0b1017"/>
+      <rect x="120" y="20" width="100" height="22" rx="11" fill="#000000"/>
+
+      <text x="35" y="36" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">9:41</text>
+      <text x="280" y="36" font-family="monospace" font-size="10" fill="#ffffff">5G 98%</text>
+
+      <g transform="translate(26, 60)">
+        <text x="0" y="18" font-family="monospace" font-size="10" font-weight="bold" fill="#56d9fe">● ROUTE ACTIVE</text>
+        <text x="0" y="40" font-family="sans-serif" font-size="18" font-weight="bold" fill="#ffffff">Delivery #EXP-482</text>
+        <text x="0" y="56" font-family="sans-serif" font-size="11" fill="#64748b">12 drops completed • 4 remaining</text>
+      </g>
+
+      <!-- Current Drop Card -->
+      <g transform="translate(26, 130)">
+        <rect width="288" height="150" rx="14" fill="#111824" stroke="rgba(86,217,254,0.3)" stroke-width="1.5"/>
+        <text x="16" y="26" font-family="monospace" font-size="10.5" fill="#56d9fe">NEXT DESTINATION • 1.2 KM</text>
+        <text x="16" y="50" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Harbor View Tower, Suite 402</text>
+        <text x="16" y="72" font-family="sans-serif" font-size="12" fill="#94a3b8">Customer: Sarah L. [Prepaid]</text>
+        <rect x="16" y="95" width="256" height="38" rx="8" fill="#4ade80"/>
+        <text x="50" y="119" font-family="sans-serif" font-size="12" font-weight="bold" fill="#000000">SWIPE TO CONFIRM DELIVERY</text>
+      </g>
+
+      <!-- Offline Sync Badge -->
+      <g transform="translate(26, 300)">
+        <rect width="288" height="50" rx="10" fill="#0e1724" stroke="rgba(74,222,128,0.2)"/>
+        <text x="16" y="30" font-family="monospace" font-size="11" fill="#4ade80">● OFFLINE QUEUE: 0 PENDING (SYNCED)</text>
+      </g>
+    </g>
+  </g>
 </svg>

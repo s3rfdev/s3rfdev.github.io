@@ -1,25 +1,135 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="ai-1 cover">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#141018"/><stop offset="1" stop-color="#0d0a10"/>
-    </linearGradient>
-    <radialGradient id="core"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffd166" stop-opacity="0"/></radialGradient>
-    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="45"/>
-    </filter>
-    <filter id="grain">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
-      <feColorMatrix type="saturate" values="0"/>
-    </filter>
-    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#000" stop-opacity="0.45"/><stop offset="0.5" stop-color="#000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0.6"/>
-    </linearGradient>
+    <linearGradient id="bgAi" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#040608"/><stop offset="100%" stop-color="#080d14"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="1600" height="1000" fill="url(#bg)"/>
-  <g filter="url(#soft)"><circle cx="1550.38" cy="819.68" r="47.83" fill="#f471b5" opacity="0.31"/><circle cx="1411.82" cy="291.02" r="25.75" fill="#0d0a10" opacity="0.41"/><circle cx="1445.68" cy="404.7" r="30.76" fill="#0d0a10" opacity="0.12"/><circle cx="441.15" cy="815.93" r="23.05" fill="#0d0a10" opacity="0.18"/><circle cx="1415.84" cy="474.82" r="43.74" fill="#f471b5" opacity="0.43"/><circle cx="550.52" cy="994.44" r="49.26" fill="#ffd166" opacity="0.16"/><circle cx="608.4" cy="542.22" r="17.63" fill="#ffd166" opacity="0.32"/><circle cx="676.07" cy="477.98" r="8.65" fill="#f471b5" opacity="0.11"/><circle cx="1575.35" cy="802.26" r="26.55" fill="#ffd166" opacity="0.25"/><circle cx="1265.24" cy="661.9" r="8.64" fill="#0d0a10" opacity="0.11"/><circle cx="276.96" cy="990.93" r="39.78" fill="#0d0a10" opacity="0.18"/><circle cx="251.19" cy="360.84" r="58.23" fill="#ffd166" opacity="0.16"/><circle cx="1050.89" cy="129.69" r="10.88" fill="#ffd166" opacity="0.1"/><circle cx="1196.67" cy="111.63" r="19.91" fill="#f471b5" opacity="0.12"/><circle cx="1506.36" cy="539.89" r="38.57" fill="#0d0a10" opacity="0.45"/><circle cx="330.69" cy="707.08" r="51.67" fill="#0d0a10" opacity="0.42"/><circle cx="1497.97" cy="72.47" r="27.47" fill="#ffd166" opacity="0.16"/><circle cx="1199.93" cy="695.53" r="11.47" fill="#ffd166" opacity="0.43"/><circle cx="687.08" cy="535.32" r="46.44" fill="#f471b5" opacity="0.22"/><circle cx="1319.88" cy="931.03" r="33.24" fill="#0d0a10" opacity="0.35"/><circle cx="1219.64" cy="60.42" r="15.12" fill="#f471b5" opacity="0.31"/><circle cx="232.59" cy="11.94" r="12.88" fill="#f471b5" opacity="0.17"/><circle cx="153.56" cy="406.85" r="22.66" fill="#0d0a10" opacity="0.45"/><circle cx="1230.11" cy="483.4" r="35.56" fill="#0d0a10" opacity="0.42"/><circle cx="1052.83" cy="637.41" r="45.96" fill="#0d0a10" opacity="0.16"/><circle cx="69.08" cy="775.32" r="14.94" fill="#f471b5" opacity="0.3"/></g>
-  <rect x="224" y="220" width="1152" height="560" rx="18" fill="none" stroke="#f471b5" stroke-width="1.4" opacity="0.5"/>
-  <circle cx="800" cy="500" r="110" fill="#ffd166" opacity="0.5"/>
-  <rect width="1600" height="1000" fill="url(#vig)"/>
-  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.09" style="mix-blend-mode:overlay"/>
+  <rect width="1600" height="1000" fill="url(#bgAi)"/>
+
+  <!-- ComfyUI Node Canvas -->
+  <g transform="translate(80, 60)">
+    <rect width="1440" height="880" rx="16" fill="#080b11" stroke="rgba(74,222,128,0.25)" stroke-width="1.5"/>
+
+    <!-- Top status chrome -->
+    <rect width="1440" height="48" rx="16" fill="#0d121c"/>
+    <text x="24" y="29" font-family="monospace" font-size="13" font-weight="bold" fill="#ffffff">RENDERFLOW // DISTRIBUTED COMFYUI MLOPS CLUSTER</text>
+    <text x="540" y="29" font-family="monospace" font-size="11" fill="#7d90a6">[4x NVIDIA RTX 4090 · 96 GB VRAM TOTAL · NVENC 4K]</text>
+
+    <rect x="1260" y="12" width="150" height="24" rx="4" fill="rgba(74,222,128,0.15)"/>
+    <text x="1275" y="28" font-family="monospace" font-size="11" font-weight="bold" fill="#4ade80">● QUEUE RUNNING</text>
+
+    <!-- Node 1: Checkpoint Loader -->
+    <g transform="translate(60, 120)">
+      <rect width="280" height="180" rx="8" fill="#121824" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+      <rect width="280" height="32" rx="8" fill="#1e293b"/>
+      <text x="16" y="21" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Load Checkpoint</text>
+      <circle cx="265" cy="16" r="5" fill="#4ade80"/>
+
+      <text x="16" y="60" font-family="monospace" font-size="10.5" fill="#94a3b8">ckpt_name: v7-cinematic-fp16.safetensors</text>
+      <text x="16" y="85" font-family="monospace" font-size="10.5" fill="#94a3b8">vae: vae-ft-mse-840000</text>
+      <text x="16" y="110" font-family="monospace" font-size="10.5" fill="#94a3b8">precision: fp16 (TensorRT compiled)</text>
+
+      <!-- Outputs -->
+      <circle cx="280" cy="140" r="6" fill="#ffd166"/>
+      <text x="235" y="144" font-family="monospace" font-size="10" fill="#ffd166">MODEL</text>
+      <circle cx="280" cy="160" r="6" fill="#f471b5"/>
+      <text x="245" y="164" font-family="monospace" font-size="10" fill="#f471b5">CLIP</text>
+    </g>
+
+    <!-- Node 2: CLIP Text Encode (Prompt) -->
+    <g transform="translate(420, 120)">
+      <rect width="320" height="240" rx="8" fill="#121824" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+      <rect width="320" height="32" rx="8" fill="#2d1b42"/>
+      <text x="16" y="21" font-family="sans-serif" font-size="12" font-weight="bold" fill="#f471b5">CLIP Text Encode (Positive + LoRA)</text>
+
+      <rect x="16" y="50" width="288" height="120" rx="6" fill="#0b0e14"/>
+      <text x="26" y="75" font-family="monospace" font-size="10" fill="#cbd5e1">cinematic 4k film still, hyperdetailed</text>
+      <text x="26" y="95" font-family="monospace" font-size="10" fill="#cbd5e1">anamorphic lens, photorealistic studio</text>
+      <text x="26" y="115" font-family="monospace" font-size="10" fill="#cbd5e1">lighting, master shot, color graded</text>
+      <text x="26" y="140" font-family="monospace" font-size="9.5" fill="#4ade80">&lt;lora:product-commercial-v3:0.85&gt;</text>
+
+      <circle cx="320" cy="205" r="6" fill="#f471b5"/>
+      <text x="260" y="209" font-family="monospace" font-size="10" fill="#f471b5">CONDITION</text>
+    </g>
+
+    <!-- Node 3: KSampler -->
+    <g transform="translate(820, 160)">
+      <rect width="300" height="280" rx="8" fill="#121824" stroke="rgba(74,222,128,0.4)" stroke-width="1.5"/>
+      <rect width="300" height="32" rx="8" fill="#0f291e"/>
+      <text x="16" y="21" font-family="sans-serif" font-size="12" font-weight="bold" fill="#4ade80">KSampler (DPM++ 2M Karras)</text>
+
+      <text x="16" y="60" font-family="monospace" font-size="11" fill="#cbd5e1">seed: 8492049182 (fixed batch)</text>
+      <text x="16" y="85" font-family="monospace" font-size="11" fill="#cbd5e1">steps: 32 • cfg: 6.5</text>
+      <text x="16" y="110" font-family="monospace" font-size="11" fill="#cbd5e1">sampler: dpmpp_2m</text>
+      <text x="16" y="135" font-family="monospace" font-size="11" fill="#cbd5e1">scheduler: karras</text>
+      <text x="16" y="160" font-family="monospace" font-size="11" fill="#cbd5e1">denoise: 1.00</text>
+
+      <!-- Progress bar inside KSampler -->
+      <rect x="16" y="195" width="268" height="24" rx="4" fill="#0a1218"/>
+      <rect x="16" y="195" width="220" height="24" rx="4" fill="url(#accentGlow)"/>
+      <text x="110" y="211" font-family="monospace" font-size="10.5" font-weight="bold" fill="#040608">82% [3.1 it/s]</text>
+
+      <circle cx="300" cy="250" r="6" fill="#56d9fe"/>
+      <text x="250" y="254" font-family="monospace" font-size="10" fill="#56d9fe">LATENT</text>
+    </g>
+
+    <!-- Node 4: VAE Decode & 4K Upscale -->
+    <g transform="translate(1180, 260)">
+      <rect width="220" height="200" rx="8" fill="#121824" stroke="rgba(86,217,254,0.3)" stroke-width="1.5"/>
+      <rect width="220" height="32" rx="8" fill="#102538"/>
+      <text x="16" y="21" font-family="sans-serif" font-size="12" font-weight="bold" fill="#56d9fe">VAEDecode &amp; 4K Export</text>
+
+      <text x="16" y="65" font-family="monospace" font-size="10.5" fill="#94a3b8">upscale_model: 4x-UltraSharp</text>
+      <text x="16" y="90" font-family="monospace" font-size="10.5" fill="#94a3b8">output_res: 3840 x 2160</text>
+      <text x="16" y="115" font-family="monospace" font-size="10.5" fill="#94a3b8">codec: NVENC ProRes / H.265</text>
+      <text x="16" y="140" font-family="monospace" font-size="10.5" fill="#4ade80">● S3 Sync: Auto-Upload</text>
+    </g>
+
+    <!-- Connecting Bezier Cables -->
+    <path d="M340,260 C 560,260 600,220 820,220" fill="none" stroke="#ffd166" stroke-width="3" opacity="0.85"/>
+    <path d="M740,325 C 780,325 780,260 820,260" fill="none" stroke="#f471b5" stroke-width="3" opacity="0.85"/>
+    <path d="M1120,410 C 1140,410 1150,360 1180,360" fill="none" stroke="#56d9fe" stroke-width="3" filter="url(#glow)"/>
+
+    <!-- Bottom Monitoring Console -->
+    <g transform="translate(60, 520)">
+      <rect width="1320" height="300" rx="10" fill="#0c1017" stroke="rgba(255,255,255,0.08)"/>
+      <text x="24" y="32" font-family="monospace" font-size="12" font-weight="bold" fill="#ffffff">CLUSTER TELEMETRY &amp; BATCH WORKER POOL</text>
+
+      <g transform="translate(24, 55)">
+        <rect width="300" height="90" rx="8" fill="#121722"/>
+        <text x="16" y="24" font-family="monospace" font-size="11" fill="#7d90a6">GPU-0 [RTX 4090 24GB]</text>
+        <text x="16" y="52" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff">22.4 GB / 93% Load</text>
+        <text x="16" y="74" font-family="monospace" font-size="10" fill="#4ade80">58°C • Power: 340W</text>
+      </g>
+
+      <g transform="translate(344, 55)">
+        <rect width="300" height="90" rx="8" fill="#121722"/>
+        <text x="16" y="24" font-family="monospace" font-size="11" fill="#7d90a6">GPU-1 [RTX 4090 24GB]</text>
+        <text x="16" y="52" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff">21.8 GB / 91% Load</text>
+        <text x="16" y="74" font-family="monospace" font-size="10" fill="#4ade80">56°C • Power: 325W</text>
+      </g>
+
+      <g transform="translate(664, 55)">
+        <rect width="300" height="90" rx="8" fill="#121722"/>
+        <text x="16" y="24" font-family="monospace" font-size="11" fill="#7d90a6">DAILY BATCH PROGRESS</text>
+        <text x="16" y="52" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff">894 / 1,200 Assets</text>
+        <text x="16" y="74" font-family="monospace" font-size="10" fill="#56d9fe">ETA: 2h 14m remaining</text>
+      </g>
+
+      <g transform="translate(984, 55)">
+        <rect width="310" height="90" rx="8" fill="#121722"/>
+        <text x="16" y="24" font-family="monospace" font-size="11" fill="#7d90a6">EXPORT PIPELINE</text>
+        <text x="16" y="52" font-family="sans-serif" font-size="20" font-weight="bold" fill="#4ade80">S3 + NVENC 4K</text>
+        <text x="16" y="74" font-family="monospace" font-size="10" fill="#cbd5e1">Direct marketplace packs upload</text>
+      </g>
+
+      <!-- Terminal logs row -->
+      <g transform="translate(24, 165)">
+        <rect width="1270" height="110" rx="6" fill="#080c12"/>
+        <text x="16" y="24" font-family="monospace" font-size="10.5" fill="#4ade80">[19:42:01] worker-02: batch #440 finished in 2.84s (3840x2160, 4K ProRes NVENC)</text>
+        <text x="16" y="44" font-family="monospace" font-size="10.5" fill="#56d9fe">[19:42:03] s3-sync: uploaded asset_440.mp4 -&gt; s3://rendermind-output/commercial/ [28.4 MB]</text>
+        <text x="16" y="64" font-family="monospace" font-size="10.5" fill="#cbd5e1">[19:42:04] rabbitmq-queue: ack received, pop next job #441 (prompt_hash: 98fae2)</text>
+        <text x="16" y="84" font-family="monospace" font-size="10.5" fill="#ffd166">[19:42:06] vram-guard: tensor cache clean, 0 memory fragmentation</text>
+      </g>
+    </g>
+  </g>
 </svg>

@@ -1,23 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="ai-2 cover">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1a0f06"/><stop offset="1" stop-color="#2b1408"/>
-    </linearGradient>
-    <radialGradient id="core"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/></radialGradient>
-    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="45"/>
-    </filter>
-    <filter id="grain">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
-      <feColorMatrix type="saturate" values="0"/>
-    </filter>
-    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#000" stop-opacity="0.45"/><stop offset="0.5" stop-color="#000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0.6"/>
-    </linearGradient>
+    <linearGradient id="bgAi2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#040609"/><stop offset="100%" stop-color="#080e18"/></linearGradient>
   </defs>
-  <rect width="1600" height="1000" fill="url(#bg)"/>
-  <g><ellipse cx="1033.08" cy="488.55" rx="410.19" ry="377.08" fill="#ffb347" opacity="0.4" filter="url(#soft)" transform="rotate(125.42 1033.08 488.55)"/><ellipse cx="1377.38" cy="88.9" rx="216.07" ry="315.64" fill="#ff6b6b" opacity="0.47" filter="url(#soft)" transform="rotate(28.82 1377.38 88.9)"/><ellipse cx="408.35" cy="186.63" rx="386.65" ry="324.25" fill="#2b1408" opacity="0.63" filter="url(#soft)" transform="rotate(120.66 408.35 186.63)"/><ellipse cx="1474.89" cy="165.18" rx="536.37" ry="314.06" fill="#ffb347" opacity="0.42" filter="url(#soft)" transform="rotate(157.84 1474.89 165.18)"/><ellipse cx="1096.96" cy="564.28" rx="366.54" ry="112.73" fill="#ff6b6b" opacity="0.34" filter="url(#soft)" transform="rotate(36.37 1096.96 564.28)"/><ellipse cx="1325.47" cy="353.11" rx="276.46" ry="266.54" fill="#2b1408" opacity="0.33" filter="url(#soft)" transform="rotate(48.59 1325.47 353.11)"/><ellipse cx="704.12" cy="144.24" rx="536.17" ry="286.9" fill="#ffb347" opacity="0.48" filter="url(#soft)" transform="rotate(0.37 704.12 144.24)"/></g>
-  <rect width="1600" height="1000" fill="url(#vig)"/>
-  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.09" style="mix-blend-mode:overlay"/>
+  <rect width="1600" height="1000" fill="url(#bgAi2)"/>
+
+  <g transform="translate(80, 60)">
+    <rect width="1440" height="880" rx="16" fill="#070c14" stroke="rgba(86,217,254,0.25)" stroke-width="1.5"/>
+    <rect width="1440" height="48" rx="16" fill="#0d1422"/>
+    <text x="24" y="29" font-family="monospace" font-size="13" font-weight="bold" fill="#ffffff">DOCUMIND RAG // ENTERPRISE SEMANTIC SEARCH &amp; GROUNDED REASONING</text>
+    <rect x="1260" y="12" width="150" height="24" rx="4" fill="rgba(86,217,254,0.15)"/>
+    <text x="1275" y="28" font-family="monospace" font-size="11" font-weight="bold" fill="#56d9fe">● HYBRID SEARCH</text>
+
+    <g transform="translate(40, 75)">
+      <!-- Left: Vector Knowledge Base Sources -->
+      <g>
+        <rect width="400" height="740" rx="12" fill="#0b121e" stroke="rgba(255,255,255,0.08)"/>
+        <text x="24" y="36" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">INDEXED REPOSITORIES (PGVECTOR)</text>
+
+        <g transform="translate(20, 60)">
+          <rect width="360" height="80" rx="8" fill="#101928"/>
+          <text x="16" y="26" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Corporate Contracts &amp; NDAs</text>
+          <text x="16" y="48" font-family="monospace" font-size="11" fill="#4ade80">● 14,200 chunks • text-embedding-3</text>
+        </g>
+        <g transform="translate(20, 155)">
+          <rect width="360" height="80" rx="8" fill="#101928"/>
+          <text x="16" y="26" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Technical API &amp; Architecture Specs</text>
+          <text x="16" y="48" font-family="monospace" font-size="11" fill="#4ade80">● 9,840 chunks • BM25 indexed</text>
+        </g>
+        <g transform="translate(20, 250)">
+          <rect width="360" height="80" rx="8" fill="#101928"/>
+          <text x="16" y="26" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">CRM Support &amp; Precedents History</text>
+          <text x="16" y="48" font-family="monospace" font-size="11" fill="#56d9fe">● 32,400 tickets • Hybrid Reciprocal</text>
+        </g>
+      </g>
+
+      <!-- Right: Live RAG Execution Pipeline -->
+      <g transform="translate(430, 0)">
+        <rect width="930" height="740" rx="12" fill="#0b121e" stroke="rgba(255,255,255,0.08)"/>
+        <text x="24" y="36" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">EXECUTION FLOW &amp; CITATION GROUNDING</text>
+
+        <!-- Prompt Card -->
+        <g transform="translate(24, 60)">
+          <rect width="880" height="90" rx="8" fill="#101928" stroke="rgba(86,217,254,0.2)"/>
+          <text x="16" y="26" font-family="monospace" font-size="10.5" fill="#56d9fe">USER QUERY</text>
+          <text x="16" y="52" font-family="sans-serif" font-size="15" fill="#ffffff">"What is the liability limitation clause in our Q3 cloud partnership agreement?"</text>
+        </g>
+
+        <!-- Semantic Retrieval Chunks -->
+        <g transform="translate(24, 170)">
+          <rect width="880" height="150" rx="8" fill="#0f1724" stroke="rgba(74,222,128,0.2)"/>
+          <text x="16" y="26" font-family="monospace" font-size="10.5" fill="#4ade80">RETRIEVED CONTEXT (COSINE SCORE: 0.942 · 3 CHUNKS MERGED)</text>
+          <text x="16" y="52" font-family="monospace" font-size="11.5" fill="#cbd5e1">[Doc ID: #AGR-2024-C8, Section 14.2]: "Neither party shall be liable for aggregate</text>
+          <text x="16" y="74" font-family="monospace" font-size="11.5" fill="#cbd5e1">damages exceeding 12 months fees paid. SLA uptime target: 99.98%."</text>
+          <rect x="16" y="100" width="140" height="26" rx="4" fill="rgba(74,222,128,0.15)"/>
+          <text x="26" y="118" font-family="monospace" font-size="11" font-weight="bold" fill="#4ade80">● Source Verified</text>
+        </g>
+
+        <!-- Grounded Synthesis Answer -->
+        <g transform="translate(24, 340)">
+          <rect width="880" height="180" rx="8" fill="#101928" stroke="rgba(255,255,255,0.1)"/>
+          <text x="16" y="26" font-family="monospace" font-size="10.5" fill="#ffd166">GROUNDED LLM RESPONSE (CONFIDENCE: 98.7%)</text>
+          <text x="16" y="56" font-family="sans-serif" font-size="14.5" fill="#ffffff">Under Section 14.2 of Agreement #AGR-2024-C8, total liability is capped at the sum of</text>
+          <text x="16" y="80" font-family="sans-serif" font-size="14.5" fill="#ffffff">fees paid over the preceding 12 months. Uptime commitments are guaranteed at 99.98%.</text>
+          <text x="16" y="140" font-family="monospace" font-size="11" fill="#56d9fe">Latency: 380ms • Tokens: 124 prompt / 42 completion • Zero hallucination</text>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

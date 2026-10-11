@@ -1,25 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="web-4 cover">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1613"/><stop offset="1" stop-color="#04140d"/>
-    </linearGradient>
-    <radialGradient id="core"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#7cf7ac" stop-opacity="0"/></radialGradient>
-    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="45"/>
-    </filter>
-    <filter id="grain">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
-      <feColorMatrix type="saturate" values="0"/>
-    </filter>
-    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#000" stop-opacity="0.45"/><stop offset="0.5" stop-color="#000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0.6"/>
-    </linearGradient>
+    <linearGradient id="bgW4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#05070a"/><stop offset="100%" stop-color="#0b131e"/></linearGradient>
+    <linearGradient id="cyanLine" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#56d9fe"/><stop offset="100%" stop-color="#4ade80"/></linearGradient>
   </defs>
-  <rect width="1600" height="1000" fill="url(#bg)"/>
-  <g filter="url(#soft)"><circle cx="67.79" cy="766.02" r="23.82" fill="#ffd166" opacity="0.41"/><circle cx="1258.92" cy="704.86" r="32.9" fill="#7cf7ac" opacity="0.15"/><circle cx="1308.8" cy="931.64" r="52.63" fill="#04140d" opacity="0.33"/><circle cx="1436.52" cy="788.33" r="35.77" fill="#04140d" opacity="0.11"/><circle cx="1333.8" cy="380.68" r="8.1" fill="#7cf7ac" opacity="0.2"/><circle cx="956.42" cy="675.21" r="11.87" fill="#ffd166" opacity="0.16"/><circle cx="561.4" cy="550.46" r="59.17" fill="#04140d" opacity="0.37"/><circle cx="678.52" cy="80.59" r="35.33" fill="#7cf7ac" opacity="0.37"/><circle cx="1484.91" cy="596.22" r="49.02" fill="#ffd166" opacity="0.15"/><circle cx="1099.56" cy="201.77" r="13.62" fill="#ffd166" opacity="0.33"/><circle cx="216.42" cy="837.14" r="15.11" fill="#7cf7ac" opacity="0.19"/><circle cx="321.57" cy="890.15" r="22.04" fill="#7cf7ac" opacity="0.34"/><circle cx="60.03" cy="67.69" r="48.75" fill="#04140d" opacity="0.19"/><circle cx="500.78" cy="773.2" r="9.32" fill="#04140d" opacity="0.26"/><circle cx="1152.98" cy="288.25" r="23.88" fill="#7cf7ac" opacity="0.29"/><circle cx="1349.12" cy="425.44" r="51.95" fill="#7cf7ac" opacity="0.22"/><circle cx="996.18" cy="550.42" r="57.72" fill="#ffd166" opacity="0.36"/><circle cx="449.1" cy="151.67" r="52.19" fill="#7cf7ac" opacity="0.26"/><circle cx="764.47" cy="702.95" r="34.15" fill="#ffd166" opacity="0.39"/><circle cx="1278.82" cy="415.68" r="48.01" fill="#ffd166" opacity="0.15"/><circle cx="549.32" cy="893.43" r="53.84" fill="#7cf7ac" opacity="0.2"/><circle cx="1439.72" cy="480.13" r="10.45" fill="#ffd166" opacity="0.34"/><circle cx="16.6" cy="448.36" r="30.86" fill="#7cf7ac" opacity="0.24"/><circle cx="192.32" cy="936.17" r="41.89" fill="#7cf7ac" opacity="0.4"/><circle cx="724.2" cy="592.54" r="36.02" fill="#7cf7ac" opacity="0.28"/><circle cx="477.23" cy="857.81" r="15.73" fill="#7cf7ac" opacity="0.19"/></g>
-  <rect x="224" y="220" width="1152" height="560" rx="18" fill="none" stroke="#ffd166" stroke-width="1.4" opacity="0.5"/>
-  <circle cx="800" cy="500" r="110" fill="#7cf7ac" opacity="0.5"/>
-  <rect width="1600" height="1000" fill="url(#vig)"/>
-  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.09" style="mix-blend-mode:overlay"/>
+  <rect width="1600" height="1000" fill="url(#bgW4)"/>
+  <g transform="translate(80, 60)">
+    <rect width="1440" height="880" rx="16" fill="#080e18" stroke="rgba(86,217,254,0.25)" stroke-width="1.5"/>
+    <rect width="1440" height="52" rx="16" fill="#0d1726"/>
+    <circle cx="28" cy="26" r="6" fill="#ff5f56"/><circle cx="48" cy="26" r="6" fill="#ffbd2e"/><circle cx="68" cy="26" r="6" fill="#27c93f"/>
+    <rect x="220" y="12" width="620" height="28" rx="6" fill="#132034"/>
+    <text x="240" y="31" font-family="monospace" font-size="12" fill="#7d90a6">https://pulse-metrics.cloud/telemetry • CLICKHOUSE 6 NODES • 50M+ EVENTS/MO</text>
+
+    <g transform="translate(40, 75)">
+      <!-- KPI Row -->
+      <g>
+        <rect width="320" height="90" rx="10" fill="#0e1828" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="26" font-family="monospace" font-size="11" fill="#7d90a6">INGESTION THROUGHPUT</text>
+        <text x="20" y="60" font-family="sans-serif" font-size="28" font-weight="bold" fill="#ffffff">18,400 req/s</text>
+        <text x="20" y="78" font-family="monospace" font-size="10" fill="#4ade80">● Kafka Cluster Healthy</text>
+      </g>
+      <g transform="translate(350, 0)">
+        <rect width="320" height="90" rx="10" fill="#0e1828" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="26" font-family="monospace" font-size="11" fill="#7d90a6">P99 QUERY LATENCY</text>
+        <text x="20" y="60" font-family="sans-serif" font-size="28" font-weight="bold" fill="#ffffff">32 ms</text>
+        <text x="20" y="78" font-family="monospace" font-size="10" fill="#56d9fe">Sub-second over 100M rows</text>
+      </g>
+      <g transform="translate(700, 0)">
+        <rect width="320" height="90" rx="10" fill="#0e1828" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="26" font-family="monospace" font-size="11" fill="#7d90a6">DATA COMPRESSION RATIO</text>
+        <text x="20" y="60" font-family="sans-serif" font-size="28" font-weight="bold" fill="#ffffff">4.8x (LZ4)</text>
+        <text x="20" y="78" font-family="monospace" font-size="10" fill="#4ade80">−60% Storage Infrastructure Cost</text>
+      </g>
+      <g transform="translate(1050, 0)">
+        <rect width="310" height="90" rx="10" fill="#0e1828" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="26" font-family="monospace" font-size="11" fill="#7d90a6">GLOBAL AVAILABILITY</text>
+        <text x="20" y="60" font-family="sans-serif" font-size="28" font-weight="bold" fill="#4ade80">99.995%</text>
+        <text x="20" y="78" font-family="monospace" font-size="10" fill="#7d90a6">Multi-region active-active</text>
+      </g>
+
+      <!-- Big Realtime Telemetry Chart -->
+      <g transform="translate(0, 115)">
+        <rect width="1360" height="550" rx="12" fill="#0b1320" stroke="rgba(255,255,255,0.08)"/>
+        <text x="24" y="36" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">REALTIME EVENT STREAM VOLUMETRICS (CLICKHOUSE ENGINE)</text>
+
+        <!-- Wave Charts -->
+        <g opacity="0.12" stroke="#56d9fe" stroke-width="1">
+          <line x1="40" y1="100" x2="1320" y2="100"/><line x1="40" y1="200" x2="1320" y2="200"/>
+          <line x1="40" y1="300" x2="1320" y2="300"/><line x1="40" y1="400" x2="1320" y2="400"/>
+        </g>
+        <path d="M40,380 Q 200,240 360,310 T 680,180 T 1000,260 T 1320,120" fill="none" stroke="url(#cyanLine)" stroke-width="4"/>
+        <circle cx="1320" cy="120" r="8" fill="#4ade80"/>
+        <rect x="1220" y="75" width="110" height="32" rx="6" fill="#132034" stroke="#4ade80"/>
+        <text x="1230" y="96" font-family="monospace" font-size="11" font-weight="bold" fill="#4ade80">● 18,400 RPS</text>
+      </g>
+    </g>
+  </g>
 </svg>
