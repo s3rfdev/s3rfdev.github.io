@@ -8,14 +8,14 @@ const ROLE_LABEL: L = { en: 'role', ru: 'роль' }
 const REPLY_LABEL: L = { en: 'reply time', ru: 'ответ' }
 
 const LOG_LINES: { time: string; text: string; level: 'ok' | 'warn' | 'wait' }[] = [
-  { time: '00:00:01', text: '$ rendermind inspect --target sergei_fomenko', level: 'ok' },
-  { time: '00:00:02', text: 'role: Senior Dev (15+ yrs) · AI/ML & Systems Architect', level: 'ok' },
-  { time: '00:00:03', text: 'focus: Photo & Video Models · MLOps · GenAI Pipelines', level: 'ok' },
-  { time: '00:00:04', text: 'stack: Flutter · Node.js · Java · Python · Modern DBs', level: 'ok' },
-  { time: '00:00:05', text: 'devops: High-Velocity CI/CD · GPU & Cloud Clusters', level: 'ok' },
-  { time: '00:00:06', text: 'automation: Enterprise Admin Panels · Workflows · Unity', level: 'ok' },
-  { time: '00:00:07', text: 'ships: Turnkey Web, Mobile & High-Load Architectures', level: 'ok' },
-  { time: '00:00:08', text: 'status: available · awaiting brief → telegram / email', level: 'wait' },
+  { time: '00:00:01', text: '$ rendermind inspect sergei_fomenko', level: 'ok' },
+  { time: '00:00:02', text: 'role: Senior Dev (15+ yrs) · AI Architect', level: 'ok' },
+  { time: '00:00:03', text: 'focus: Photo/Video Models · GenAI & MLOps', level: 'ok' },
+  { time: '00:00:04', text: 'stack: Flutter · Node · Java · Python · DB', level: 'ok' },
+  { time: '00:00:05', text: 'devops: High-Speed CI/CD · GPU Clusters', level: 'ok' },
+  { time: '00:00:06', text: 'automation: Admin Panels · Flows · Unity', level: 'ok' },
+  { time: '00:00:07', text: 'ships: Turnkey Web, Mobile & High-Load', level: 'ok' },
+  { time: '00:00:08', text: 'status: available → telegram @s3rf_im', level: 'wait' },
 ]
 
 const LEVEL_COLOR: Record<'ok' | 'warn' | 'wait', string> = {
@@ -25,7 +25,7 @@ const LEVEL_COLOR: Record<'ok' | 'warn' | 'wait', string> = {
 }
 
 export function Hero() {
-  const { tr } = useLang()
+  const { lang, tr } = useLang()
   const [visibleLines, setVisibleLines] = useState(1)
 
   useEffect(() => {
@@ -52,10 +52,20 @@ export function Hero() {
             </span>
           </div>
 
-          <h1 className="display mt-6 text-[1.75rem] sm:text-4xl md:text-5xl lg:text-[3.05rem]">
-            <span className="text-gradient">{tr(ui.hero.title1)}</span>
-            <br />
-            <span className="text-slate-500">{tr(ui.hero.title2)}</span>
+          <h1 className="display mt-6 text-[1.75rem] sm:text-4xl md:text-5xl lg:text-[2.85rem] leading-[1.14]">
+            {lang === 'ru' ? (
+              <>
+                <span className="text-gradient block">Собираю весь</span>
+                <span className="text-gradient">ваш продукт </span>
+                <span className="text-slate-500">и пайплайн.</span>
+              </>
+            ) : (
+              <>
+                <span className="text-gradient block">Building your full</span>
+                <span className="text-gradient">product </span>
+                <span className="text-slate-500">&amp; pipeline.</span>
+              </>
+            )}
           </h1>
 
           <p className="mt-6 max-w-xl text-[15px] leading-relaxed text-slate-400">{tr(ui.hero.lead)}</p>
@@ -101,21 +111,21 @@ export function Hero() {
             }
             right={<span className="text-[10px] text-slate-500">tail -f</span>}
           >
-            <div className="min-h-[260px] sm:min-h-[285px] overflow-hidden px-4 py-3.5 font-mono text-[11.5px] leading-[1.85] sm:text-[12.5px]">
+            <div className="min-h-[220px] sm:min-h-[240px] overflow-hidden px-4 py-3.5 font-mono text-[11px] leading-[1.8] sm:text-[12px]">
               {LOG_LINES.slice(0, visibleLines).map((line) => (
-                <div key={line.time + line.text} className="flex gap-2.5">
+                <div key={line.time + line.text} className="flex items-center gap-2.5 whitespace-nowrap">
                   <span className="shrink-0 select-none text-slate-600">{line.time}</span>
                   {line.level === 'wait' ? (
                     <a
                       href={profile.telegram}
                       target="_blank"
                       rel="noreferrer noopener"
-                      className={`min-w-0 [overflow-wrap:anywhere] underline-slide ${LEVEL_COLOR[line.level]}`}
+                      className={`truncate underline-slide ${LEVEL_COLOR[line.level]}`}
                     >
                       {line.text}
                     </a>
                   ) : (
-                    <span className={`min-w-0 [overflow-wrap:anywhere] ${LEVEL_COLOR[line.level]}`}>{line.text}</span>
+                    <span className={`truncate ${LEVEL_COLOR[line.level]}`}>{line.text}</span>
                   )}
                 </div>
               ))}

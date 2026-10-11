@@ -72,8 +72,8 @@ export const ui = {
   hero: {
     statusLabel: t('System online', 'Система онлайн'),
     availability: t('Open for commissions', 'Принимаю заказы'),
-    title1: t('Orchestrate your entire product', 'Собираю весь ваш продукт'),
-    title2: t('— and the content pipeline.', '— и контент-пайплайн.'),
+    title1: t('Building your full product', 'Собираю весь ваш продукт'),
+    title2: t('& pipeline.', 'и пайплайн.'),
     lead: t(
       'Full-stack developer with an AI/ML core. I train and fine-tune models, wire them into real products, and ship high-quality video ads and stock-ready assets on the same day.',
       'Full-stack разработчик с ядром в AI/ML. Обучаю и дообучаю модели, встраиваю их в реальные продукты и в тот же день выдаю рекламные видео и ассеты, готовые для стоков.',
