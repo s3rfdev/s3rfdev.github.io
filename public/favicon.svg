@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="rmGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#56d9fe"/>
+    </linearGradient>
+    <radialGradient id="rmRadial" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#4ade80" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#05070a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#05070a"/>
+  <rect width="64" height="64" rx="14" fill="url(#rmRadial)"/>
+  <rect x="3" y="3" width="58" height="58" rx="11" fill="none" stroke="#1f2d3d" stroke-width="1.5"/>
+  <!-- Stylized geometric R + M Render Mind glyph -->
+  <path d="M16 46V18h12c5.5 0 9.5 3 9.5 8 0 3.8-2.5 6.6-6.2 7.6L41 46h-6.2l-8.5-11.2H22V46H16zm6-16.8h5.8c2.8 0 4.6-1.5 4.6-3.8s-1.8-3.8-4.6-3.8H22v7.6z" fill="url(#rmGlow)"/>
+  <polygon points="41,18 47,18 47,34 41,27" fill="#56d9fe" opacity="0.95"/>
+  <circle cx="48" cy="45" r="2.5" fill="#4ade80"/>
+</svg>

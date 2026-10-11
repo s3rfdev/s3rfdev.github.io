@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Neon Nightscapes 2">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05141b"/><stop offset="1" stop-color="#031014"/>
+    </linearGradient>
+    <radialGradient id="core"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0.45"/><stop offset="0.5" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1306.68" cy="260" r="130.83" fill="#a7f3d0" opacity="0.85" filter="url(#soft)"/><path d="M0 350 L 0 334.13 L 228.57 281.78 L 457.14 324.83 L 685.71 342.62 L 914.29 345.76 L 1142.86 256.46 L 1371.43 347.85 L 1600 1000 L 0 1000 Z" fill="#0f4c5c" opacity="0.16"/><path d="M0 490 L 0 364.09 L 228.57 476.48 L 457.14 463.94 L 685.71 339.72 L 914.29 360.51 L 1142.86 396.09 L 1371.43 351.13 L 1600 1000 L 0 1000 Z" fill="#2dd4bf" opacity="0.25"/><path d="M0 630 L 0 485.22 L 228.57 542.95 L 457.14 548.2 L 685.71 485.04 L 914.29 608.06 L 1142.86 546.93 L 1371.43 470.2 L 1600 1000 L 0 1000 Z" fill="#a7f3d0" opacity="0.34"/><path d="M0 770 L 0 663.73 L 228.57 629.47 L 457.14 762.8 L 685.71 669.23 L 914.29 651.81 L 1142.86 758.79 L 1371.43 658.54 L 1600 1000 L 0 1000 Z" fill="#031014" opacity="0.43"/><path d="M0 910 L 0 760.66 L 228.57 886.38 L 457.14 800.86 L 685.71 750.48 L 914.29 838.72 L 1142.86 905.46 L 1371.43 849.4 L 1600 1000 L 0 1000 Z" fill="#05141b" opacity="0.52"/>
+  <rect width="1600" height="1000" fill="url(#vig)"/>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.09" style="mix-blend-mode:overlay"/>
+</svg>

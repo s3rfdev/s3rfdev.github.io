@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="NEXUS.DEV portfolio">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070f1a"/><stop offset="1" stop-color="#04101c"/>
+    </linearGradient>
+    <radialGradient id="core"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#56d9fe" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28.35"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0.45"/><stop offset="0.5" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="449.27" width="1200" height="180.73" fill="#04101c" opacity="0.95"/><rect x="-20" y="209.27" width="69.65" height="240" fill="#0e2f4d" opacity="0.49"/><rect x="8.34" y="275.09" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="61.88" y="184.98" width="89.81" height="264.29" fill="#0e2f4d" opacity="0.65"/><rect x="93.44" y="331.95" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="133.06" y="230.08" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="116.56" y="212.78" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="158.31" y="363.89" width="44.11" height="85.38" fill="#0e2f4d" opacity="0.46"/><rect x="209.18" y="277.18" width="64.72" height="172.09" fill="#0e2f4d" opacity="0.63"/><rect x="262.02" y="328.69" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="279.65" y="376.15" width="100.89" height="73.11" fill="#0e2f4d" opacity="0.68"/><rect x="312.88" y="427.63" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="287.7" y="435.1" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="385.95" y="228.57" width="67.98" height="220.7" fill="#0e2f4d" opacity="0.74"/><rect x="430.59" y="331.17" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="471.16" y="136.65" width="44.12" height="312.61" fill="#0e2f4d" opacity="0.85"/><rect x="524.42" y="345.78" width="93.05" height="103.49" fill="#0e2f4d" opacity="0.82"/><rect x="580.88" y="368.43" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="593.83" y="416.31" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="632.03" y="367.71" width="87.78" height="81.55" fill="#0e2f4d" opacity="0.74"/><rect x="669.17" y="424.91" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="710.72" y="385.7" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="696.2" y="429.66" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="733.41" y="228.73" width="92.11" height="220.54" fill="#0e2f4d" opacity="0.56"/><rect x="741.4" y="288.34" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="792.4" y="352.6" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="752.63" y="301.81" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="838.77" y="352.23" width="61.62" height="97.04" fill="#0e2f4d" opacity="0.7"/><rect x="846.92" y="402.87" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="892.31" y="378.81" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="912.06" y="218.19" width="103.94" height="231.07" fill="#0e2f4d" opacity="0.36"/><rect x="946.66" y="347.36" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="918.88" y="339.91" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="1031.83" y="202.79" width="101.61" height="246.48" fill="#0e2f4d" opacity="0.61"/><rect x="1149.41" y="182.83" width="63.03" height="266.44" fill="#0e2f4d" opacity="0.77"/><rect x="1202.37" y="234.87" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="1156.92" y="282.26" width="3" height="5" fill="#56d9fe" opacity="0.8"/><rect x="1178.84" y="353.45" width="3" height="5" fill="#56d9fe" opacity="0.8"/>
+  <g filter="url(#soft)"><ellipse cx="506.06" cy="449.27" rx="600" ry="100.8" fill="#e2e8f0" opacity="0.35"/></g>
+  <rect width="1200" height="630" fill="url(#vig)"/>
+  <rect width="1200" height="630" filter="url(#grain)" opacity="0.09" style="mix-blend-mode:overlay"/>
+</svg>

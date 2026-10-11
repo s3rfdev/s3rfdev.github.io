@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Abstract Macro 2">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0f06"/><stop offset="1" stop-color="#2b1408"/>
+    </linearGradient>
+    <radialGradient id="core"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0.45"/><stop offset="0.5" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <path d="M0 150 C 400 83.17, 960 216.83, 1600 123.27" fill="none" stroke="#ffb347" stroke-width="1.79" opacity="0.33"/><path d="M0 200 C 400 140.91, 960 259.09, 1600 176.36" fill="none" stroke="#ff6b6b" stroke-width="1.94" opacity="0.32"/><path d="M0 250 C 400 226.09, 960 273.91, 1600 240.43" fill="none" stroke="#2b1408" stroke-width="1.97" opacity="0.3"/><path d="M0 300 C 400 285.96, 960 314.04, 1600 294.38" fill="none" stroke="#ffb347" stroke-width="1.3" opacity="0.23"/><path d="M0 350 C 400 308.13, 960 391.87, 1600 333.25" fill="none" stroke="#ff6b6b" stroke-width="1.07" opacity="0.21"/><path d="M0 400 C 400 353.63, 960 446.37, 1600 381.45" fill="none" stroke="#2b1408" stroke-width="2.01" opacity="0.23"/><path d="M0 450 C 400 437.24, 960 462.76, 1600 444.9" fill="none" stroke="#ffb347" stroke-width="2.13" opacity="0.13"/><path d="M0 500 C 400 469.98, 960 530.02, 1600 487.99" fill="none" stroke="#ff6b6b" stroke-width="0.73" opacity="0.28"/><path d="M0 550 C 400 518.18, 960 581.82, 1600 537.27" fill="none" stroke="#2b1408" stroke-width="1.26" opacity="0.15"/><path d="M0 600 C 400 535.85, 960 664.15, 1600 574.34" fill="none" stroke="#ffb347" stroke-width="1.76" opacity="0.2"/><path d="M0 650 C 400 636.92, 960 663.08, 1600 644.77" fill="none" stroke="#ff6b6b" stroke-width="1.64" opacity="0.32"/><path d="M0 700 C 400 631.08, 960 768.92, 1600 672.43" fill="none" stroke="#2b1408" stroke-width="1.78" opacity="0.16"/><path d="M0 750 C 400 703.13, 960 796.87, 1600 731.25" fill="none" stroke="#ffb347" stroke-width="0.78" opacity="0.23"/><path d="M0 800 C 400 735.42, 960 864.58, 1600 774.17" fill="none" stroke="#ff6b6b" stroke-width="0.69" opacity="0.22"/><path d="M0 850 C 400 803.51, 960 896.49, 1600 831.41" fill="none" stroke="#2b1408" stroke-width="1.36" opacity="0.62"/><path d="M0 900 C 400 859.19, 960 940.81, 1600 883.68" fill="none" stroke="#ffb347" stroke-width="0.64" opacity="0.18"/>
+  <rect width="1600" height="1000" fill="url(#vig)"/>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.09" style="mix-blend-mode:overlay"/>
+</svg>
