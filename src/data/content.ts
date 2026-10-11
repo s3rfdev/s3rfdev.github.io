@@ -28,7 +28,7 @@ export const profile = {
   /** Shown in the footer and in the author card. Replace with your name or nick. */
   owner: 'Sergei Fomenko',
   /** Portrait / author photo, relative path inside `public/`. '' = hidden. */
-  portrait: 'sergei_fomenko.jpg',
+  portrait: 'sergei_fomenko2.jpg',
   role: t('Senior AI/ML Engineer · Full-Stack Architect', 'Senior AI/ML инженер · Full-Stack архитектор'),
   tagline: t(
     'From generative models and MLOps pipelines to high-load web/mobile products and stock video.',

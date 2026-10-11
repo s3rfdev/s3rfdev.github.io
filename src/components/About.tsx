@@ -30,7 +30,7 @@ export function About() {
                     <span className="dot bg-[#27c93f]" />
                   </div>
                   <span className="font-mono text-[10.5px] tracking-wider text-slate-400">
-                    sergei_fomenko.jpg
+                    sergei_fomenko2.jpg
                   </span>
                   <span className="flex items-center gap-1 font-mono text-[9.5px] uppercase tracking-wider text-[var(--color-signal-400)]">
                     <span className="pulse-dot h-1.5 w-1.5 rounded-full bg-[var(--color-signal-400)]" />
@@ -39,11 +39,11 @@ export function About() {
                 </div>
 
                 {/* photo */}
-                <div className="relative aspect-[4/3] w-full overflow-hidden bg-slate-950 sm:aspect-[16/11]">
+                <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-950">
                   <img
                     src={profile.portrait}
                     alt={profile.owner}
-                    className="h-full w-full object-cover object-top transition duration-500 hover:scale-[1.02]"
+                    className="h-full w-full object-cover object-center transition duration-500 hover:scale-[1.02]"
                     loading="lazy"
                   />
                   <div className="scanline pointer-events-none absolute inset-0" />
