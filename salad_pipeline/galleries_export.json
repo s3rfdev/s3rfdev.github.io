@@ -1,0 +1,698 @@
+{
+  "bionic-architecture": [
+    {
+      "pid": "arch_01",
+      "title": "Titanium Curved Monolith Atrium",
+      "src": "previews/stock-photos/bionic-architecture/arch_01.webp",
+      "master_file": "arch_01_Titanium_Curved_Monolith_Atrium_4K.png"
+    },
+    {
+      "pid": "arch_02",
+      "title": "Biophilic Vertical Forest Tower",
+      "src": "previews/stock-photos/bionic-architecture/arch_02.webp",
+      "master_file": "arch_02_Biophilic_Vertical_Forest_Tower_4K.png"
+    },
+    {
+      "pid": "arch_03",
+      "title": "Helical Spiral Concrete Staircase",
+      "src": "previews/stock-photos/bionic-architecture/arch_03.webp",
+      "master_file": "arch_03_Helical_Spiral_Concrete_Staircase_4K.png"
+    },
+    {
+      "pid": "arch_04",
+      "title": "Parametric Waterfront Cultural Pavilion",
+      "src": "previews/stock-photos/bionic-architecture/arch_04.webp",
+      "master_file": "arch_04_Parametric_Waterfront_Cultural_Pavilion_4K.png"
+    },
+    {
+      "pid": "arch_05",
+      "title": "Timber Lamella Parametric Vault",
+      "src": "previews/stock-photos/bionic-architecture/arch_05.webp",
+      "master_file": "arch_05_Timber_Lamella_Parametric_Vault_4K.png"
+    },
+    {
+      "pid": "arch_06",
+      "title": "Desert Dune Research Institute",
+      "src": "previews/stock-photos/bionic-architecture/arch_06.webp",
+      "master_file": "arch_06_Desert_Dune_Research_Institute_4K.png"
+    },
+    {
+      "pid": "arch_07",
+      "title": "Geometric Facade Tessellation Macro",
+      "src": "previews/stock-photos/bionic-architecture/arch_07.webp",
+      "master_file": "arch_07_Geometric_Facade_Tessellation_Macro_4K.png"
+    },
+    {
+      "pid": "arch_08",
+      "title": "Cantilevered Glass Observation Deck",
+      "src": "previews/stock-photos/bionic-architecture/arch_08.webp",
+      "master_file": "arch_08_Cantilevered_Glass_Observation_Deck_4K.png"
+    },
+    {
+      "pid": "arch_11",
+      "title": "Curvilinear High-Tech Library Atrium",
+      "src": "previews/stock-photos/bionic-architecture/arch_11.webp",
+      "master_file": "arch_11_Curvilinear_High_Tech_Library_Atrium_4K.png"
+    },
+    {
+      "pid": "arch_12",
+      "title": "Perforated Metal Kinetic Facade",
+      "src": "previews/stock-photos/bionic-architecture/arch_12.webp",
+      "master_file": "arch_12_Perforated_Metal_Kinetic_Facade_4K.png"
+    },
+    {
+      "pid": "arch_13",
+      "title": "Subterranean Concrete Auditorium",
+      "src": "previews/stock-photos/bionic-architecture/arch_13.webp",
+      "master_file": "arch_13_Subterranean_Concrete_Auditorium_4K.png"
+    },
+    {
+      "pid": "arch_14",
+      "title": "Organic Glass Canopy Drop Point",
+      "src": "previews/stock-photos/bionic-architecture/arch_14.webp",
+      "master_file": "arch_14_Organic_Glass_Canopy_Drop_Point_4K.png"
+    },
+    {
+      "pid": "arch_15",
+      "title": "Monolithic Brutalist Cantilever Bridge",
+      "src": "previews/stock-photos/bionic-architecture/arch_15.webp",
+      "master_file": "arch_15_Monolithic_Brutalist_Cantilever_Bridge_4K.png"
+    },
+    {
+      "pid": "arch_17",
+      "title": "Parametric Concrete Canopy Underside",
+      "src": "previews/stock-photos/bionic-architecture/arch_17.webp",
+      "master_file": "arch_17_Parametric_Concrete_Canopy_Underside_4K.png"
+    },
+    {
+      "pid": "arch_18",
+      "title": "Minimalist High-Tech Villa Facade",
+      "src": "previews/stock-photos/bionic-architecture/arch_18.webp",
+      "master_file": "arch_18_Minimalist_High_Tech_Villa_Facade_4K.png"
+    },
+    {
+      "pid": "arch_19",
+      "title": "Sculptural Concrete Oculus Dome",
+      "src": "previews/stock-photos/bionic-architecture/arch_19.webp",
+      "master_file": "arch_19_Sculptural_Concrete_Oculus_Dome_4K.png"
+    },
+    {
+      "pid": "arch_20",
+      "title": "Futuristic Airport Terminal Spine",
+      "src": "previews/stock-photos/bionic-architecture/arch_20.webp",
+      "master_file": "arch_20_Futuristic_Airport_Terminal_Spine_4K.png"
+    },
+    {
+      "pid": "arch_21",
+      "title": "Aerodynamic Rooftop Penthouse Pod",
+      "src": "previews/stock-photos/bionic-architecture/arch_21.webp",
+      "master_file": "arch_21_Aerodynamic_Rooftop_Penthouse_Pod_4K.png"
+    }
+  ],
+  "clean-tech-energy": [
+    {
+      "pid": "energy_01",
+      "title": "Solitary Offshore Wind Turbine in Deep Ocean",
+      "src": "previews/stock-photos/clean-tech-energy/energy_01.webp",
+      "master_file": "energy_01_Solitary_Offshore_Wind_Turbine_in_Deep_Ocean_4K.png"
+    },
+    {
+      "pid": "energy_02",
+      "title": "Desert Utility-Scale Solar Array at Blue Hour",
+      "src": "previews/stock-photos/clean-tech-energy/energy_02.webp",
+      "master_file": "energy_02_Desert_Utility_Scale_Solar_Array_at_Blue_Hour_4K.png"
+    },
+    {
+      "pid": "energy_03",
+      "title": "Geothermal Power Manifolds in Iceland Mist",
+      "src": "previews/stock-photos/clean-tech-energy/energy_03.webp",
+      "master_file": "energy_03_Geothermal_Power_Manifolds_in_Iceland_Mist_4K.png"
+    },
+    {
+      "pid": "energy_05",
+      "title": "Tokamak Fusion Reactor Interior Core",
+      "src": "previews/stock-photos/clean-tech-energy/energy_05.webp",
+      "master_file": "energy_05_Tokamak_Fusion_Reactor_Interior_Core_4K.png"
+    },
+    {
+      "pid": "energy_06",
+      "title": "Wind Turbine Nacelle Maintenance Platform",
+      "src": "previews/stock-photos/clean-tech-energy/energy_06.webp",
+      "master_file": "energy_06_Wind_Turbine_Nacelle_Maintenance_Platform_4K.png"
+    },
+    {
+      "pid": "energy_07",
+      "title": "Concentrated Solar Power Tower Molten Salt Receiver",
+      "src": "previews/stock-photos/clean-tech-energy/energy_07.webp",
+      "master_file": "energy_07_Concentrated_Solar_Power_Tower_Molten_Salt_Receiver_4K.png"
+    },
+    {
+      "pid": "energy_08",
+      "title": "High-Voltage Direct Current (HVDC) Converter Hall",
+      "src": "previews/stock-photos/clean-tech-energy/energy_08.webp",
+      "master_file": "energy_08_High_Voltage_Direct_Current_HVDC_Converter_Hall_4K.png"
+    },
+    {
+      "pid": "energy_09",
+      "title": "Green Hydrogen Electrolyzer Stack Array",
+      "src": "previews/stock-photos/clean-tech-energy/energy_09.webp",
+      "master_file": "energy_09_Green_Hydrogen_Electrolyzer_Stack_Array_Clean_No_Text_4K.png"
+    },
+    {
+      "pid": "energy_11",
+      "title": "Smart Grid Transformer Bushing Insulators",
+      "src": "previews/stock-photos/clean-tech-energy/energy_11.webp",
+      "master_file": "energy_11_Smart_Grid_Transformer_Bushing_Insulators_4K.png"
+    },
+    {
+      "pid": "energy_12",
+      "title": "Superconducting Maglev Guideway Track",
+      "src": "previews/stock-photos/clean-tech-energy/energy_12.webp",
+      "master_file": "energy_12_Superconducting_Maglev_Guideway_Track_4K.png"
+    },
+    {
+      "pid": "energy_14",
+      "title": "Subsea Power Cable Installation Vessel",
+      "src": "previews/stock-photos/clean-tech-energy/energy_14.webp",
+      "master_file": "energy_14_Subsea_Power_Cable_Installation_Vessel_4K.png"
+    },
+    {
+      "pid": "energy_16",
+      "title": "Automated Battery Pack Giga-Factory Line",
+      "src": "previews/stock-photos/clean-tech-energy/energy_16.webp",
+      "master_file": "energy_16_Automated_Battery_Pack_Giga_Factory_Line_4K.png"
+    },
+    {
+      "pid": "energy_18",
+      "title": "Wave Energy Converter Buoy in Ocean",
+      "src": "previews/stock-photos/clean-tech-energy/energy_18.webp",
+      "master_file": "energy_18_Wave_Energy_Converter_Buoy_in_Ocean_4K.png"
+    },
+    {
+      "pid": "energy_19",
+      "title": "Cryogenic Liquid Hydrogen Storage Tank Sphere",
+      "src": "previews/stock-photos/clean-tech-energy/energy_19.webp",
+      "master_file": "energy_19_Cryogenic_Liquid_Hydrogen_Storage_Tank_Sphere_4K.png"
+    },
+    {
+      "pid": "energy_20",
+      "title": "Solar Canopy EV Mega-Charging Hub",
+      "src": "previews/stock-photos/clean-tech-energy/energy_20.webp",
+      "master_file": "energy_20_Solar_Canopy_EV_Mega_Charging_Hub_4K.png"
+    },
+    {
+      "pid": "energy_21",
+      "title": "Aerodynamic Wind Turbine Blade Hub Macro",
+      "src": "previews/stock-photos/clean-tech-energy/energy_21.webp",
+      "master_file": "energy_21_Aerodynamic_Wind_Turbine_Blade_Hub_Macro_4K.png"
+    }
+  ],
+  "luxury-macro-materials": [
+    {
+      "pid": "mat_01",
+      "title": "Optical Glass Prism Caustic Dispersion",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_01.webp",
+      "master_file": "mat_01_Optical_Glass_Prism_Caustic_Dispersion_4K.png"
+    },
+    {
+      "pid": "mat_02",
+      "title": "Anodized Titanium Surface with Micro Droplets",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_02.webp",
+      "master_file": "mat_02_Anodized_Titanium_Surface_with_Micro_Droplets_4K.png"
+    },
+    {
+      "pid": "mat_03",
+      "title": "Cosmetic Serum Droplet on Frosted Acrylic",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_03.webp",
+      "master_file": "mat_03_Cosmetic_Serum_Droplet_on_Frosted_Acrylic_4K.png"
+    },
+    {
+      "pid": "mat_04",
+      "title": "2x2 Twill Weave Carbon Fiber in Clear Resin",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_04.webp",
+      "master_file": "mat_04_2x2_Twill_Weave_Carbon_Fiber_in_Clear_Resin_4K.png"
+    },
+    {
+      "pid": "mat_05",
+      "title": "Suspended Liquid Gold in Viscous Fluid",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_05.webp",
+      "master_file": "mat_05_Suspended_Liquid_Gold_in_Viscous_Fluid_4K.png"
+    },
+    {
+      "pid": "mat_06",
+      "title": "Chiseled Nero Marquina Black Marble Grain",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_06.webp",
+      "master_file": "mat_06_Chiseled_Nero_Marquina_Black_Marble_Grain_4K.png"
+    },
+    {
+      "pid": "mat_07",
+      "title": "Champagne Metallic Silk Fluid Folds",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_07.webp",
+      "master_file": "mat_07_Champagne_Metallic_Silk_Fluid_Folds_4K.png"
+    },
+    {
+      "pid": "mat_08",
+      "title": "Frosted Fluted Architectural Glass Refraction",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_08.webp",
+      "master_file": "mat_08_Frosted_Fluted_Architectural_Glass_Refraction_4K.png"
+    },
+    {
+      "pid": "mat_09",
+      "title": "Brushed Rose Gold Micro-Bevel Texture",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_09.webp",
+      "master_file": "mat_09_Brushed_Rose_Gold_Micro_Bevel_Texture_4K.png"
+    },
+    {
+      "pid": "mat_10",
+      "title": "Iridescent Soap Film Interference Patterns",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_10.webp",
+      "master_file": "mat_10_Iridescent_Soap_Film_Interference_Patterns_4K.png"
+    },
+    {
+      "pid": "mat_11",
+      "title": "Charred Yakisugi Cedar Grain Texture",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_11.webp",
+      "master_file": "mat_11_Charred_Yakisugi_Cedar_Grain_Texture_4K.png"
+    },
+    {
+      "pid": "mat_12",
+      "title": "Solid Quartz Crystal Monolith with Inclusions",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_12.webp",
+      "master_file": "mat_12_Solid_Quartz_Crystal_Monolith_with_Inclusions_4K.png"
+    },
+    {
+      "pid": "mat_13",
+      "title": "Water Droplet Concentric Ripple on Dark Ink",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_13.webp",
+      "master_file": "mat_13_Water_Droplet_Concentric_Ripple_on_Dark_Ink_4K.png"
+    },
+    {
+      "pid": "mat_14",
+      "title": "Perforated Ceramic Acoustic Foam Texture",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_14.webp",
+      "master_file": "mat_14_Perforated_Ceramic_Acoustic_Foam_Texture_4K.png"
+    },
+    {
+      "pid": "mat_15",
+      "title": "Bismuth Crystal Iridescent Step Pyramid",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_15.webp",
+      "master_file": "mat_15_Bismuth_Crystal_Iridescent_Step_Pyramid_4K.png"
+    },
+    {
+      "pid": "mat_16",
+      "title": "Fine Leather Micro-Grain in Warm Cognac",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_16.webp",
+      "master_file": "mat_16_Fine_Leather_Micro_Grain_in_Warm_Cognac_4K.png"
+    },
+    {
+      "pid": "mat_17",
+      "title": "Molten Glass Bubble Annealing Studio",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_17.webp",
+      "master_file": "mat_17_Molten_Glass_Bubble_Annealing_Studio_4K.png"
+    },
+    {
+      "pid": "mat_18",
+      "title": "Raw Sawn Travertine Stone Pores",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_18.webp",
+      "master_file": "mat_18_Raw_Sawn_Travertine_Stone_Pores_4K.png"
+    },
+    {
+      "pid": "mat_19",
+      "title": "Liquid Mercury Droplets on Polished Slate",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_19.webp",
+      "master_file": "mat_19_Liquid_Mercury_Droplets_on_Polished_Slate_4K.png"
+    },
+    {
+      "pid": "mat_20",
+      "title": "Matte White Architectural Corian Curve",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_20.webp",
+      "master_file": "mat_20_Matte_White_Architectural_Corian_Curve_4K.png"
+    },
+    {
+      "pid": "mat_21",
+      "title": "Holographic Dichroic Glass Reflection",
+      "src": "previews/stock-photos/luxury-macro-materials/mat_21.webp",
+      "master_file": "mat_21_Holographic_Dichroic_Glass_Reflection_4K.png"
+    }
+  ],
+  "commercial-product-podiums": [
+    {
+      "pid": "podium_01",
+      "title": "Rough Chiseled Black Slate Podium in Sunbeam",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_01.webp",
+      "master_file": "podium_01_Rough_Chiseled_Black_Slate_Podium_in_Sunbeam_4K.png"
+    },
+    {
+      "pid": "podium_02",
+      "title": "Honed Travertine Cylinder in Warm Studio Light",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_02.webp",
+      "master_file": "podium_02_Honed_Travertine_Cylinder_in_Warm_Studio_Light_4K.png"
+    },
+    {
+      "pid": "podium_03",
+      "title": "Frosted Acrylic Glass Plinth in Water Ripple Pool",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_03.webp",
+      "master_file": "podium_03_Frosted_Acrylic_Glass_Plinth_in_Water_Ripple_Pool_4K.png"
+    },
+    {
+      "pid": "podium_04",
+      "title": "Dark Basalt Monolith with Copper Foil Micro-Line",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_04.webp",
+      "master_file": "podium_04_Dark_Basalt_Monolith_with_Copper_Foil_Micro_Line_4K.png"
+    },
+    {
+      "pid": "podium_05",
+      "title": "Sculptural White Cast Concrete Stepped Dais",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_05.webp",
+      "master_file": "podium_05_Sculptural_White_Cast_Concrete_Stepped_Dais_4K.png"
+    },
+    {
+      "pid": "podium_06",
+      "title": "Polished Green Guatemala Marble Disc Podium",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_06.webp",
+      "master_file": "podium_06_Polished_Green_Guatemala_Marble_Disc_Podium_4K.png"
+    },
+    {
+      "pid": "podium_07",
+      "title": "Raw Sawn Oak Timber Block with Linen Fabric",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_07.webp",
+      "master_file": "podium_07_Raw_Sawn_Oak_Timber_Block_with_Linen_Fabric_4K.png"
+    },
+    {
+      "pid": "podium_08",
+      "title": "Floating Frosted Disc with Botanical Shadows",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_08.webp",
+      "master_file": "podium_08_Floating_Frosted_Disc_with_Botanical_Shadows_4K.png"
+    },
+    {
+      "pid": "podium_09",
+      "title": "Brushed Titanium Wedge Plinth on Slate",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_09.webp",
+      "master_file": "podium_09_Brushed_Titanium_Wedge_Plinth_on_Slate_4K.png"
+    },
+    {
+      "pid": "podium_11",
+      "title": "Honed Calacatta Gold Marble Pillar in Studio",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_11.webp",
+      "master_file": "podium_11_Honed_Calacatta_Gold_Marble_Pillar_in_Studio_4K.png"
+    },
+    {
+      "pid": "podium_12",
+      "title": "Textured Terracotta Clay Geometric Dais",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_12.webp",
+      "master_file": "podium_12_Textured_Terracotta_Clay_Geometric_Dais_4K.png"
+    },
+    {
+      "pid": "podium_13",
+      "title": "Mirror Water Pool with Floating Slate Slab",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_13.webp",
+      "master_file": "podium_13_Mirror_Water_Pool_with_Floating_Slate_Slab_4K.png"
+    },
+    {
+      "pid": "podium_14",
+      "title": "Matte Black Ceramic Pedestal in Cyan Rim Light",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_14.webp",
+      "master_file": "podium_14_Matte_Black_Ceramic_Pedestal_in_Cyan_Rim_Light_4K.png"
+    },
+    {
+      "pid": "podium_15",
+      "title": "Curved Glass Wave Platform on Sand",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_15.webp",
+      "master_file": "podium_15_Curved_Glass_Wave_Platform_on_Sand_4K.png"
+    },
+    {
+      "pid": "podium_16",
+      "title": "Brushed Brass Cylinder on White Travertine",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_16.webp",
+      "master_file": "podium_16_Brushed_Brass_Cylinder_on_White_Travertine_4K.png"
+    },
+    {
+      "pid": "podium_18",
+      "title": "Smoky Quartz Transparent Crystal Base",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_18.webp",
+      "master_file": "podium_18_Smoky_Quartz_Transparent_Crystal_Base_4K.png"
+    },
+    {
+      "pid": "podium_19",
+      "title": "Honed Fossil Limestone Stepped Stage",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_19.webp",
+      "master_file": "podium_19_Honed_Fossil_Limestone_Stepped_Stage_4K.png"
+    },
+    {
+      "pid": "podium_20",
+      "title": "Solid Dark Walnut Wood Block on Silk",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_20.webp",
+      "master_file": "podium_20_Solid_Dark_Walnut_Wood_Block_on_Silk_4K.png"
+    },
+    {
+      "pid": "podium_21",
+      "title": "Perforated Architectural Metal Mesh Riser",
+      "src": "previews/stock-photos/commercial-product-podiums/podium_21.webp",
+      "master_file": "podium_21_Perforated_Architectural_Metal_Mesh_Riser_4K.png"
+    }
+  ],
+  "silicon-cleanrooms": [
+    {
+      "pid": "semi_01",
+      "title": "300mm Silicon Wafer in Robotic End-Effector",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_01.webp",
+      "master_file": "semi_01_300mm_Silicon_Wafer_in_Robotic_End_Effector_4K.png"
+    },
+    {
+      "pid": "semi_02",
+      "title": "Photolithography Bay in Monochromatic Amber Light",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_02.webp",
+      "master_file": "semi_02_Photolithography_Bay_in_Monochromatic_Amber_Light_4K.png"
+    },
+    {
+      "pid": "semi_03",
+      "title": "Quantum Computer Dilution Refrigerator Rig",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_03.webp",
+      "master_file": "semi_03_Quantum_Computer_Dilution_Refrigerator_Rig_4K.png"
+    },
+    {
+      "pid": "semi_04",
+      "title": "Silicon Ingot Crystal Boule Cross-Section",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_04.webp",
+      "master_file": "semi_04_Silicon_Ingot_Crystal_Boule_Cross_Section_4K.png"
+    },
+    {
+      "pid": "semi_05",
+      "title": "Automated Wafer FOUP Pod Docking Station",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_05.webp",
+      "master_file": "semi_05_Automated_Wafer_FOUP_Pod_Docking_Station_4K.png"
+    },
+    {
+      "pid": "semi_06",
+      "title": "High-Density BGA Chip Interposer Macro",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_06.webp",
+      "master_file": "semi_06_High_Density_BGA_Chip_Interposer_Macro_4K.png"
+    },
+    {
+      "pid": "semi_07",
+      "title": "Ultra-High Vacuum Chamber Port View",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_07.webp",
+      "master_file": "semi_07_Ultra_High_Vacuum_Chamber_Port_View_4K.png"
+    },
+    {
+      "pid": "semi_08",
+      "title": "Sub-Nanometer Optical Lens Assembly",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_08.webp",
+      "master_file": "semi_08_Sub_Nanometer_Optical_Lens_Assembly_4K.png"
+    },
+    {
+      "pid": "semi_09",
+      "title": "Wafer Prober Needle Card Testing",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_09.webp",
+      "master_file": "semi_09_Wafer_Prober_Needle_Card_Testing_4K.png"
+    },
+    {
+      "pid": "semi_10",
+      "title": "Semiconductor Fab Automated Transport Bay",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_10.webp",
+      "master_file": "semi_10_Semiconductor_Fab_Automated_Transport_Bay_4K.png"
+    },
+    {
+      "pid": "semi_11",
+      "title": "Gold Bonding Wires on Silicon Die",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_11.webp",
+      "master_file": "semi_11_Gold_Bonding_Wires_on_Silicon_Die_4K.png"
+    },
+    {
+      "pid": "semi_12",
+      "title": "Cryogenic Quantum Chip Mount",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_12.webp",
+      "master_file": "semi_12_Cryogenic_Quantum_Chip_Mount_4K.png"
+    },
+    {
+      "pid": "semi_12",
+      "title": "Cryogenic Quantum Chip Mount",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_12.webp",
+      "master_file": "semi_12_Cryogenic_Quantum_Chip_Mount_Blank_Wafer_No_Engraving_4K.png"
+    },
+    {
+      "pid": "semi_13",
+      "title": "Silicon Wafer Rainbow Dispersion on Black",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_13.webp",
+      "master_file": "semi_13_Silicon_Wafer_Rainbow_Dispersion_on_Black_4K.png"
+    },
+    {
+      "pid": "semi_14",
+      "title": "Fiber Optic Laser Routing Manifold",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_14.webp",
+      "master_file": "semi_14_Fiber_Optic_Laser_Routing_Manifold_4K.png"
+    },
+    {
+      "pid": "semi_15",
+      "title": "Stainless Steel Cleanroom Air Shower Corridor",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_15.webp",
+      "master_file": "semi_15_Stainless_Steel_Cleanroom_Air_Shower_Corridor_4K.png"
+    },
+    {
+      "pid": "semi_16",
+      "title": "Extreme UV Collector Mirror Surface",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_16.webp",
+      "master_file": "semi_16_Extreme_UV_Collector_Mirror_Surface_4K.png"
+    },
+    {
+      "pid": "semi_17",
+      "title": "Superconducting Solenoid Magnet Core",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_17.webp",
+      "master_file": "semi_17_Superconducting_Solenoid_Magnet_Core_4K.png"
+    },
+    {
+      "pid": "semi_18",
+      "title": "Microfluidic Lab-on-a-Chip Glass Module",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_18.webp",
+      "master_file": "semi_18_Microfluidic_Lab_on_a_Chip_Glass_Module_4K.png"
+    },
+    {
+      "pid": "semi_19",
+      "title": "Chemical Vapor Deposition Glow Chamber",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_19.webp",
+      "master_file": "semi_19_Chemical_Vapor_Deposition_Glow_Chamber_4K.png"
+    },
+    {
+      "pid": "semi_20",
+      "title": "Laser Micromachining Nozzle in Action",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_20.webp",
+      "master_file": "semi_20_Laser_Micromachining_Nozzle_in_Action_4K.png"
+    },
+    {
+      "pid": "semi_21",
+      "title": "Gold-Plated RF Shielded Enclosure Grid",
+      "src": "previews/stock-photos/silicon-cleanrooms/semi_21.webp",
+      "master_file": "semi_21_Gold_Plated_RF_Shielded_Enclosure_Grid_4K.png"
+    }
+  ],
+  "streamlined-ufos": [
+    {
+      "pid": "ufo_01",
+      "title": "Liquid Mercury Teardrop Saucer Over Icelandic Black Beach",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_01.webp",
+      "master_file": "ufo_01_Liquid_Mercury_Teardrop_Saucer_Over_Icelandic_Black_Beach_4K.png"
+    },
+    {
+      "pid": "ufo_02",
+      "title": "Matte White Ceramic Oval Craft Over Desert Salt Flat",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_02.webp",
+      "master_file": "ufo_02_Matte_White_Ceramic_Oval_Craft_Over_Desert_Salt_Flat_4K.png"
+    },
+    {
+      "pid": "ufo_03",
+      "title": "Mirror Titanium Toroidal Ring Hovering in Mountain Mist",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_03.webp",
+      "master_file": "ufo_03_Mirror_Titanium_Toroidal_Ring_Hovering_in_Mountain_Mist_4K.png"
+    },
+    {
+      "pid": "ufo_04",
+      "title": "Polished Obsidian Disk Skimming Glassy Lake",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_04.webp",
+      "master_file": "ufo_04_Polished_Obsidian_Disk_Skimming_Glassy_Lake_4K.png"
+    },
+    {
+      "pid": "ufo_05",
+      "title": "Organic Bionic Aerodynamic Saucer in Rain Storm",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_05.webp",
+      "master_file": "ufo_05_Organic_Bionic_Aerodynamic_Saucer_in_Rain_Storm_4K.png"
+    },
+    {
+      "pid": "ufo_06",
+      "title": "Macro Detail of Seamless Liquid Metal Hull",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_06.webp",
+      "master_file": "ufo_06_Macro_Detail_of_Seamless_Liquid_Metal_Hull_4K.png"
+    },
+    {
+      "pid": "ufo_07",
+      "title": "Dual Streamlined Disks in Formation Over Red Dunes",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_07.webp",
+      "master_file": "ufo_07_Dual_Streamlined_Disks_in_Formation_Over_Red_Dunes_4K.png"
+    },
+    {
+      "pid": "ufo_08",
+      "title": "Dark Matte Carbon Aerodynamic Triangle Over Foggy Forest",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_08.webp",
+      "master_file": "ufo_08_Dark_Matte_Carbon_Aerodynamic_Triangle_Over_Foggy_Forest_4K.png"
+    },
+    {
+      "pid": "ufo_09",
+      "title": "Polished Silver Saucer Above Arctic Sea Ice",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_09.webp",
+      "master_file": "ufo_09_Polished_Silver_Saucer_Above_Arctic_Sea_Ice_4K.png"
+    },
+    {
+      "pid": "ufo_10",
+      "title": "Iridescent Bismuth Hull Saucer in Sunset Clouds",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_10.webp",
+      "master_file": "ufo_10_Iridescent_Bismuth_Hull_Saucer_in_Sunset_Clouds_4K.png"
+    },
+    {
+      "pid": "ufo_12",
+      "title": "Subtle Gravitational Lens Distortion Below Hovering Disk",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_12.webp",
+      "master_file": "ufo_12_Subtle_Gravitational_Lens_Distortion_Below_Hovering_Disk_4K.png"
+    },
+    {
+      "pid": "ufo_13",
+      "title": "Matte Dark Ceramic Saucer at Rest in Pine Clearing",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_13.webp",
+      "master_file": "ufo_13_Matte_Dark_Ceramic_Saucer_at_Rest_in_Pine_Clearing_4K.png"
+    },
+    {
+      "pid": "ufo_14",
+      "title": "Super-Reflective Chrome Ellipsoid Rising from Sea",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_14.webp",
+      "master_file": "ufo_14_Super_Reflective_Chrome_Ellipsoid_Rising_from_Sea_4K.png"
+    },
+    {
+      "pid": "ufo_15",
+      "title": "Aerodynamic Saucer Entering Low Cumulus Cloud",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_15.webp",
+      "master_file": "ufo_15_Aerodynamic_Saucer_Entering_Low_Cumulus_Cloud_4K.png"
+    },
+    {
+      "pid": "ufo_17",
+      "title": "Minimalist Teardrop Craft Hovering Over Salt Lake",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_17.webp",
+      "master_file": "ufo_17_Minimalist_Teardrop_Craft_Hovering_Over_Salt_Lake_4K.png"
+    },
+    {
+      "pid": "ufo_18",
+      "title": "High-Speed Trans-Medium Saucer Vapor Cone",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_18.webp",
+      "master_file": "ufo_18_High_Speed_Trans_Medium_Saucer_Vapor_Cone_4K.png"
+    },
+    {
+      "pid": "ufo_20",
+      "title": "Macro Leading Edge Gravitational Distortion",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_20.webp",
+      "master_file": "ufo_20_Macro_Leading_Edge_Gravitational_Distortion_4K.png"
+    },
+    {
+      "pid": "ufo_21",
+      "title": "Streamlined Chrome Disk Resting at Edge of Desert Dune",
+      "src": "previews/stock-photos/streamlined-ufos/ufo_21.webp",
+      "master_file": "ufo_21_Streamlined_Chrome_Disk_Resting_at_Edge_of_Desert_Dune_4K.png"
+    }
+  ]
+}

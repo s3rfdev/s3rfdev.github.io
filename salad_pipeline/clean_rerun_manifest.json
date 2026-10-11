@@ -1,0 +1,14 @@
+{
+  "energy_09": {
+    "job_id": "57b36c86-20b8-4c4a-aa57-ef20b5d29555",
+    "title": "Green Hydrogen Electrolyzer Stack Array (Clean, No Text)",
+    "prompt": "Photograph of an industrial PEM green hydrogen electrolysis facility, rows of cylindrical stainless steel pressurized electrolyzer stacks with color-coded high-pressure manifolds, polished clean epoxy flooring, bright diffuse industrial LED lights, clean pristine white wall area on the left with ample empty copy space, completely blank wall without any text, no letters, no typography, no logos, no signage, no writing, no watermark, Phase One, 45mm, f/5.6, 8k",
+    "seed": 42
+  },
+  "semi_12": {
+    "job_id": "2b6adae7-f6cb-4c12-801c-a9f345049cf1",
+    "title": "Cryogenic Quantum Chip Mount (Blank Wafer, No Engraving)",
+    "prompt": "Photograph of a quantum processing unit (QPU) mounted in gold-plated oxygen-free copper enclosure at the cold finger base of a cryostat, superconducting niobium coaxial lines feeding into RF shield, soft specular gold sheen, clean dark empty background on the right third for copy space, completely smooth blank unmarked silicon chip surface, pristine mirror wafer, no text, no letters, no numbers, no engraving, no brand, no labels, Hasselblad, 90mm macro, f/8, 8k",
+    "seed": 42
+  }
+}

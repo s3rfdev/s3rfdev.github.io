@@ -1,0 +1,167 @@
+{
+  "energy_15": {
+    "bad_file": "gen_0061f299.png",
+    "orig_job_id": "0061f299-597d-4aa8-9209-be5e99fc2e5d",
+    "new_480p_job_id": "332c46f0-626b-4922-896f-461ced3a48ba",
+    "title": "Carbon Capture Adsorption Filter Tower",
+    "theme_id": "clean-tech-energy",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747192.1986969
+  },
+  "podium_10": {
+    "bad_file": "gen_010d7f11.png",
+    "orig_job_id": "010d7f11-e1a3-4b0c-99b5-5cafe6a2c3b5",
+    "new_480p_job_id": "f883c7d6-5fca-46df-a503-6cacdd22f393",
+    "title": "Sand Dune Desert Plinth with Wind Ripples",
+    "theme_id": "commercial-product-podiums",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747192.969664
+  },
+  "energy_04": {
+    "bad_file": "gen_05844a9e.png",
+    "orig_job_id": "05844a9e-08d0-4179-b58c-8ca59db449e7",
+    "new_480p_job_id": "15932ac6-c761-4690-b6e3-ebc73bfedf8f",
+    "title": "Utility-Scale Battery Storage Container Farm (BESS)",
+    "theme_id": "clean-tech-energy",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747193.731274
+  },
+  "ufo_11": {
+    "bad_file": "gen_34655ac7.png",
+    "orig_job_id": "34655ac7-47e1-47db-91ef-3d1ea4a09082",
+    "new_480p_job_id": "ce0045e6-17da-4e3f-af65-9d2cba8ae7a4",
+    "title": "Lenticular Saucer at Twilight Over Pacific Ocean",
+    "theme_id": "aerodynamic-ufo-chrome",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747194.617512
+  },
+  "energy_09": {
+    "bad_file": "gen_3aadcf96.png",
+    "orig_job_id": "3aadcf96-19ff-4b41-97c3-e22d37f3d52e",
+    "new_480p_job_id": "e37c994a-b6e3-4b68-b102-04b9b042b914",
+    "title": "Green Hydrogen Electrolyzer Stack Array",
+    "theme_id": "clean-tech-energy",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747195.427656
+  },
+  "semi_12": {
+    "bad_file": "gen_4e4cbe29.png",
+    "orig_job_id": "4e4cbe29-f06f-464d-b23f-5c9a4af4fdaa",
+    "new_480p_job_id": "1bbb0a18-63c9-4c3d-8dec-19e5f5e5f1b4",
+    "title": "Cryogenic Quantum Chip Mount",
+    "theme_id": "silicon-cleanrooms",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747196.2420459
+  },
+  "energy_13": {
+    "bad_file": "gen_4e51e3fa.png",
+    "orig_job_id": "4e51e3fa-0f42-48aa-a2dd-f8808824b537",
+    "new_480p_job_id": "9b505f31-1292-46a2-8c61-2f0f6e29bbec",
+    "title": "Floating Solar Farm on Alpine Reservoir",
+    "theme_id": "clean-tech-energy",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747196.846794
+  },
+  "energy_17": {
+    "bad_file": "gen_5420ed6c.png",
+    "orig_job_id": "5420ed6c-0e22-4953-beff-207e90d0738f",
+    "new_480p_job_id": "4e8f40f4-bd27-4b50-8c1a-75328a507b06",
+    "title": "Offshore Substation Platform in Mist",
+    "theme_id": "clean-tech-energy",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747197.611616
+  },
+  "ufo_16": {
+    "bad_file": "gen_72ba7df4.png",
+    "orig_job_id": "72ba7df4-9b02-4afe-ac39-f3a3d2347c2c",
+    "new_480p_job_id": "e250fe9b-3fa1-46df-8226-938fdd3f98b4",
+    "title": "Low-Flying Chrome Toroid Skimming Canyon River",
+    "theme_id": "aerodynamic-ufo-chrome",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747198.1606898
+  },
+  "podium_17": {
+    "bad_file": "gen_7e95da39.png",
+    "orig_job_id": "7e95da39-dd9f-490a-9635-e03a398708be",
+    "new_480p_job_id": "054fc262-dee3-4f10-975c-44cc0a0d4340",
+    "title": "Monolithic Raw Concrete Block with Moss Edge",
+    "theme_id": "commercial-product-podiums",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747198.69121
+  },
+  "arch_09": {
+    "bad_file": "gen_886d822b.png",
+    "orig_job_id": "886d822b-fe95-436f-a6ec-7c11d0f921be",
+    "new_480p_job_id": "4f35b67c-1f5a-4755-9734-db9857400303",
+    "title": "Minimalist Travertine Courtyard Arc",
+    "theme_id": "bionic-architecture",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747199.226526
+  },
+  "arch_16": {
+    "bad_file": "gen_8c37c70e.png",
+    "orig_job_id": "8c37c70e-29dd-4061-bbce-8a3af4d24f23",
+    "new_480p_job_id": "9a9dfe91-dc34-4232-8987-a2e6736bc7a2",
+    "title": "Curved Glass Courtyard Garden Atrium",
+    "theme_id": "bionic-architecture",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747199.766631
+  },
+  "ufo_19": {
+    "bad_file": "gen_988b2521.png",
+    "orig_job_id": "988b2521-2a01-47b6-b13f-2c8f058da7d3",
+    "new_480p_job_id": "a52d6b9c-151b-465b-bb82-5a75a6a8858e",
+    "title": "Seamless Obsidian Disk Over Golden Wheat Field",
+    "theme_id": "aerodynamic-ufo-chrome",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747200.4579048
+  },
+  "arch_10": {
+    "bad_file": "gen_bb77ba8b.png",
+    "orig_job_id": "bb77ba8b-b355-43ad-a6ee-3ff14f8feba7",
+    "new_480p_job_id": "aae99a55-a31f-4e65-8fdc-18f7a2b78bfc",
+    "title": "Futuristic Alpine Observatory",
+    "theme_id": "bionic-architecture",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747200.9856691
+  },
+  "energy_10": {
+    "bad_file": "gen_dde6b4c6.png",
+    "orig_job_id": "dde6b4c6-57be-46c5-8af2-a1d2a9d5279e",
+    "new_480p_job_id": "0dc3b253-9534-427b-aec0-26a60a05b478",
+    "title": "Hydroelectric Dam Spillway at Golden Hour",
+    "theme_id": "clean-tech-energy",
+    "status": "queued",
+    "width": 864,
+    "height": 480,
+    "enqueued_at": 1791747201.774875
+  }
+}

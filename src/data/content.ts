@@ -75,8 +75,8 @@ export const ui = {
     title1: t('Building your full product', 'Собираю весь ваш продукт'),
     title2: t('& pipeline.', 'и пайплайн.'),
     lead: t(
-      'Full-stack developer with an AI/ML core. I train and fine-tune models, wire them into real products, and ship high-quality video ads and stock-ready assets on the same day.',
-      'Full-stack разработчик с ядром в AI/ML. Обучаю и дообучаю модели, встраиваю их в реальные продукты и в тот же день выдаю рекламные видео и ассеты, готовые для стоков.',
+      'Full-stack developer with an AI/ML core. I train and fine-tune models, integrate them into real products, handle commissions of any complexity, and bring your idea to life — from apps and admin panels to complex video editing and motion design.',
+      'Full-stack разработчик с ядром AI/ML. Обучаю и дообучаю модели, встраиваю их в реальные продукты, а также выполняю заказы любой сложности и довожу вашу идею до реального продукта — от приложений и админок до видеомонтажа любой сложности и моушн-дизайна.',
     ),
     ctaPrimary: t('Start a project', 'Заказать проект'),
     ctaSecondary: t('View portfolio', 'Смотреть портфолио'),
@@ -147,7 +147,7 @@ export const ui = {
   },
   services: {
     label: t('services & pricing', 'услуги и цены'),
-    title: t('Order anything around code and content', 'Заказать можно всё вокруг кода и контента'),
+    title: t('Order anything from code to content', 'Заказать можно всё от кода до контента'),
     lead: t(
       'Fixed prices where they make sense, hourly for engineering work. Tell me the goal — I will tell you the fastest route and the real cost.',
       'Фиксированные цены там, где это уместно, почасовая — для инженерных задач. Опишите цель — назову самый быстрый путь и реальную стоимость.',
@@ -404,8 +404,8 @@ export const ui = {
       {
         q: t('How fast can you deliver?', 'Как быстро сдаёте?'),
         a: t(
-          'A video ad takes 24–72 hours. A landing page — 3–7 days. A mobile app or a full platform — from 3 weeks, depending on scope.',
-          'Рекламный ролик — 24–72 часа. Лендинг — 3–7 дней. Мобильное приложение или платформа — от 3 недель, зависит от объёма.',
+          'AI video ads take 24–72 hours. A landing page — from 1 day. A mobile app — from 1–2 days. Exact timelines depend on scope and complexity: a streamlined MVP or turnkey build can be assembled with AI agents in just days, while projects with bespoke features, custom API integrations, user assets, and full documentation are estimated individually.',
+          'Рекламный AI-ролик — 24–72 часа. Лендинг — от 1 дня. Мобильное приложение — от 1–2 дней. Сроки зависят от сложности задачи: базовый MVP или типовой проект собирается AI-агентами буквально за дни, а решения с авторскими фишками, кастомными интеграциями, вашим контентом и документацией оцениваются индивидуально.',
         ),
       },
       {
@@ -975,6 +975,20 @@ export const works: Work[] = [
     tags: ['fleet ops', 'GPS tracking', 'offline queue', 'driver app'],
     stack: ['Flutter', 'Dart', 'Background Geolocation', 'SQLite', 'WebSockets'],
   },
+  {
+    id: 'flutter-commercial-suite',
+    group: 'mobile',
+    title: t('Commercial Flutter Apps Suite (2023–2024)', 'Серия коммерческих мобильных приложений на Flutter (2023–2024)'),
+    summary: t(
+      'Series of 20+ specialized mobile applications engineered on Flutter: sports analytics, prediction engines, live score dashboards, and custom UI systems with offline-first local cache.',
+      'Серия из 20+ специализированных мобильных приложений на Flutter: спортивная аналитика, лайв-дашборды, алгоритмические индикаторы и кастомные UI-системы с офлайн-кэшированием.',
+    ),
+    metric: t('20+ production builds · 100% custom Flutter', '20+ опубликованных сборок · 100% кастомный Flutter'),
+    cover: 'previews/mobile-betting-analytics.webp',
+    tags: ['Flutter', 'production archive', 'BLoC', 'sports', 'analytics'],
+    stack: ['Flutter', 'Dart', 'BLoC', 'Dio', 'SQLite', 'In-App Subscriptions'],
+    link: 'https://github.com/s3rfdev',
+  },
 ]
 
 /* ========================================================================== *
@@ -985,6 +999,7 @@ export type Shot = {
   title: L
   /** Video clips only. */
   duration?: string
+  videoSrc?: string
   /** Optional link to the marketplace item page. */
   link?: string
 }
@@ -1002,104 +1017,626 @@ export type Gallery = {
   link?: string
 }
 
-const photoItems = (prefix: string, titles: [string, string][]): Shot[] =>
-  titles.map(([en, ru], i) => ({
-    src: `previews/${prefix}-${String(i + 1).padStart(2, '0')}.svg`,
-    title: t(en, ru),
-  }))
-
 export const galleries: Gallery[] = [
   {
-    id: 'photo-neon',
+    id: 'photo-bionic-architecture',
     kind: 'photo',
-    title: t('Neon Nightscapes', 'Неоновые ночные сцены'),
+    title: t('Bionic & Parametric Architecture', 'Бионическая и параметрическая архитектура'),
     summary: t(
-      'Night city, rain reflections and neon light studies. Shot and finished for banners, covers and editorial spreads.',
-      'Ночной город, отражения в дожде и этюды с неоном. Сняты и обработаны под баннеры, обложки и редакционные развороты.',
+      'Futuristic organic pavilions, double-curved titanium atriums, biophilic concrete towers, and monumental glass volumes. RenderMind commercial 4K stock series.',
+      'Футуристичные органические павильоны, криволинейные титановые атриумы, биофильные башни и монументальные стеклянные объемы. Коммерческая 4K серия RenderMind.',
     ),
-    meta: '9 files · 4000×2500',
-    resolution: '4000×2500 px',
-    formats: 'JPG, PNG',
-    link: '',
-    items: photoItems('photo-neon', [
-      ['Rain-soaked avenue', 'Мокрая от дождя авеню'],
-      ['Neon alley', 'Неоновый переулок'],
-      ['Midnight crossing', 'Полночная развязка'],
-      ['Puddle reflections', 'Отражения в лужах'],
-      ['Cyber corner shop', 'Кибер-магазин на углу'],
-      ['Steel and glass', 'Сталь и стекло'],
-      ['Last train', 'Последний поезд'],
-      ['Rooftop haze', 'Дымка на крыше'],
-      ['Blue hour boulevard', 'Бульвар в синий час'],
-    ]),
-  },
-  {
-    id: 'photo-aurora',
-    kind: 'photo',
-    title: t('Aurora & Skies', 'Аврора и небо'),
-    summary: t(
-      'Northern lights, storm skies and long-exposure cloudscapes for travel, nature and background use.',
-      'Северное сияние, грозовое небо и облака на длинной выдержке для трэвел, природы и фонов.',
-    ),
-    meta: '9 files · 6000×4000',
-    resolution: '6000×4000 px',
-    formats: 'JPG, TIFF',
-    link: '',
-    items: photoItems('photo-aurora', [
-      ['Aurora over the ridge', 'Аврора над хребтом'],
-      ['Green curtain', 'Зелёная завеса'],
-      ['Cold magenta sky', 'Холодное небо в магенте'],
-      ['Star trail valley', 'Звёздные треки над долиной'],
-      ['Storm front', 'Грозовой фронт'],
-      ['Cloud ocean', 'Облачный океан'],
-      ['Sunrise inversion', 'Рассветная инверсия'],
-      ['Ice lake mirror', 'Зеркало ледяного озера'],
-      ['Silent snowfall', 'Тихий снегопад'],
-    ]),
-  },
-  {
-    id: 'photo-macro',
-    kind: 'photo',
-    title: t('Abstract Macro & Textures', 'Абстрактное макро и текстуры'),
-    summary: t(
-      'Fluid gradients, ink in water and material close-ups — seamless assets for backgrounds, thumbnails and print.',
-      'Жидкие градиенты, чернила в воде и крупные планы материалов — бесшовные ассеты для фонов, превью и печати.',
-    ),
-    meta: '9 files · 5000×5000',
-    resolution: '5000×5000 px',
-    formats: 'JPG, PNG',
-    link: '',
-    items: photoItems('photo-macro', [
-      ['Ink bloom', 'Чернильный цветок'],
-      ['Molten gradient', 'Расплавленный градиент'],
-      ['Silk folds', 'Складки шёлка'],
-      ['Liquid metal', 'Жидкий металл'],
-      ['Paper geometry', 'Геометрия бумаги'],
-      ['Cosmic dust', 'Космическая пыль'],
-      ['Chromatic shards', 'Хроматические осколки'],
-      ['Soft smoke', 'Мягкий дым'],
-      ['Prism drift', 'Дрейф призмы'],
-    ]),
-  },
-  {
-    id: 'video-cinematic',
-    kind: 'video',
-    title: t('Cinematic AI Stock Clips', 'Кинематографичные AI-клипы'),
-    summary: t(
-      'Looped 4K motion backgrounds and product-adjacent shots generated and colour-finished by hand — broadcast safe, no watermarks.',
-      'Зацикленные 4K фоны и продуктовые кадры, сгенерированные и доведённые по цвету вручную — без вотермарков, готовы к эфиру.',
-    ),
-    meta: '6 clips · 4K · 25 fps',
-    resolution: '3840×2160 · 25 fps',
-    formats: 'MP4 (H.264), ProRes on request',
+    meta: '18 files · 4K UHD',
+    resolution: '3840×2160 (4K UHD)',
+    formats: '4K PNG (Master) · WebP Preview',
     link: '',
     items: [
-      { src: 'previews/video-01.svg', title: t('Particle nebula loop', 'Петля небулы из частиц'), duration: '00:14' },
-      { src: 'previews/video-02.svg', title: t('Product reveal — glass bottle', 'Презентация продукта — стеклянная бутылка'), duration: '00:09' },
-      { src: 'previews/video-03.svg', title: t('City flyby at dusk', 'Пролёт над городом в сумерках'), duration: '00:12' },
-      { src: 'previews/video-04.svg', title: t('Ink in water, slow motion', 'Чернила в воде, замедление'), duration: '00:11' },
-      { src: 'previews/video-05.svg', title: t('Abstract tech background', 'Абстрактный техно-фон'), duration: '00:18' },
-      { src: 'previews/video-06.svg', title: t('Food macro — pour shot', 'Макро еды — наливание'), duration: '00:07' },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_01.webp',
+        title: t('Titanium Curved Monolith Atrium', 'Атриум из монолитного изогнутого титана'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_02.webp',
+        title: t('Biophilic Vertical Forest Tower', 'Биофильная башня с вертикальным лесом'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_03.webp',
+        title: t('Helical Spiral Concrete Staircase', 'Винтовая бетонная спиральная лестница'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_04.webp',
+        title: t('Parametric Waterfront Cultural Pavilion', 'Параметрический прибрежный павильон'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_05.webp',
+        title: t('Timber Lamella Parametric Vault', 'Параметрический свод из деревянных ламелей'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_06.webp',
+        title: t('Desert Dune Research Institute', 'Институт исследований в пустынных дюнах'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_07.webp',
+        title: t('Geometric Facade Tessellation Macro', 'Макро геометрии и тесселяции фасада'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_08.webp',
+        title: t('Cantilevered Glass Observation Deck', 'Консольная стеклянная смотровая площадка'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_11.webp',
+        title: t('Curvilinear High-Tech Library Atrium', 'Криволинейный атриум хай-тек библиотеки'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_12.webp',
+        title: t('Perforated Metal Kinetic Facade', 'Перфорированный кинетический фасад'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_13.webp',
+        title: t('Subterranean Concrete Auditorium', 'Подземный бетонный амфитеатр'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_14.webp',
+        title: t('Organic Glass Canopy Drop Point', 'Органический стеклянный навес терминала'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_15.webp',
+        title: t('Monolithic Brutalist Cantilever Bridge', 'Монолитный бруталистский консольный мост'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_17.webp',
+        title: t('Parametric Concrete Canopy Underside', 'Parametric Concrete Canopy Underside'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_18.webp',
+        title: t('Minimalist High-Tech Villa Facade', 'Minimalist High-Tech Villa Facade'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_19.webp',
+        title: t('Sculptural Concrete Oculus Dome', 'Sculptural Concrete Oculus Dome'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_20.webp',
+        title: t('Futuristic Airport Terminal Spine', 'Несущая колонна футуристичного терминала'),
+      },
+      {
+        src: 'previews/stock-photos/bionic-architecture/arch_21.webp',
+        title: t('Aerodynamic Rooftop Penthouse Pod', 'Аэродинамический капсульный пентхаус на крыше'),
+      },
+    ],
+  },
+  {
+    id: 'photo-silicon-cleanrooms',
+    kind: 'photo',
+    title: t('Silicon Cleanrooms & Quantum Chips', 'Чистые комнаты и квантовые процессоры'),
+    summary: t(
+      'Semiconductor fabrication ISO-1 cleanrooms, EUV photolithography scanners, wafer steppers, and cryogenic quantum mounts. RenderMind commercial 4K stock series.',
+      'Полупроводниковое производство ISO-1, EUV-фотолитография, кремниевые пластины и криогенные квантовые чипы. Коммерческая 4K серия RenderMind.',
+    ),
+    meta: '22 files · 4K UHD',
+    resolution: '3840×2160 (4K UHD)',
+    formats: '4K PNG (Master) · WebP Preview',
+    link: '',
+    items: [
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_01.webp',
+        title: t('300mm Silicon Wafer in Robotic End-Effector', '300mm Silicon Wafer in Robotic End-Effector'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_02.webp',
+        title: t('Photolithography Bay in Monochromatic Amber Light', 'Photolithography Bay in Monochromatic Amber Light'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_03.webp',
+        title: t('Quantum Computer Dilution Refrigerator Rig', 'Quantum Computer Dilution Refrigerator Rig'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_04.webp',
+        title: t('Silicon Ingot Crystal Boule Cross-Section', 'Silicon Ingot Crystal Boule Cross-Section'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_05.webp',
+        title: t('Automated Wafer FOUP Pod Docking Station', 'Automated Wafer FOUP Pod Docking Station'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_06.webp',
+        title: t('High-Density BGA Chip Interposer Macro', 'High-Density BGA Chip Interposer Macro'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_07.webp',
+        title: t('Ultra-High Vacuum Chamber Port View', 'Ultra-High Vacuum Chamber Port View'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_08.webp',
+        title: t('Sub-Nanometer Optical Lens Assembly', 'Sub-Nanometer Optical Lens Assembly'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_09.webp',
+        title: t('Wafer Prober Needle Card Testing', 'Wafer Prober Needle Card Testing'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_10.webp',
+        title: t('Semiconductor Fab Automated Transport Bay', 'Semiconductor Fab Automated Transport Bay'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_11.webp',
+        title: t('Gold Bonding Wires on Silicon Die', 'Gold Bonding Wires on Silicon Die'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_12.webp',
+        title: t('Cryogenic Quantum Chip Mount', 'Криогенный держатель квантового процессора'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_12.webp',
+        title: t('Cryogenic Quantum Chip Mount', 'Криогенный держатель квантового процессора'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_13.webp',
+        title: t('Silicon Wafer Rainbow Dispersion on Black', 'Silicon Wafer Rainbow Dispersion on Black'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_14.webp',
+        title: t('Fiber Optic Laser Routing Manifold', 'Fiber Optic Laser Routing Manifold'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_15.webp',
+        title: t('Stainless Steel Cleanroom Air Shower Corridor', 'Stainless Steel Cleanroom Air Shower Corridor'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_16.webp',
+        title: t('Extreme UV Collector Mirror Surface', 'Extreme UV Collector Mirror Surface'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_17.webp',
+        title: t('Superconducting Solenoid Magnet Core', 'Superconducting Solenoid Magnet Core'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_18.webp',
+        title: t('Microfluidic Lab-on-a-Chip Glass Module', 'Microfluidic Lab-on-a-Chip Glass Module'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_19.webp',
+        title: t('Chemical Vapor Deposition Glow Chamber', 'Chemical Vapor Deposition Glow Chamber'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_20.webp',
+        title: t('Laser Micromachining Nozzle in Action', 'Сопло лазерной микрообработки в работе'),
+      },
+      {
+        src: 'previews/stock-photos/silicon-cleanrooms/semi_21.webp',
+        title: t('Gold-Plated RF Shielded Enclosure Grid', 'Позолоченный экранирующий ВЧ-кожух'),
+      },
+    ],
+  },
+  {
+    id: 'photo-luxury-macro-materials',
+    kind: 'photo',
+    title: t('Luxury Macro Materials & Textures', 'Премиальные макро-материалы и текстуры'),
+    summary: t(
+      'High-end architectural and industrial surfaces: liquid mercury, dichroic holographic glass, honed travertine, and raw metals. RenderMind commercial 4K stock series.',
+      'Высокотехнологичные и природные материалы: капли ртути, дихроичное голографическое стекло, шлифованный травертин и металлы. Коммерческая 4K серия RenderMind.',
+    ),
+    meta: '21 files · 4K UHD',
+    resolution: '3840×2160 (4K UHD)',
+    formats: '4K PNG (Master) · WebP Preview',
+    link: '',
+    items: [
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_01.webp',
+        title: t('Optical Glass Prism Caustic Dispersion', 'Optical Glass Prism Caustic Dispersion'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_02.webp',
+        title: t('Anodized Titanium Surface with Micro Droplets', 'Anodized Titanium Surface with Micro Droplets'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_03.webp',
+        title: t('Cosmetic Serum Droplet on Frosted Acrylic', 'Cosmetic Serum Droplet on Frosted Acrylic'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_04.webp',
+        title: t('2x2 Twill Weave Carbon Fiber in Clear Resin', '2x2 Twill Weave Carbon Fiber in Clear Resin'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_05.webp',
+        title: t('Suspended Liquid Gold in Viscous Fluid', 'Suspended Liquid Gold in Viscous Fluid'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_06.webp',
+        title: t('Chiseled Nero Marquina Black Marble Grain', 'Chiseled Nero Marquina Black Marble Grain'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_07.webp',
+        title: t('Champagne Metallic Silk Fluid Folds', 'Champagne Metallic Silk Fluid Folds'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_08.webp',
+        title: t('Frosted Fluted Architectural Glass Refraction', 'Frosted Fluted Architectural Glass Refraction'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_09.webp',
+        title: t('Brushed Rose Gold Micro-Bevel Texture', 'Brushed Rose Gold Micro-Bevel Texture'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_10.webp',
+        title: t('Iridescent Soap Film Interference Patterns', 'Iridescent Soap Film Interference Patterns'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_11.webp',
+        title: t('Charred Yakisugi Cedar Grain Texture', 'Charred Yakisugi Cedar Grain Texture'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_12.webp',
+        title: t('Solid Quartz Crystal Monolith with Inclusions', 'Solid Quartz Crystal Monolith with Inclusions'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_13.webp',
+        title: t('Water Droplet Concentric Ripple on Dark Ink', 'Water Droplet Concentric Ripple on Dark Ink'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_14.webp',
+        title: t('Perforated Ceramic Acoustic Foam Texture', 'Perforated Ceramic Acoustic Foam Texture'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_15.webp',
+        title: t('Bismuth Crystal Iridescent Step Pyramid', 'Bismuth Crystal Iridescent Step Pyramid'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_16.webp',
+        title: t('Fine Leather Micro-Grain in Warm Cognac', 'Fine Leather Micro-Grain in Warm Cognac'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_17.webp',
+        title: t('Molten Glass Bubble Annealing Studio', 'Molten Glass Bubble Annealing Studio'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_18.webp',
+        title: t('Raw Sawn Travertine Stone Pores', 'Текстура пор пиленого римского травертина'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_19.webp',
+        title: t('Liquid Mercury Droplets on Polished Slate', 'Капли жидкой ртути на полированном сланце'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_20.webp',
+        title: t('Matte White Architectural Corian Curve', 'Изогнутая поверхность из матового белого кориана'),
+      },
+      {
+        src: 'previews/stock-photos/luxury-macro-materials/mat_21.webp',
+        title: t('Holographic Dichroic Glass Reflection', 'Отражения в дихроичном голографическом стекле'),
+      },
+    ],
+  },
+  {
+    id: 'photo-clean-tech-energy',
+    kind: 'photo',
+    title: t('Clean Tech & Renewable Energy', 'Зеленая энергетика и чистые технологии'),
+    summary: t(
+      'Deep-ocean offshore wind turbines, desert utility solar arrays, Tokamak fusion cores, BESS battery farms, and green hydrogen. RenderMind commercial 4K stock series.',
+      'Глубоководные ветропарки, пустынные солнечные поля, реакторы Токамак, контейнерные хранилища BESS и зеленый водород. Коммерческая 4K серия RenderMind.',
+    ),
+    meta: '16 files · 4K UHD',
+    resolution: '3840×2160 (4K UHD)',
+    formats: '4K PNG (Master) · WebP Preview',
+    link: '',
+    items: [
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_01.webp',
+        title: t('Solitary Offshore Wind Turbine in Deep Ocean', 'Одиночный морской ветрогенератор в океане'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_02.webp',
+        title: t('Desert Utility-Scale Solar Array at Blue Hour', 'Солнечная электростанция в пустыне в синий час'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_03.webp',
+        title: t('Geothermal Power Manifolds in Iceland Mist', 'Геотермальный коллектор в тумане Исландии'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_05.webp',
+        title: t('Tokamak Fusion Reactor Interior Core', 'Внутренняя вакуумная камера реактора Токамак'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_06.webp',
+        title: t('Wind Turbine Nacelle Maintenance Platform', 'Сервисная площадка гондолы ветрогенератора'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_07.webp',
+        title: t('Concentrated Solar Power Tower Molten Salt Receiver', 'Башня гелиоконцентратора с расплавом солей'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_08.webp',
+        title: t('High-Voltage Direct Current (HVDC) Converter Hall', 'Зал преобразователей постоянного тока HVDC'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_09.webp',
+        title: t('Green Hydrogen Electrolyzer Stack Array', 'Батарея промышленных водородных электролизеров'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_11.webp',
+        title: t('Smart Grid Transformer Bushing Insulators', 'Высоковольтные проходные изоляторы подстанции'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_12.webp',
+        title: t('Superconducting Maglev Guideway Track', 'Сверхпроводящая магистраль поезда на магнитной подушке'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_14.webp',
+        title: t('Subsea Power Cable Installation Vessel', 'Судно-кабелеукладчик подводных силовых линий'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_16.webp',
+        title: t('Automated Battery Pack Giga-Factory Line', 'Автоматизированная гигафабрика аккумуляторных батарей'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_18.webp',
+        title: t('Wave Energy Converter Buoy in Ocean', 'Волновой энергетический генератор в океане'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_19.webp',
+        title: t('Cryogenic Liquid Hydrogen Storage Tank Sphere', 'Сферический резервуар жидкого водорода'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_20.webp',
+        title: t('Solar Canopy EV Mega-Charging Hub', 'Мега-хаб зарядки электромобилей с солнечным навесом'),
+      },
+      {
+        src: 'previews/stock-photos/clean-tech-energy/energy_21.webp',
+        title: t('Aerodynamic Wind Turbine Blade Hub Macro', 'Аэродинамическая ступица лопасти ветрогенератора'),
+      },
+    ],
+  },
+  {
+    id: 'photo-commercial-podiums',
+    kind: 'photo',
+    title: t('Minimalist Product Podiums', 'Коммерческие подиумы для продуктов'),
+    summary: t(
+      'Editorial display stages for luxury cosmetics, perfume, and hardware: chiseled black slate, Calacatta marble, and frosted acrylic. RenderMind commercial 4K stock series.',
+      'Студийные подиумы для люксовой косметики, парфюма и гаджетов: черный сланец, мрамор Calacatta, матовый акрил и бетон. Коммерческая 4K серия RenderMind.',
+    ),
+    meta: '19 files · 4K UHD',
+    resolution: '3840×2160 (4K UHD)',
+    formats: '4K PNG (Master) · WebP Preview',
+    link: '',
+    items: [
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_01.webp',
+        title: t('Rough Chiseled Black Slate Podium in Sunbeam', 'Подиум из колотого черного сланца в луче света'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_02.webp',
+        title: t('Honed Travertine Cylinder in Warm Studio Light', 'Цилиндр из шлифованного травертина в студийном свете'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_03.webp',
+        title: t('Frosted Acrylic Glass Plinth in Water Ripple Pool', 'Плинт из матового акрила в бассейне с рябью'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_04.webp',
+        title: t('Dark Basalt Monolith with Copper Foil Micro-Line', 'Базальтовый монолит с тонкой медной линией'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_05.webp',
+        title: t('Sculptural White Cast Concrete Stepped Dais', 'Ступенчатый подиум из скульптурного бетона'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_06.webp',
+        title: t('Polished Green Guatemala Marble Disc Podium', 'Дисковый подиум из зеленого мрамора Гватемала'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_07.webp',
+        title: t('Raw Sawn Oak Timber Block with Linen Fabric', 'Блок пиленого дуба с льняной тканью'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_08.webp',
+        title: t('Floating Frosted Disc with Botanical Shadows', 'Парящий матовый диск с растительными тенями'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_09.webp',
+        title: t('Brushed Titanium Wedge Plinth on Slate', 'Клиновидный титановый постамент на сланце'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_11.webp',
+        title: t('Honed Calacatta Gold Marble Pillar in Studio', 'Колонна из мрамора Calacatta Gold в студии'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_12.webp',
+        title: t('Textured Terracotta Clay Geometric Dais', 'Геометрический подиум из фактурной терракоты'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_13.webp',
+        title: t('Mirror Water Pool with Floating Slate Slab', 'Зеркальный бассейн с плавающей плитой сланца'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_14.webp',
+        title: t('Matte Black Ceramic Pedestal in Cyan Rim Light', 'Черный керамический пьедестал с неоновым контуром'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_15.webp',
+        title: t('Curved Glass Wave Platform on Sand', 'Волнообразная платформа из гнутого стекла'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_16.webp',
+        title: t('Brushed Brass Cylinder on White Travertine', 'Латунный цилиндр на белом травертине'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_18.webp',
+        title: t('Smoky Quartz Transparent Crystal Base', 'Прозрачное основание из дымчатого кварца'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_19.webp',
+        title: t('Honed Fossil Limestone Stepped Stage', 'Ступенчатая сцена из ископаемого известняка'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_20.webp',
+        title: t('Solid Dark Walnut Wood Block on Silk', 'Блок массива темного ореха на шелке'),
+      },
+      {
+        src: 'previews/stock-photos/commercial-product-podiums/podium_21.webp',
+        title: t('Perforated Architectural Metal Mesh Riser', 'Подставка из перфорированной архитектурной сетки'),
+      },
+    ],
+  },
+  {
+    id: 'photo-streamlined-ufos',
+    kind: 'photo',
+    title: t('Aerodynamic Streamlined UFOs', 'Обтекаемые хромированные НЛО'),
+    summary: t(
+      'Seamless mirror-chrome and ceramic extraterrestrial craft skimming oceans, deserts, and mountain peaks. RenderMind commercial 4K stock series.',
+      'Бесшовные обтекаемые летательные аппараты из жидкой ртути, хрома и темной керамики над океанами, пустынями и вершинами. Коммерческая 4K серия RenderMind.',
+    ),
+    meta: '18 files · 4K UHD',
+    resolution: '3840×2160 (4K UHD)',
+    formats: '4K PNG (Master) · WebP Preview',
+    link: '',
+    items: [
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_01.webp',
+        title: t('Liquid Mercury Teardrop Saucer Over Icelandic Black Beach', 'Каплевидный диск из жидкой ртути над черным пляжем'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_02.webp',
+        title: t('Matte White Ceramic Oval Craft Over Desert Salt Flat', 'Матовый белый керамический аппарат над солончаком'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_03.webp',
+        title: t('Mirror Titanium Toroidal Ring Hovering in Mountain Mist', 'Зеркальное титановое кольцо в горном тумане'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_04.webp',
+        title: t('Polished Obsidian Disk Skimming Glassy Lake', 'Диск из полированного обсидиана над гладким озером'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_05.webp',
+        title: t('Organic Bionic Aerodynamic Saucer in Rain Storm', 'Органическая бионическая тарелка в дождевом шторме'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_06.webp',
+        title: t('Macro Detail of Seamless Liquid Metal Hull', 'Макросъемка бесшовного корпуса из жидкого металла'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_07.webp',
+        title: t('Dual Streamlined Disks in Formation Over Red Dunes', 'Два обтекаемых диска в строю над красными дюнами'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_08.webp',
+        title: t('Dark Matte Carbon Aerodynamic Triangle Over Foggy Forest', 'Треугольный карбоновый аппарат над туманным лесом'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_09.webp',
+        title: t('Polished Silver Saucer Above Arctic Sea Ice', 'Серебряный обтекаемый диск над арктическими льдами'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_10.webp',
+        title: t('Iridescent Bismuth Hull Saucer in Sunset Clouds', 'Тарелка с радужным корпусом из висмута в облаках'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_12.webp',
+        title: t('Subtle Gravitational Lens Distortion Below Hovering Disk', 'Гравитационное линзирование под зависшим диском'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_13.webp',
+        title: t('Matte Dark Ceramic Saucer at Rest in Pine Clearing', 'Темный керамический диск на поляне в хвойном лесу'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_14.webp',
+        title: t('Super-Reflective Chrome Ellipsoid Rising from Sea', 'Зеркальный хромированный эллипсоид, взлетающий из моря'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_15.webp',
+        title: t('Aerodynamic Saucer Entering Low Cumulus Cloud', 'Аэродинамическая тарелка, входящая в кучевое облако'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_17.webp',
+        title: t('Minimalist Teardrop Craft Hovering Over Salt Lake', 'Минималистичный каплевидный аппарат над соляным озером'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_18.webp',
+        title: t('High-Speed Trans-Medium Saucer Vapor Cone', 'Конус Маха вокруг аппарата на транс-средовом переходе'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_20.webp',
+        title: t('Macro Leading Edge Gravitational Distortion', 'Макро передней кромки и искривление пространства'),
+      },
+      {
+        src: 'previews/stock-photos/streamlined-ufos/ufo_21.webp',
+        title: t('Streamlined Chrome Disk Resting at Edge of Desert Dune', 'Хромированный обтекаемый диск на гребне пустынной дюны'),
+      },
+    ],
+  },
+  {
+    id: 'video-science-lab',
+    kind: 'video',
+    title: t('AI Stock Footage: Science & Research', 'AI-видеосток: Наука и исследования'),
+    summary: t(
+      'Cinematic 2.5K high-precision scientific footage: high-voltage Tesla coils, vacuum chambers, quantum levitation, laser interferometers, and launch facilities. Protected RenderMind demonstration pack.',
+      'Кинематографичные 2.5K научно-технологические видео: лаборатории катушек Тесла, вакуумные камеры, квантовая левитация, лазерные интерферометры и морской космодром. Защищенный демонстрационный пак RenderMind.',
+    ),
+    meta: '10 clips · 2.5K · 24 fps',
+    resolution: '2560×1472 · 24 fps',
+    formats: 'MP4 (H.264) · Clean 4K masters on commission',
+    link: '',
+    items: [
+      {
+        src: 'previews/stock-video/01_scientist_tesla_coils.jpg',
+        videoSrc: 'previews/stock-video/01_scientist_tesla_coils.mp4',
+        title: t('High-Voltage Tesla Induction Laboratory', 'Лаборатория высоковольтной индукции и катушек Тесла'),
+        duration: '00:15',
+      },
+      {
+        src: 'previews/stock-video/02_scientist_chamber_inspection.jpg',
+        videoSrc: 'previews/stock-video/02_scientist_chamber_inspection.mp4',
+        title: t('Scientist Inspection & Pressure Gauge Calibration', 'Инспекция исследовательской камеры и калибровка учёным'),
+        duration: '00:14',
+      },
+      {
+        src: 'previews/stock-video/03_senior_physicist_calibration.jpg',
+        videoSrc: 'previews/stock-video/03_senior_physicist_calibration.mp4',
+        title: t('Senior Physicist Acoustic & Sensor Calibration', 'Калибровка прецизионных датчиков старшим физиком'),
+        duration: '00:13',
+      },
+      {
+        src: 'previews/stock-video/04_laser_interferometer_lab.jpg',
+        videoSrc: 'previews/stock-video/04_laser_interferometer_lab.mp4',
+        title: t('Optical Laser Interferometer Bench Alignment', 'Юстировка оптического лазерного интерферометра'),
+        duration: '00:13',
+      },
+      {
+        src: 'previews/stock-video/05_superconducting_accelerator.jpg',
+        videoSrc: 'previews/stock-video/05_superconducting_accelerator.mp4',
+        title: t('Superconducting Solenoid Accelerator Beamline', 'Сверхпроводящий соленоидный ускорительный канал'),
+        duration: '00:13',
+      },
+      {
+        src: 'previews/stock-video/06_acoustic_levitation_trap.jpg',
+        videoSrc: 'previews/stock-video/06_acoustic_levitation_trap.mp4',
+        title: t('Ultrasonic Acoustic Particle Levitation Trap', 'Ультразвуковая акустическая левитационная ловушка частиц'),
+        duration: '00:12',
+      },
+      {
+        src: 'previews/stock-video/07_turbine_pressure_physics.jpg',
+        videoSrc: 'previews/stock-video/07_turbine_pressure_physics.mp4',
+        title: t('Aerodynamics Turbine & Laminar Smoke Bench', 'Аэродинамическая турбина и стенд с ламинарным дымом'),
+        duration: '00:08',
+      },
+      {
+        src: 'previews/stock-video/08_high_voltage_capacitor.jpg',
+        videoSrc: 'previews/stock-video/08_high_voltage_capacitor.mp4',
+        title: t('Pulse Power Capacitor Bank & Analog Dial Gauges', 'Импульсная батарея конденсаторов и стрелочные приборы'),
+        duration: '00:12',
+      },
+      {
+        src: 'previews/stock-video/09_electromagnetic_dynamo.jpg',
+        videoSrc: 'previews/stock-video/09_electromagnetic_dynamo.mp4',
+        title: t('Electromagnetic Dynamo & Chronometer Bench', 'Электромагнитная динамо-машина и хронометр'),
+        duration: '00:14',
+      },
+      {
+        src: 'previews/stock-video/10_ocean_rocket_launch.jpg',
+        videoSrc: 'previews/stock-video/10_ocean_rocket_launch.mp4',
+        title: t('Offshore Marine Launch Platform Rocket Plume', 'Морская стартовая платформа и запуск ракеты'),
+        duration: '00:15',
+      },
     ],
   },
 ]

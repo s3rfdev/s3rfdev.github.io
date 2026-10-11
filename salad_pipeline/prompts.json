@@ -1,0 +1,1105 @@
+{
+  "version": "1.0",
+  "meta": {
+    "engine": "Flux.1 Schnell (X-Engine draft) -> RealESRGAN/UltraSharp 4K Upscaler",
+    "draft_resolution": {
+      "width": 1280,
+      "height": 720
+    },
+    "target_upscale": {
+      "width": 3840,
+      "height": 2160
+    },
+    "total_themes": 6,
+    "prompts_per_theme": 21,
+    "total_prompts": 126
+  },
+  "themes": [
+    {
+      "id": "bionic-architecture",
+      "name": {
+        "en": "Bionic & Parametric Architecture",
+        "ru": "Бионическая и параметрическая архитектура"
+      },
+      "description": {
+        "en": "Futuristic organic buildings, curving concrete atriums, biophilic integration, and monumental glass volumes.",
+        "ru": "Футуристичные органические здания, криволинейные бетонные атриумы, вертикальные сады и монументальные стеклянные объемы."
+      },
+      "prompts": [
+        {
+          "id": "arch_01",
+          "title": "Titanium Curved Monolith Atrium",
+          "shot_type": "wide interior",
+          "copy_space": true,
+          "prompt": "Architectural interior photograph of a massive futuristic parametric museum atrium, soaring continuous double-curved walls made of smooth matte titanium panels and white micro-cement, dramatic skylight casting soft diagonal daylight beams, clean reflection on polished terrazzo flooring, Hasselblad H6D-100c, 24mm wide angle lens, clean negative space on the left third for copy space, elegant minimalist brutalism, hyperrealistic textures, 8k",
+          "negative_prompt": "blurry, distorted geometry, cartoon, oversaturated, people, messy details, low resolution"
+        },
+        {
+          "id": "arch_02",
+          "title": "Biophilic Vertical Forest Tower",
+          "shot_type": "exterior low angle",
+          "copy_space": false,
+          "prompt": "Low angle architectural photograph looking up at a towering futuristic organic skyscraper with cantilevered curved balconies overflowing with lush subtropical vegetation and hanging ferns, sculptural parametric white concrete ribs, golden hour sunlight glancing off bronze-tinted glass panels, Phase One IQ4 150MP, 35mm lens, crisp architectural focus, hyper-detailed foliage, atmospheric aerial haze, 8k",
+          "negative_prompt": "cgi look, artificial plants, bad proportions, blurry, noisy, low resolution"
+        },
+        {
+          "id": "arch_03",
+          "title": "Helical Spiral Concrete Staircase",
+          "shot_type": "central interior",
+          "copy_space": true,
+          "prompt": "High-end architectural photography of a monolithic free-standing spiral staircase made of seamless cast raw concrete, rising through a multi-story minimalist gallery, overhead circular oculus skylight illuminating the smooth curved underbelly of the steps, raking side lighting, large minimalist grey wall on the right for clean copy space, Leica SL2, 50mm Summilux lens, f/5.6, architectural mastery, 8k",
+          "negative_prompt": "railings distorted, messy background, oversaturated, blurry, bad anatomy"
+        },
+        {
+          "id": "arch_04",
+          "title": "Parametric Waterfront Cultural Pavilion",
+          "shot_type": "wide exterior dusk",
+          "copy_space": true,
+          "prompt": "Cinematic wide architectural dusk photograph of a low-slung aerodynamic cultural pavilion on a calm coastal lagoon, flowing undulating roofline resembling stingray wings clad in iridescent zinc shingles, warm glowing interior lights visible through floor-to-ceiling glass, mirror-like water reflection, dark twilight sky with vast clean negative space above, Sony A7R V, 28mm, f/8, 8k",
+          "negative_prompt": "boats, clutter, bright saturated cartoon sky, noisy, pixelated"
+        },
+        {
+          "id": "arch_05",
+          "title": "Timber Lamella Parametric Vault",
+          "shot_type": "interior perspective",
+          "copy_space": false,
+          "prompt": "Interior architectural photograph inside a monumental eco-terminal hall with an intricate reciprocal timber grid shell ceiling made of curved laminated glulam oak, dappled afternoon sunlight filtering through geometric glass apertures, polished light granite floor, warm natural atmosphere, Phase One 150MP, 40mm tilt-shift lens, ultra-sharp craftsmanship detail, 8k",
+          "negative_prompt": "deformed beams, chaotic lines, blur, cartoon, flat lighting"
+        },
+        {
+          "id": "arch_06",
+          "title": "Desert Dune Research Institute",
+          "shot_type": "wide establishing desert",
+          "copy_space": true,
+          "prompt": "Establishing photograph of an aerodynamic desert research station nestled seamlessly into red sand dunes, sweeping aerodynamic rammed-earth curved walls with integrated solar glazing, minimalist oasis pond in foreground reflecting the structure, warm golden hour sun, vast pristine sky providing ample clean copy space on the right, Hasselblad H6D-100c, 50mm, 8k",
+          "negative_prompt": "tracks, vehicles, debris, oversaturated, blurry, low res"
+        },
+        {
+          "id": "arch_07",
+          "title": "Geometric Facade Tessellation Macro",
+          "shot_type": "architectural detail",
+          "copy_space": false,
+          "prompt": "Macro architectural photograph of a futuristic facade facade junction, hexagonal perforated white composite panels meeting curved dark titanium mullions with razor-thin silicone gaskets, crisp afternoon shadows revealing geometric depth and satin surface sheen, 90mm macro lens, f/8, studio-grade sharpness, tactile industrial realism, 8k",
+          "negative_prompt": "crooked seams, paint peeling, dirt, artifacts, blur"
+        },
+        {
+          "id": "arch_08",
+          "title": "Cantilevered Glass Observation Deck",
+          "shot_type": "exterior side angle",
+          "copy_space": true,
+          "prompt": "Side perspective photograph of a daring monolithic concrete cantilever jutting out over a dramatic foggy mountain ravine, seamless frameless structural glass balustrade, morning alpine mist swirling below, clean negative mist-filled space on top, architectural digest style, Canon EOS R5, 35mm f/4, professional color grading, 8k",
+          "negative_prompt": "crowds, safety nets, tourist clutter, oversaturated, fake fog"
+        },
+        {
+          "id": "arch_09",
+          "title": "Minimalist Travertine Courtyard Arc",
+          "shot_type": "medium architectural",
+          "copy_space": true,
+          "prompt": "Minimalist architectural photograph of a tranquil inner courtyard, high curving wall of cross-cut Roman travertine with natural porous texture, solitary sculpted bonsai pine in circular gravel bed, razor-sharp geometric shadow cast by midday sun, clean travertine wall area left for typography, Leica Q3, 28mm, f/5.6, zen serenity, 8k",
+          "negative_prompt": "weeds, dirty stone, blurry, distorted angles, plastic look"
+        },
+        {
+          "id": "arch_10",
+          "title": "Futuristic Alpine Observatory",
+          "shot_type": "wide mountain sunset",
+          "copy_space": false,
+          "prompt": "Cinematic wide photograph of an aerodynamic astronomical observatory perched on a snowy mountain summit, spherical polished stainless steel dome smoothly integrated into white concrete bedrock, dramatic sunset pink and purple alpenglow on jagged snow peaks, Hasselblad 100c, 35mm, crisp atmospheric clarity, 8k",
+          "negative_prompt": "antennas everywhere, wires, power poles, cartoon snow"
+        },
+        {
+          "id": "arch_11",
+          "title": "Curvilinear High-Tech Library Atrium",
+          "shot_type": "interior eye-level",
+          "copy_space": false,
+          "prompt": "Eye-level interior photograph of a futuristic multi-tiered public library, undulating white bookshelves integrated into sweeping organic balconies that loop like topography contours, warm LED linear grazing light beneath each tier, quiet atmosphere, Phase One IQ4, 24mm, pristine geometry, architectural masterpiece, 8k",
+          "negative_prompt": "messy books on floor, disorganized, cartoon, distorted faces"
+        },
+        {
+          "id": "arch_12",
+          "title": "Perforated Metal Kinetic Facade",
+          "shot_type": "detail angle",
+          "copy_space": true,
+          "prompt": "Close-up architectural photograph of an intelligent adaptive facade, thousands of angled champagne-gold anodized aluminum louvers catching morning light at varying angles, creating an organic wave pattern across the building skin, clean solid blue sky in top third for text, Hasselblad, 85mm, razor-sharp metallic highlights, 8k",
+          "negative_prompt": "dents, corrosion, misalignment, blurred edges"
+        },
+        {
+          "id": "arch_13",
+          "title": "Subterranean Concrete Auditorium",
+          "shot_type": "interior symmetry",
+          "copy_space": true,
+          "prompt": "Symmetrical architectural photograph inside a subterranean ceremonial hall, monolithic fluted concrete pillars arching into vaulted rib ceiling, single central skylight illuminating a dark granite dais, deep moody cinematic shadows, clean dark copy space across the bottom half, Arri Alexa Mini LF photographic capture, 35mm, f/4, 8k",
+          "negative_prompt": "stage clutter, cables, microphones, bright colored spots"
+        },
+        {
+          "id": "arch_14",
+          "title": "Organic Glass Canopy Drop Point",
+          "shot_type": "exterior perspective",
+          "copy_space": false,
+          "prompt": "Photograph of an immense organic structural glass canopy over a luxury hotel porte-cochère, sweeping curved steel space frame supporting diamond-pattern double-glazed panels, warm recessed ambient downlights reflecting on wet black asphalt, dusk ambiance, Leica SL2, 28mm, f/2.8, 8k",
+          "negative_prompt": "cars, valets, luggage, blurry glass, distortion"
+        },
+        {
+          "id": "arch_15",
+          "title": "Monolithic Brutalist Cantilever Bridge",
+          "shot_type": "wide low angle",
+          "copy_space": true,
+          "prompt": "Architectural low-angle view of a colossal post-tensioned concrete footbridge linking two monolithic glass towers, dramatic linear board-marked concrete grain, overcast diffuse Nordic sky filling the background for generous copy space, Hasselblad H6D, 35mm, f/8, crisp textural depth, 8k",
+          "negative_prompt": "graffiti, cracks, people, blurry texture"
+        },
+        {
+          "id": "arch_16",
+          "title": "Curved Glass Courtyard Garden Atrium",
+          "shot_type": "wide interior",
+          "copy_space": false,
+          "prompt": "Interior architectural photograph of a central biophilic courtyard encased in seamless curved structural glass, mature Japanese maple tree in moss mound surrounded by minimalist dark slate water moat, diffuse daylight through matte white roof fins, Phase One 150MP, 35mm, tranquil luxury, 8k",
+          "negative_prompt": "dirty glass, weeds, oversaturated greenery, plastic look"
+        },
+        {
+          "id": "arch_17",
+          "title": "Parametric Concrete Canopy Underside",
+          "shot_type": "upward perspective",
+          "copy_space": true,
+          "prompt": "Looking directly upward at the sculpted underbelly of a massive civic canopy, flowing cellular voids formed by parametric algorithmic geometry, morning sun casting sharp graphic lattice shadows onto a smooth polished concrete plaza below, clean plaza ground for copy space, Leica 24mm, f/8, 8k",
+          "negative_prompt": "birds, debris, irregular distorted holes, noise"
+        },
+        {
+          "id": "arch_18",
+          "title": "Minimalist High-Tech Villa Facade",
+          "shot_type": "exterior dusk",
+          "copy_space": true,
+          "prompt": "Frontal architectural photograph of a luxury private villa at twilight, crisp horizontal volume of charred shou sugi ban cedar resting over floor-to-ceiling illuminated glass box, minimalist reflection pool in foreground, clean dark twilight gradient sky above for text, Sony A7R V, 50mm, f/5.6, architectural digest cover style, 8k",
+          "negative_prompt": "furniture mess, reflections of cameras, artifacts, blur"
+        },
+        {
+          "id": "arch_19",
+          "title": "Sculptural Concrete Oculus Dome",
+          "shot_type": "interior vertical",
+          "copy_space": true,
+          "prompt": "Vertical architectural photograph looking up through a cylindrical concrete rotunda with a conical spiral oculus at the summit, shaft of volumetric dust-mote sunlight cutting through cool ambient interior shadows, smooth formwork tie-holes in rhythmic alignment, ample dark shadow copy space on both sides, Hasselblad, 28mm, 8k",
+          "negative_prompt": "rough dirty concrete, cracks, light leaks, blown out highlights"
+        },
+        {
+          "id": "arch_20",
+          "title": "Futuristic Airport Terminal Spine",
+          "shot_type": "interior leading lines",
+          "copy_space": false,
+          "prompt": "One-point perspective photograph along the central arterial corridor of an ultra-modern transportation hub, continuous rib-like white steel arches tapering toward infinity, terrazzo floor with high-gloss reflection, soft diffused daylighting, cinematic architectural symmetry, Phase One IQ4, 35mm, f/8, pristine cleanliness, 8k",
+          "negative_prompt": "luggage carts, crowded travelers, blur, lens flare"
+        },
+        {
+          "id": "arch_21",
+          "title": "Aerodynamic Rooftop Penthouse Pod",
+          "shot_type": "exterior golden hour",
+          "copy_space": true,
+          "prompt": "Exterior architectural view of an aerodynamic oval living pavilion mounted atop a historic stone roof, seamless curved white carbon-fiber shell with frameless panoramic curved glazing, sunset reflections of city skyline on the glass, clean pale golden sky in background for headline copy space, Leica SL2, 50mm, f/4, 8k",
+          "negative_prompt": "air conditioners, pipes, bird mess, low resolution"
+        }
+      ]
+    },
+    {
+      "id": "silicon-cleanrooms",
+      "name": {
+        "en": "Silicon Cleanrooms & High-Tech Hardware",
+        "ru": "High-Tech & Кремниевая чистая микроэлектроника"
+      },
+      "description": {
+        "en": "Extreme cleanrooms, robotic wafer handling, lithography yellow light, dilution refrigerators, and semiconductor manufacturing.",
+        "ru": "Чистые комнаты класса ISO-1, роботизированная манипуляция кремниевыми пластинами, литографический свет и квантовые криостаты."
+      },
+      "prompts": [
+        {
+          "id": "semi_01",
+          "title": "300mm Silicon Wafer in Robotic End-Effector",
+          "shot_type": "macro focal",
+          "copy_space": true,
+          "prompt": "Commercial technological photograph of a flawless mirror-polished 300mm monocrystalline silicon semiconductor wafer held by precision ceramic vacuum robotic end-effector fingers, intricate microscopic microchip circuit dies reflecting brilliant rainbow thin-film prismatic iridescence, pristine dark ISO-1 cleanroom background, clean dark copy space on the right, Phase One IQ4 150MP, 90mm macro lens, f/8, tack sharp, 8k",
+          "negative_prompt": "dust particles, fingerprints, scratches, blurry circuits, cartoon, oversaturated"
+        },
+        {
+          "id": "semi_02",
+          "title": "Photolithography Bay in Monochromatic Amber Light",
+          "shot_type": "wide perspective cleanroom",
+          "copy_space": false,
+          "prompt": "Wide perspective photograph inside an extreme ultraviolet (EUV) photolithography fab cleanroom, bathed in uniform monochromatic amber yellow safety illumination, stainless steel and mirror-finish equipment housings, overhead automated wafer transport tracks (FOUPs) suspended from ceiling, glossy conductive vinyl floor, Leica SL2, 24mm, f/5.6, hyper-sterile industrial perfection, 8k",
+          "negative_prompt": "clutter, dirty floor, exposed wires, blurry, cartoon"
+        },
+        {
+          "id": "semi_03",
+          "title": "Quantum Computer Dilution Refrigerator Rig",
+          "shot_type": "monumental central",
+          "copy_space": true,
+          "prompt": "Central photograph of a suspended quantum computing dilution refrigerator chandelier, tiered cylindrical plates made of polished gold-plated copper and oxygen-free copper, intricate braided coaxial cryogenic cabling descending in perfect symmetry, matte black sound-dampened laboratory room, dark clean copy space along the left and top, Hasselblad H6D-100c, 50mm, f/5.6, scientific glamour lighting, 8k",
+          "negative_prompt": "messy cables, rust, dust, fingerprints, low res, blur"
+        },
+        {
+          "id": "semi_04",
+          "title": "Silicon Ingot Crystal Boule Cross-Section",
+          "shot_type": "macro detail",
+          "copy_space": false,
+          "prompt": "Macro photograph of a freshly sliced Czochralski monocrystalline silicon boule cylinder, micro-grooved concentric surface rings from diamond wire sawing, razor-sharp edge bevel, resting on a brushed titanium v-block, dramatic studio rim lighting accentuating crystalline purity, 100mm macro lens, f/11, ultra-fine material texture, 8k",
+          "negative_prompt": "chips, cracks, dirty grease, blur, chromatic aberration"
+        },
+        {
+          "id": "semi_05",
+          "title": "Automated Wafer FOUP Pod Docking Station",
+          "shot_type": "industrial tech medium",
+          "copy_space": true,
+          "prompt": "Clean industrial photograph of an automated Front Opening Unified Pod (FOUP) semiconductor transport carrier docking into a vacuum load lock interface, polycarbonate smoky chassis with precision stainless latches, cyan status indicator LED glowing softly, clean dark metallic copy space on top half, Canon EOS R5, 50mm f/4, editorial tech photography, 8k",
+          "negative_prompt": "broken plastic, smudges, messy room, oversaturated"
+        },
+        {
+          "id": "semi_06",
+          "title": "High-Density BGA Chip Interposer Macro",
+          "shot_type": "extreme macro",
+          "copy_space": false,
+          "prompt": "Extreme macro photograph of an advanced AI accelerator packaging interposer, thousands of gold microscopic micro-bumps and TSV vias lined up in mathematical precision on dark green substrate, grazing specular light creating crisp pinpoint reflections, 105mm macro, f/8, focus-stacked depth of field, National Geographic science quality, 8k",
+          "negative_prompt": "solder bridges, flux residue, blurred pins, low resolution"
+        },
+        {
+          "id": "semi_07",
+          "title": "Ultra-High Vacuum Chamber Port View",
+          "shot_type": "scientific detail",
+          "copy_space": true,
+          "prompt": "Close-up photograph looking through a fused quartz view-port window into a stainless steel ultra-high vacuum chamber, deep plasma violet glow illuminating molecular beam epitaxy deposition head inside, heavy CF-flange bolts in sharp foreground focus, dark laboratory periphery providing copy space, Hasselblad, 80mm, f/4, 8k",
+          "negative_prompt": "scratched glass, oil stains, blurry, cgi flare"
+        },
+        {
+          "id": "semi_08",
+          "title": "Sub-Nanometer Optical Lens Assembly",
+          "shot_type": "macro optics",
+          "copy_space": false,
+          "prompt": "Studio photograph of a monumental precision lithography projection lens optic, massive thick spherical element of ultra-pure synthetic fused silica with multi-layer green and magenta anti-reflective coatings, mounted in invar barrel housing, crisp reflections of cleanroom ceiling grid, Phase One 150MP, 70mm, pristine optical clarity, 8k",
+          "negative_prompt": "dust motes, scratches, fogged glass, distortion"
+        },
+        {
+          "id": "semi_09",
+          "title": "Wafer Prober Needle Card Testing",
+          "shot_type": "close-up technology",
+          "copy_space": true,
+          "prompt": "High-tech photograph of an automated wafer prober head, hundreds of microscopic tungsten-rhenium cantilever needles contacting test pads of an illuminated silicon die, blue laser alignment beam pinpointing center, clean dark out-of-focus background for headline copy space, Nikon Z9, 85mm micro, f/5.6, technical perfection, 8k",
+          "negative_prompt": "bent needles, burnt silicon, blur, noise"
+        },
+        {
+          "id": "semi_10",
+          "title": "Semiconductor Fab Automated Transport Bay",
+          "shot_type": "wide perspective fab",
+          "copy_space": true,
+          "prompt": "Expansive view down the central aisle of a modern automated 300mm wafer foundry, ceiling-mounted monorail OHT tracks with sleek motorized transport pods moving silently in motion blur, pristine white perforated floor tiles, rows of sealed tool bays, large clean ceiling space for typography, Leica SL2, 28mm, f/8, 8k",
+          "negative_prompt": "people, dirt, clutter, chaotic lines, low res"
+        },
+        {
+          "id": "semi_11",
+          "title": "Gold Bonding Wires on Silicon Die",
+          "shot_type": "extreme macro electronic",
+          "copy_space": false,
+          "prompt": "Microscopic detail photograph of 25-micron pure gold wire bonds looping gracefully from a silicon microchip die edge to ceramic package leadframe, crescent bond welds in sharp relief, matte black semiconductor potting background, specialized macro lighting, f/11, micro-engineering marvel, 8k",
+          "negative_prompt": "broken wires, messy solder, blur, pixelated"
+        },
+        {
+          "id": "semi_12",
+          "title": "Cryogenic Quantum Chip Mount",
+          "shot_type": "detail scientific",
+          "copy_space": true,
+          "prompt": "Photograph of a quantum processing unit (QPU) mounted in gold-plated oxygen-free copper enclosure at the cold finger base of a cryostat, superconducting niobium coaxial lines feeding into RF shield, soft specular gold sheen, clean dark space on the right third for text, Hasselblad, 90mm macro, f/8, 8k",
+          "negative_prompt": "scratches, tarnish, fingerprints, blurry, cartoon"
+        },
+        {
+          "id": "semi_13",
+          "title": "Silicon Wafer Rainbow Dispersion on Black",
+          "shot_type": "flat lay minimal",
+          "copy_space": true,
+          "prompt": "Minimalist top-down flat lay photograph of a single 300mm patterned silicon wafer resting off-center on a slab of matte honed black obsidian stone, single directional light beam creating a brilliant spectrum of diffraction grating rainbow colors across the microchip dies, generous deep black copy space on two-thirds of frame, Phase One, 80mm, f/8, 8k",
+          "negative_prompt": "fingerprints, tilted, messy reflections, dust"
+        },
+        {
+          "id": "semi_14",
+          "title": "Fiber Optic Laser Routing Manifold",
+          "shot_type": "macro industrial",
+          "copy_space": false,
+          "prompt": "Close-up macro of an optical routing array inside a telecommunications quantum key distribution rack, hundreds of yellow and teal armored fiber patch cables organized with zero-tolerance precision into anodized comb guides, subtle core light glows, 50mm macro, f/5.6, hyper-clean cabling porn, 8k",
+          "negative_prompt": "tangled cables, dust, dirt, loose connectors"
+        },
+        {
+          "id": "semi_15",
+          "title": "Stainless Steel Cleanroom Air Shower Corridor",
+          "shot_type": "architectural tech interior",
+          "copy_space": true,
+          "prompt": "Perspective photograph looking down a sterile air-shower entry vestibule, mirror-finished 316L stainless steel wall panels with circular high-velocity HEPA nozzle jets in aligned arrays, bright continuous ceiling light strip, clean reflective floor, left half offering clean stainless wall copy space, Leica SL2, 24mm, 8k",
+          "negative_prompt": "people, clothes, stains on metal, distortion"
+        },
+        {
+          "id": "semi_16",
+          "title": "Extreme UV Collector Mirror Surface",
+          "shot_type": "macro optics",
+          "copy_space": false,
+          "prompt": "Studio photograph of a concave multilayer EUV collector mirror segment, molybdenum and silicon nanolayers creating an ethereal blue-shifted specular sheen on parabolic surface, mounted on aerospace titanium flexure mounts, dramatic low-key studio lighting, Hasselblad 100c, 100mm macro, f/8, 8k",
+          "negative_prompt": "scratches, dust, fingerprints, cloudy reflection"
+        },
+        {
+          "id": "semi_17",
+          "title": "Superconducting Solenoid Magnet Core",
+          "shot_type": "industrial science",
+          "copy_space": true,
+          "prompt": "Frontal view into the bore of a high-field superconducting magnetic solenoid, multi-strand niobium-titanium copper-stabilized coil windings wrapped with translucent kapton tape, stainless cryogenic jacket with vacuum ports, clean technical space across upper third for layout, Phase One, 50mm, f/8, 8k",
+          "negative_prompt": "rough winding, torn tape, dirty oil, blur"
+        },
+        {
+          "id": "semi_18",
+          "title": "Microfluidic Lab-on-a-Chip Glass Module",
+          "shot_type": "macro biomedical tech",
+          "copy_space": true,
+          "prompt": "Macro photograph of a clear polydimethylsiloxane (PDMS) and quartz microfluidic biochip, hair-thin branching microchannels filled with luminescent cyan and amber dye solutions under blue darkfield illumination, held gently by anodized stage clip, soft black copy space surrounding, Canon 100mm macro, f/5.6, 8k",
+          "negative_prompt": "bubbles in channel, leaky fluid, scratches, dust"
+        },
+        {
+          "id": "semi_19",
+          "title": "Chemical Vapor Deposition Glow Chamber",
+          "shot_type": "scientific reaction",
+          "copy_space": false,
+          "prompt": "Photograph of a plasma-enhanced chemical vapor deposition (PECVD) chamber active during graphene growth, glowing turquoise argon and methane plasma discharge hovering between heated graphite susceptor plates, viewed through quartz sight glass, high dynamic range, Sony A7R V, 70mm, 8k",
+          "negative_prompt": "blown highlights, lens flare artifacts, blurry, cgi look"
+        },
+        {
+          "id": "semi_20",
+          "title": "Laser Micromachining Nozzle in Action",
+          "shot_type": "action macro tech",
+          "copy_space": true,
+          "prompt": "High-speed macro photograph of a femtosecond ultraviolet laser cutting head micromachining a silicon wafer, needle-thin violet laser spark at focal point with microscopic vapor plume, coaxial nitrogen assist gas nozzle in sharp chrome focus, dark surrounding workspace for clean typography, 90mm macro, 8k",
+          "negative_prompt": "excessive sparks, fire, blurred nozzle, oversaturated"
+        },
+        {
+          "id": "semi_21",
+          "title": "Gold-Plated RF Shielded Enclosure Grid",
+          "shot_type": "abstract tech surface",
+          "copy_space": true,
+          "prompt": "Raking macro photograph across the surface of a honeycomb RF attenuation grille milled from a solid billet of tellurium copper and plated in 24k gold, microscopic ventilation perforations creating a moiré pattern in shallow depth of field, wide clean out-of-focus background for copy space, Leica 75mm, f/4, 8k",
+          "negative_prompt": "scratches, uneven plating, dust, low resolution"
+        }
+      ]
+    },
+    {
+      "id": "luxury-macro-materials",
+      "name": {
+        "en": "Luxury Tactile Materials & Caustics",
+        "ru": "Премиальные тактильные макро-материалы и каустика"
+      },
+      "description": {
+        "en": "High-end product backgrounds, crystal caustics, anodized metals, cosmetics hydrogels, and layered carbon fiber.",
+        "ru": "Текстуры и фоны премиум-класса: преломление света в оптическом стекле, анодированный алюминий, гидрогели и карбон под эпоксидной смолой."
+      },
+      "prompts": [
+        {
+          "id": "mat_01",
+          "title": "Optical Glass Prism Caustic Dispersion",
+          "shot_type": "macro studio abstract",
+          "copy_space": true,
+          "prompt": "High-end studio still-life photograph of a heavy geometric block of optical grade K9 crystal glass resting on a seamless matte stone surface, pure white directional morning sunlight refracting through the bevel to cast a delicate, intricate caustic rainbow flare spectrum across the smooth backdrop, vast clean minimalist space for editorial typography, Hasselblad H6D-100c, 100mm macro, f/5.6, pristine luxury aesthetic, 8k",
+          "negative_prompt": "fingerprints, scratches, dust motes, cartoon, dirty surface, blurry"
+        },
+        {
+          "id": "mat_02",
+          "title": "Anodized Titanium Surface with Micro Droplets",
+          "shot_type": "extreme macro texture",
+          "copy_space": false,
+          "prompt": "Extreme macro photograph of space-gray bead-blasted anodized titanium surface, razor-sharp CNC milled micro-chamfer edge running diagonally, scattered microscopic condensation water droplets with high surface tension reflecting crisp studio softboxes, Phase One IQ4 150MP, 120mm macro, f/8, tactile industrial perfection, 8k",
+          "negative_prompt": "dents, fingerprints, blurry droplets, pixelation, chromatic aberration"
+        },
+        {
+          "id": "mat_03",
+          "title": "Cosmetic Serum Droplet on Frosted Acrylic",
+          "shot_type": "macro beauty luxury",
+          "copy_space": true,
+          "prompt": "Luxury commercial beauty photograph of a single viscous crystal-clear hyaluronic acid serum droplet resting on frosted semi-translucent cast acrylic, tiny suspended micro-air bubbles visible inside the droplet, soft pastel peach and warm ecru studio gradient background with generous clean negative space for brand logo, Leica SL2, 90mm macro, f/4, 8k",
+          "negative_prompt": "dirty smudges, hair, bubbles on glass, oversaturated, cartoon"
+        },
+        {
+          "id": "mat_04",
+          "title": "2x2 Twill Weave Carbon Fiber in Clear Resin",
+          "shot_type": "macro material",
+          "copy_space": false,
+          "prompt": "Close-up photograph of aerospace-grade 3K 2x2 twill carbon fiber composite sealed beneath a deep, glass-smooth layer of high-gloss clear epoxy resin, linear specular reflection highlighting the three-dimensional holographic weave depth, 100mm macro lens, f/8, tack sharp structural weave, 8k",
+          "negative_prompt": "bubbles in resin, uneven weave, frayed fibers, scratches"
+        },
+        {
+          "id": "mat_05",
+          "title": "Suspended Liquid Gold in Viscous Fluid",
+          "shot_type": "fluid dynamic macro",
+          "copy_space": true,
+          "prompt": "High-speed macro photograph of molten liquid 24k gold droplets and ribbons suspended weightlessly inside clear viscous mineral oil, metallic luster and mirror reflections against a deep dark charcoal studio background, generous clean dark negative space across the left side for copy space, Hasselblad 100c, f/8, 8k",
+          "negative_prompt": "yellow paint look, flat, grainy, noisy, messy splatter"
+        },
+        {
+          "id": "mat_06",
+          "title": "Chiseled Nero Marquina Black Marble Grain",
+          "shot_type": "surface texture",
+          "copy_space": true,
+          "prompt": "Top-down commercial texture photograph of honed Nero Marquina black marble, deep midnight black stone interlaced with delicate, razor-thin organic white calcite veins, silky satin matte finish with subtle raking side light, ample clean black stone areas for text placement, Phase One 150MP, 80mm, f/11, architectural grade, 8k",
+          "negative_prompt": "cracks, dust, synthetic look, blurry veins, high gloss glare"
+        },
+        {
+          "id": "mat_07",
+          "title": "Champagne Metallic Silk Fluid Folds",
+          "shot_type": "abstract textile macro",
+          "copy_space": true,
+          "prompt": "Editorial studio photograph of heavy liquid silk fabric in pale champagne and platinum tones, sculptural fluid undulating folds frozen in soft motion, luminous satin sheen catching diffuse directional light, gentle gradient shadow providing elegant copy space across the upper quadrant, Canon EOS R5, 85mm, f/4, 8k",
+          "negative_prompt": "wrinkles, frayed threads, plastic texture, harsh shadows"
+        },
+        {
+          "id": "mat_08",
+          "title": "Frosted Fluted Architectural Glass Refraction",
+          "shot_type": "macro optical texture",
+          "copy_space": false,
+          "prompt": "Macro photograph looking through vertical fluted ribbed architectural reeded glass, warm amber and cool cyan light sources softly blurred and distorted into rhythmic vertical luminous bands behind the textured ridges, tactile glassware craftsmanship, Leica Q3, 50mm, f/2.8, 8k",
+          "negative_prompt": "dirty glass, chips, jagged edges, flat lighting"
+        },
+        {
+          "id": "mat_09",
+          "title": "Brushed Rose Gold Micro-Bevel Texture",
+          "shot_type": "macro luxury metal",
+          "copy_space": true,
+          "prompt": "Extreme close-up photograph of linear brushed rose gold metal surface, perfectly parallel hairline brushing grain, crisp 45-degree mirror-polished diamond-cut chamfer edge gleaming with warm specular highlight, dark moody background providing ample copy space, 100mm macro, f/8, 8k",
+          "negative_prompt": "tarnish, scratches, fingerprints, uneven brushing, blur"
+        },
+        {
+          "id": "mat_10",
+          "title": "Iridescent Soap Film Interference Patterns",
+          "shot_type": "scientific abstract macro",
+          "copy_space": false,
+          "prompt": "Macro photograph of a thin liquid film interference membrane, swirling psychedelic organic contours of magenta, turquoise, gold, and deep violet caused by light wavelength phase shift, dark liquid border, tack sharp fluid boundary, Phase One, 120mm macro, f/11, natural physics wonder, 8k",
+          "negative_prompt": "digital noise, cgi gradient, pixelated, blurry"
+        },
+        {
+          "id": "mat_11",
+          "title": "Charred Yakisugi Cedar Grain Texture",
+          "shot_type": "tactile wood macro",
+          "copy_space": true,
+          "prompt": "Macro photograph of traditional Japanese Shou Sugi Ban charred cedar wood, deep alligator-scale blackened charcoal texture with satin carbon sheen, subtle warm undertone in deep crevices, horizontal grazing light accentuating relief, generous clean dark texture for luxury packaging background, Hasselblad, 90mm, f/8, 8k",
+          "negative_prompt": "ash dust, unburnt raw wood, blurry, flat contrast"
+        },
+        {
+          "id": "mat_12",
+          "title": "Solid Quartz Crystal Monolith with Inclusions",
+          "shot_type": "gemology mineral macro",
+          "copy_space": true,
+          "prompt": "Still life photograph of a raw hexagonal natural smoky quartz crystal obelisk, polished termination facet reflecting studio softbox, interior golden rutile needle inclusions frozen in time, resting on neutral warm gray linen with clean open space on the right, Leica SL2, 75mm, f/5.6, 8k",
+          "negative_prompt": "plastic look, fake glitter, scratches, dust motes"
+        },
+        {
+          "id": "mat_13",
+          "title": "Water Droplet Concentric Ripple on Dark Ink",
+          "shot_type": "high-speed fluid",
+          "copy_space": true,
+          "prompt": "High-speed photograph of a single water droplet hitting a mirror-smooth pool of deep indigo ink, perfectly formed concentric circular ripple waves expanding outward in immaculate geometry, silken water tension, soft rim light, clean dark perimeter for copy space, Sony A7R V, 90mm macro, 1/8000s, 8k",
+          "negative_prompt": "messy splash, bubbles, dust on water, noisy"
+        },
+        {
+          "id": "mat_14",
+          "title": "Perforated Ceramic Acoustic Foam Texture",
+          "shot_type": "architectural material macro",
+          "copy_space": false,
+          "prompt": "Macro photograph of porous white acoustic sintered ceramic material, microscopic sponge-like cellular bone structure, soft directional daylight raking across the surface revealing depth and tactile matte purity, Phase One IQ4, 100mm macro, f/8, pristine minimalism, 8k",
+          "negative_prompt": "dirty stains, broken chunks, blur, low contrast"
+        },
+        {
+          "id": "mat_15",
+          "title": "Bismuth Crystal Iridescent Step Pyramid",
+          "shot_type": "macro crystal metallic",
+          "copy_space": true,
+          "prompt": "Macro photograph of an immaculate lab-grown bismuth crystal hopper structure, geometric stepped 90-degree square terraces with vibrant natural oxidation colors of electric blue, emerald green, and gold, dark velvet studio backdrop with clean space for text, Hasselblad, 120mm macro, f/11, 8k",
+          "negative_prompt": "broken crystals, dull gray metal, blurry steps, noise"
+        },
+        {
+          "id": "mat_16",
+          "title": "Fine Leather Micro-Grain in Warm Cognac",
+          "shot_type": "luxury leather macro",
+          "copy_space": true,
+          "prompt": "Close-up commercial photograph of full-grain vegetable-tanned Italian calfskin leather in rich cognac amber tone, natural micro-pebble grain texture, subtle wax patina catching gentle grazing light, diagonal soft shadow across corner creating copy space, Canon 85mm macro, f/5.6, 8k",
+          "negative_prompt": "scratches, stains, synthetic faux leather shine, blur"
+        },
+        {
+          "id": "mat_17",
+          "title": "Molten Glass Bubble Annealing Studio",
+          "shot_type": "fluid glass macro",
+          "copy_space": false,
+          "prompt": "Artisan studio photograph of a thick spherical bubble of hot hand-blown borosilicate glass slowly cooling, glowing honey-amber center transitioning into crystal clear exterior rim, subtle heat distortion ripples frozen inside, dark studio background, Leica 90mm, f/4, 8k",
+          "negative_prompt": "cracks, ash, tongs visible, blurry, oversaturated"
+        },
+        {
+          "id": "mat_18",
+          "title": "Raw Sawn Travertine Stone Pores",
+          "shot_type": "architectural stone macro",
+          "copy_space": true,
+          "prompt": "Close-up photograph of vein-cut Navona travertine limestone slab, natural organic oblong cavities and linear beige strata, velvety unpolished matte texture, gentle morning sunlight accentuating sculptural depth, left third left open for headline typography, Phase One, 70mm, f/11, 8k",
+          "negative_prompt": "mud, stains, fake concrete look, blurred texture"
+        },
+        {
+          "id": "mat_19",
+          "title": "Liquid Mercury Droplets on Polished Slate",
+          "shot_type": "specular fluid macro",
+          "copy_space": true,
+          "prompt": "Macro photograph of spherical beads of liquid mercury resting on dark polished graphite slab, perfect metallic meniscus and mirror reflections of studio light ring, high surface tension, clean dark slate surface surrounding for clean copy space, Hasselblad 100c, 100mm macro, f/8, 8k",
+          "negative_prompt": "flat paint, dust particles, fingerprints, blurry"
+        },
+        {
+          "id": "mat_20",
+          "title": "Matte White Architectural Corian Curve",
+          "shot_type": "minimalist studio abstract",
+          "copy_space": true,
+          "prompt": "Studio abstract photograph of a continuous curved sheet of pure matte white solid surface Corian, gentle organic bend creating a soft gradient transition from crisp light to velvety shadow, vast serene white negative space for minimalist branding, Leica SL2, 50mm, f/8, architectural purity, 8k",
+          "negative_prompt": "scratches, dirt, yellowing, harsh sharp lines, noise"
+        },
+        {
+          "id": "mat_21",
+          "title": "Holographic Dichroic Glass Reflection",
+          "shot_type": "optical macro dynamic",
+          "copy_space": false,
+          "prompt": "Macro photograph of a precision dichroic coated glass wafer, shifting dynamically between fiery sunset orange in transmission and icy cyan in reflection, sharp specular highlights along beveled edge, neutral dark studio background, Sony A7R V, 90mm macro, f/5.6, 8k",
+          "negative_prompt": "fingerprints, dust, scratched coating, blur"
+        }
+      ]
+    },
+    {
+      "id": "clean-tech-energy",
+      "name": {
+        "en": "Clean Tech & Extreme Infrastructure",
+        "ru": "Clean Tech & Экстремальная энергетика"
+      },
+      "description": {
+        "en": "Offshore wind turbines, desert utility solar, geothermal stations, mega-scale battery storage, and fusion research.",
+        "ru": "Морские ветрогенераторы в открытом океане, солнечные мегаваттные поля в пустынях, геотермальные станции и BESS-аккумуляторы."
+      },
+      "prompts": [
+        {
+          "id": "energy_01",
+          "title": "Solitary Offshore Wind Turbine in Deep Ocean",
+          "shot_type": "wide aerial seascape",
+          "copy_space": true,
+          "prompt": "Aerial helicopter photograph of a solitary colossal 15-megawatt offshore wind turbine standing resolute in the deep indigo North Sea, gentle swell waves breaking into white foam around the bright yellow transition piece base, dramatic morning sun breaking through moody storm clouds, vast open sky and sea providing expansive copy space on the right, Hasselblad H6D-100c, 35mm, f/8, 8k",
+          "negative_prompt": "boats, oil rigs, plastic trash, oversaturated cartoon sky, blurry blades"
+        },
+        {
+          "id": "energy_02",
+          "title": "Desert Utility-Scale Solar Array at Blue Hour",
+          "shot_type": "wide perspective desert",
+          "copy_space": true,
+          "prompt": "Wide angle dusk photograph of a vast utility-scale photovoltaic solar farm in the Mojave desert, thousands of dark blue monocrystalline solar panels with precision tracking mounts stretching into the horizon, quiet blue hour gradient sky with glowing orange sunset horizon, clean calm sky for headline text, Phase One IQ4, 28mm, f/11, 8k",
+          "negative_prompt": "dust on lenses, broken panels, power lines in foreground, blur"
+        },
+        {
+          "id": "energy_03",
+          "title": "Geothermal Power Manifolds in Iceland Mist",
+          "shot_type": "monumental landscape tech",
+          "copy_space": false,
+          "prompt": "Atmospheric landscape photograph of an ultra-modern geothermal power station in the black volcanic basalt fields of Iceland, massive insulated stainless steel steam pipeline loops weaving organically through the terrain, towering pure white steam plumes rising into an overcast Nordic sky, Leica SL2, 35mm, f/8, National Geographic style, 8k",
+          "negative_prompt": "muddy tire tracks, trash, smog, oversaturated, blurry"
+        },
+        {
+          "id": "energy_04",
+          "title": "Utility-Scale Battery Storage Container Farm (BESS)",
+          "shot_type": "industrial tech dusk",
+          "copy_space": true,
+          "prompt": "Commercial photograph of a grid-scale lithium iron phosphate battery energy storage system (BESS), rows of sleek white weatherproof containers with minimal ventilation grilles and subtle emerald green LED status indicators, neat crushed gravel ground, twilight sky providing clean copy space above, Canon EOS R5, 35mm, f/5.6, 8k",
+          "negative_prompt": "graffiti, overgrown weeds, cables on ground, blurry"
+        },
+        {
+          "id": "energy_05",
+          "title": "Tokamak Fusion Reactor Interior Core",
+          "shot_type": "interior monumental science",
+          "copy_space": false,
+          "prompt": "Wide interior view inside an experimental magnetic confinement fusion tokamak vacuum vessel, interlocking beryllium and tungsten divertor armor tiles forming a futuristic toroidal doughnut tunnel, cryogenic ports and diagnostics sensors, cool industrial maintenance lighting, Phase One 150MP, 20mm ultra-wide, f/8, 8k",
+          "negative_prompt": "workers, scaffolding, debris, cgi sci-fi fantasy fire, blur"
+        },
+        {
+          "id": "energy_06",
+          "title": "Wind Turbine Nacelle Maintenance Platform",
+          "shot_type": "high altitude detail",
+          "copy_space": true,
+          "prompt": "High-altitude photograph looking out from the helipad atop a modern wind turbine nacelle 150 meters above sea level, massive aerodynamic white carbon-fiber blade hub in sharp foreground focus, panoramic curved horizon of open turquoise ocean below, clean sky on top for layout, Hasselblad, 24mm, f/8, 8k",
+          "negative_prompt": "people, safety tethers, blurry, lens distortion"
+        },
+        {
+          "id": "energy_07",
+          "title": "Concentrated Solar Power Tower Molten Salt Receiver",
+          "shot_type": "telephoto industrial",
+          "copy_space": true,
+          "prompt": "Telephoto photograph of a molten salt central receiver tower rising above a concentrated solar thermal power plant, hundreds of computer-controlled dual-axis heliostat mirrors in desert reflecting blinding beams of sunlight toward the glowing receiver summit, heat shimmer in air, clean sky for text, Nikon Z9, 200mm, f/8, 8k",
+          "negative_prompt": "blown out haze, broken mirrors, blur, low res"
+        },
+        {
+          "id": "energy_08",
+          "title": "High-Voltage Direct Current (HVDC) Converter Hall",
+          "shot_type": "interior symmetry tech",
+          "copy_space": false,
+          "prompt": "Symmetrical photograph inside a cleanroom-grade HVDC converter station valve hall, colossal suspended thyristor valve towers clad in polished aluminum corona rings, pristine conductive flooring, red and white safety markers, silent power infrastructure, Leica SL2, 28mm, f/8, 8k",
+          "negative_prompt": "sparks, smoke, clutter, tools on floor, blur"
+        },
+        {
+          "id": "energy_09",
+          "title": "Green Hydrogen Electrolyzer Stack Array",
+          "shot_type": "industrial clean tech",
+          "copy_space": true,
+          "prompt": "Photograph of an industrial PEM green hydrogen electrolysis facility, rows of cylindrical stainless steel pressurized electrolyzer stacks with color-coded high-pressure manifolds, polished clean epoxy flooring, bright diffuse industrial LED lights, clean white wall area on the left for text, Phase One, 45mm, f/5.6, 8k",
+          "negative_prompt": "leaking pipes, rust, stains, messy cables"
+        },
+        {
+          "id": "energy_10",
+          "title": "Hydroelectric Dam Spillway at Golden Hour",
+          "shot_type": "monumental civil engineering",
+          "copy_space": true,
+          "prompt": "Dramatic perspective photograph of a monumental curved concrete arch dam spillway, glassy reservoir lake reflecting golden hour alpine mountains, majestic smooth board-formed concrete buttresses, clean reservoir surface in foreground offering copy space, Hasselblad 100c, 35mm, f/8, 8k",
+          "negative_prompt": "trash in water, tourists, boats, blown out sun"
+        },
+        {
+          "id": "energy_11",
+          "title": "Smart Grid Transformer Bushing Insulators",
+          "shot_type": "macro industrial tech",
+          "copy_space": false,
+          "prompt": "Macro photograph of heavy high-voltage ceramic shedding insulators on a modern sub-station power transformer, glazed terracotta brown porcelain rings catching morning light against a crisp deep blue sky, silver copper conductors in sharp focus, 100mm macro, f/8, 8k",
+          "negative_prompt": "bird droppings, cracks, rust, blur"
+        },
+        {
+          "id": "energy_12",
+          "title": "Superconducting Maglev Guideway Track",
+          "shot_type": "low angle infrastructure",
+          "copy_space": true,
+          "prompt": "Low angle perspective looking along an elevated maglev high-speed test guideway, smooth continuous concrete channel with embedded linear synchronous motor coils and passive levitation magnets, leading into a distant mountain horizon, clean sky on top for editorial copy space, Sony A7R V, 24mm, f/8, 8k",
+          "negative_prompt": "weeds, graffiti, construction fences, blur"
+        },
+        {
+          "id": "energy_13",
+          "title": "Floating Solar Farm on Alpine Reservoir",
+          "shot_type": "aerial perspective",
+          "copy_space": false,
+          "prompt": "High-angle drone photograph of a modular floating solar panel array anchored in a crystalline turquoise alpine reservoir, geometric blue floating pontoons surrounded by snow-dusted pine mountains, crisp alpine morning air, Phase One 150MP, 40mm, environmental technology, 8k",
+          "negative_prompt": "algae bloom, trash, dirty panels, overcast mud"
+        },
+        {
+          "id": "energy_14",
+          "title": "Subsea Power Cable Installation Vessel",
+          "shot_type": "maritime industrial wide",
+          "copy_space": true,
+          "prompt": "Maritime photograph of an advanced DP3 subsea cable-laying vessel working in calm Nordic coastal waters, massive stern carousel feeding thick armored submarine HVDC power cable into the ocean, sunset golden hour light, peaceful calm sea providing clean foreground copy space, Hasselblad, 50mm, f/5.6, 8k",
+          "negative_prompt": "storm, sinking ship, rust bucket, blur, smoke"
+        },
+        {
+          "id": "energy_15",
+          "title": "Carbon Capture Adsorption Filter Tower",
+          "shot_type": "clean tech exterior",
+          "copy_space": true,
+          "prompt": "Photograph of a direct air capture (DAC) carbon removal facility, modular stack of high-efficiency fan collectors with geometric louvers encased in matte charcoal aluminum, surrounded by clean gravel and wild prairie grasses, clear sky above for headline copy space, Leica SL2, 35mm, f/8, 8k",
+          "negative_prompt": "black smoke, pollution, industrial decay, blur"
+        },
+        {
+          "id": "energy_16",
+          "title": "Automated Battery Pack Giga-Factory Line",
+          "shot_type": "interior manufacturing",
+          "copy_space": false,
+          "prompt": "One-point perspective photograph along an automated electric vehicle battery module assembly line, yellow KUKA robotic arms with laser welding heads working over aluminum battery trays, amber laser safety enclosure glass, sparkling clean white epoxy flooring, Canon EOS R5, 28mm, f/5.6, 8k",
+          "negative_prompt": "messy grease, sparks burning, workers, clutter"
+        },
+        {
+          "id": "energy_17",
+          "title": "Offshore Substation Platform in Mist",
+          "shot_type": "seascape industrial",
+          "copy_space": true,
+          "prompt": "Atmospheric seascape photograph of an offshore wind farm high-voltage alternating current substation platform, standing on bright yellow steel jacket legs in morning ocean sea mist, silent geometric structure, vast moody gray sea and sky providing clean copy space, Phase One, 50mm, f/8, 8k",
+          "negative_prompt": "crusty rust, birds, boats, cartoon fog, blur"
+        },
+        {
+          "id": "energy_18",
+          "title": "Wave Energy Converter Buoy in Ocean",
+          "shot_type": "marine technology",
+          "copy_space": true,
+          "prompt": "Water-level photograph of a point-absorber wave energy converter buoy rising with ocean swell, sleek yellow and matte black hydrodynamic hull with internal linear generator, water droplets sheeting off the curved composite skin, sparkling ocean horizon, clean sky for text, Nikon Z9, 70mm, 1/2000s, 8k",
+          "negative_prompt": "barnacles, sea foam mess, sinking, blurry"
+        },
+        {
+          "id": "energy_19",
+          "title": "Cryogenic Liquid Hydrogen Storage Tank Sphere",
+          "shot_type": "industrial symmetry",
+          "copy_space": true,
+          "prompt": "Low-angle photograph of an immense spherical vacuum-insulated liquid hydrogen storage tank, gleaming white polyurea finish with delicate stainless access ladders and relief valve manifold, set against a pristine sunset gradient sky with generous copy space, Hasselblad, 35mm, f/8, 8k",
+          "negative_prompt": "leaks, ice frost buildup, rust, cluttered pipes"
+        },
+        {
+          "id": "energy_20",
+          "title": "Solar Canopy EV Mega-Charging Hub",
+          "shot_type": "urban tech dusk",
+          "copy_space": false,
+          "prompt": "Architectural photograph of a futuristic electric vehicle mega-charging plaza at dusk, sweeping cantilevered solar panel roof with glowing warm-white linear LED under-canopy lighting, sleek minimalist liquid-cooled charging pedestals on polished concrete, Leica SL2, 28mm, f/4, 8k",
+          "negative_prompt": "cars, litter, broken cables, glare, cartoon"
+        },
+        {
+          "id": "energy_21",
+          "title": "Aerodynamic Wind Turbine Blade Hub Macro",
+          "shot_type": "macro engineering",
+          "copy_space": true,
+          "prompt": "Close-up detail photograph of the pitch bearing interface where a 100-meter carbon-fiber turbine blade joins the cast iron rotor hub, massive zinc-coated stud bolts torqued to spec, pure matte white gelcoat surface, soft overcast lighting, ample clean white blade surface for logo placement, 90mm macro, f/8, 8k",
+          "negative_prompt": "grease leaks, cracks, paint chips, blurry"
+        }
+      ]
+    },
+    {
+      "id": "commercial-product-podiums",
+      "name": {
+        "en": "Commercial Product Podiums with Copy Space",
+        "ru": "Коммерческие подиумы с Copy Space под продукты"
+      },
+      "description": {
+        "en": "Minimalist travertine, raw slate, frosted glass, and water ripple pedestals designed specifically for product placement.",
+        "ru": "Студийные подиумы из травертина, сланца, матового стекла и водной глади со свободным местом для врезки товаров и текста."
+      },
+      "prompts": [
+        {
+          "id": "podium_01",
+          "title": "Rough Chiseled Black Slate Podium in Sunbeam",
+          "shot_type": "studio still life product staging",
+          "copy_space": true,
+          "prompt": "High-end commercial product mockup photograph, empty rectangular pedestal made of raw chiseled natural black slate stone with rough organic edges, single sharp directional shaft of morning sunlight illuminating the flat top surface, soft botanical palm shadow cast on the smooth matte dark gray background wall, ample clean copy space for product placement and typography, Hasselblad H6D-100c, 85mm, f/8, 8k",
+          "negative_prompt": "products on pedestal, dust, clutter, text, logo, blurry, oversaturated"
+        },
+        {
+          "id": "podium_02",
+          "title": "Honed Travertine Cylinder in Warm Studio Light",
+          "shot_type": "minimalist podium",
+          "copy_space": true,
+          "prompt": "Minimalist product staging background, cylindrical pedestal carved from creamy honed Navona travertine stone with subtle natural porous cavities, resting on neutral warm ecru plaster surface, gentle diffuse window daylight with soft shadow falloff, wide clean backdrop for copy space and cosmetic mockup, Phase One IQ4, 90mm, f/5.6, luxury aesthetic, 8k",
+          "negative_prompt": "cosmetics, bottles, dirt, cracks, high contrast harsh flash"
+        },
+        {
+          "id": "podium_03",
+          "title": "Frosted Acrylic Glass Plinth in Water Ripple Pool",
+          "shot_type": "spa beauty water staging",
+          "copy_space": true,
+          "prompt": "Luxury beauty commercial podium photograph, square pedestal made of thick frosted seafoam-white acrylic submerged slightly in a shallow tranquil pool of crystal-clear water, gentle concentric ripples creating caustic light refractions on the pale mint plaster pool basin, wide airy clean space above for headline text, Leica SL2, 75mm, f/4, 8k",
+          "negative_prompt": "bottles on plinth, murky water, splashing mess, bubbles on stone"
+        },
+        {
+          "id": "podium_04",
+          "title": "Dark Basalt Monolith with Copper Foil Micro-Line",
+          "shot_type": "luxury tech staging",
+          "copy_space": true,
+          "prompt": "Commercial mockup background for premium gadget or perfume, geometric cubic pedestal of matte volcanic basalt stone featuring a recessed hairline strip of polished raw copper along the base, dark charcoal studio cyclorama background with soft directional spotlight on top surface, generous negative space on both sides, Hasselblad, 90mm, f/8, 8k",
+          "negative_prompt": "phone on podium, watch on podium, fingerprints, scratches"
+        },
+        {
+          "id": "podium_05",
+          "title": "Sculptural White Cast Concrete Stepped Dais",
+          "shot_type": "architectural minimalist stage",
+          "copy_space": true,
+          "prompt": "Architectural product display staging, two-tiered stepped geometric podium made of ultra-smooth white micro-cement concrete, soft warm afternoon sunlight streaming from high angle casting graphic angular shadows, seamless warm beige studio cove backdrop with clean space for logo and copy, Canon EOS R5, 50mm, f/5.6, 8k",
+          "negative_prompt": "dirty marks, footprints, objects on stage, blurry"
+        },
+        {
+          "id": "podium_06",
+          "title": "Polished Green Guatemala Marble Disc Podium",
+          "shot_type": "luxury jewelry staging",
+          "copy_space": true,
+          "prompt": "Commercial luxury product stage, circular disc pedestal of deep forest-green polished Guatemala marble with delicate white mineral veins, resting on matte brass base plate, dark olive velvety backdrop with subtle gradient glow, large empty copy space area across top half, Phase One 150MP, 100mm macro, f/8, 8k",
+          "negative_prompt": "jewelry, watches, glare, reflection of photographer"
+        },
+        {
+          "id": "podium_07",
+          "title": "Raw Sawn Oak Timber Block with Linen Fabric",
+          "shot_type": "organic eco staging",
+          "copy_space": true,
+          "prompt": "Organic lifestyle product staging background, solid square block of raw sawn white oak wood showing natural growth rings on top, draped partially with folded raw natural unbleached flax linen fabric, warm Scandinavian daylight through sheer curtain, ample copy space on upper left, Leica Q3, 50mm, f/4, 8k",
+          "negative_prompt": "coffee cups, clutter, splintered wood, dirty cloth"
+        },
+        {
+          "id": "podium_08",
+          "title": "Floating Frosted Disc with Botanical Shadows",
+          "shot_type": "cosmetics studio still life",
+          "copy_space": true,
+          "prompt": "Commercial cosmetic mockup stage, circular translucent matte frosted glass disc hovering slightly above a pastel blush pink clay surface, ethereal shadow of delicate olive branch leaves cast across the background wall, gentle airy daylight, plenty of copy space for brand headline, Sony A7R V, 85mm, f/2.8, 8k",
+          "negative_prompt": "bottles, text, oversaturated pink, dark gloomy shadows"
+        },
+        {
+          "id": "podium_09",
+          "title": "Brushed Titanium Wedge Plinth on Slate",
+          "shot_type": "modern tech staging",
+          "copy_space": true,
+          "prompt": "Product staging photograph for high-end electronics, low-profile wedge pedestal of bead-blasted satin titanium with chamfered edge, resting on honed dark graphite slate, directional cool-white key light with warm rim fill, clean dark space filling the left two-thirds of frame, Hasselblad H6D, 80mm, f/8, 8k",
+          "negative_prompt": "scratches, dust, cables, products, blurry"
+        },
+        {
+          "id": "podium_10",
+          "title": "Sand Dune Desert Plinth with Wind Ripples",
+          "shot_type": "outdoor nature staging",
+          "copy_space": true,
+          "prompt": "Outdoor commercial product stage, cylindrical smooth sandstone pedestal emerging from fine wind-rippled golden desert sand dunes, warm golden hour side lighting, pristine pale azure sky above for headline typography, Phase One 150MP, 45mm, f/8, National Geographic commercial style, 8k",
+          "negative_prompt": "footprints, debris, tourist objects, blur, oversaturated"
+        },
+        {
+          "id": "podium_11",
+          "title": "Honed Calacatta Gold Marble Pillar in Studio",
+          "shot_type": "luxury white staging",
+          "copy_space": true,
+          "prompt": "Commercial product mockup background, fluted cylindrical column pedestal of honed Calacatta gold marble with soft gray and golden veins, pure warm-white studio cyclorama background with soft gradient shadow, ample clean white copy space, Leica SL2, 90mm macro, f/8, timeless luxury, 8k",
+          "negative_prompt": "products, bottles, stains, harsh black shadows"
+        },
+        {
+          "id": "podium_12",
+          "title": "Textured Terracotta Clay Geometric Dais",
+          "shot_type": "earthy warm staging",
+          "copy_space": true,
+          "prompt": "Artisanal product staging pedestal, stepped square platform crafted from raw unglazed warm terracotta clay with organic tactile texture, soft directional sunset beam cutting diagonally across, warm sienna background wall providing generous negative copy space, Canon 85mm, f/4, 8k",
+          "negative_prompt": "broken clay, pottery mess, pots, flowers, blurry"
+        },
+        {
+          "id": "podium_13",
+          "title": "Mirror Water Pool with Floating Slate Slab",
+          "shot_type": "water surface staging",
+          "copy_space": true,
+          "prompt": "Still-life beauty mockup stage, flat rectangular slab of dark wet slate hovering millimetres above a calm shallow black reflection pool, gentle mirror reflection, dark moody atmosphere with soft spotlight on top surface, clean deep black copy space on top half, Hasselblad, 100mm, f/5.6, 8k",
+          "negative_prompt": "water splashes, dirty scum, bubbles, blurry slate"
+        },
+        {
+          "id": "podium_14",
+          "title": "Matte Black Ceramic Pedestal in Cyan Rim Light",
+          "shot_type": "cyberpunk tech staging",
+          "copy_space": true,
+          "prompt": "High-tech commercial staging pedestal, monolithic cylinder of matte black sintered ceramic, sharp subtle cyan rim light outlining the silhouette from behind, dark charcoal gradient background, clean copy space across the entire upper section, Sony A7R V, 70mm, f/8, 8k",
+          "negative_prompt": "bright neon clutter, rainbow lights, scratches, dust"
+        },
+        {
+          "id": "podium_15",
+          "title": "Curved Glass Wave Platform on Sand",
+          "shot_type": "organic luxury staging",
+          "copy_space": true,
+          "prompt": "Commercial perfume mockup scene, thick ribbon of slumped kiln-curved clear architectural glass resting on pristine white coral beach sand, gentle caustic light reflections, soft coastal sunlight, pale turquoise gradient sky providing clean copy space above, Phase One, 80mm, f/5.6, 8k",
+          "negative_prompt": "seaweed, bottles, footprints, dirty sand, blur"
+        },
+        {
+          "id": "podium_16",
+          "title": "Brushed Brass Cylinder on White Travertine",
+          "shot_type": "luxury metal staging",
+          "copy_space": true,
+          "prompt": "Minimalist product stage, solid cylinder of satin brushed champagne brass resting atop a large slab of unpolished white travertine stone, warm directional studio lighting creating a smooth metallic highlight, seamless warm off-white background with vast copy space, Leica 75mm, f/5.6, 8k",
+          "negative_prompt": "tarnish, fingerprints, scratches, products on top"
+        },
+        {
+          "id": "podium_17",
+          "title": "Monolithic Raw Concrete Block with Moss Edge",
+          "shot_type": "wabi-sabi architectural staging",
+          "copy_space": true,
+          "prompt": "Wabi-sabi product staging background, cubic block of light gray fair-faced concrete with fine aggregate texture, small delicate patch of live green velvet moss nestled in one corner groove, soft overcast Nordic light, clean concrete wall background for text, Hasselblad, 60mm, f/8, 8k",
+          "negative_prompt": "dirty weeds, cracks, construction rubble, blur"
+        },
+        {
+          "id": "podium_18",
+          "title": "Smoky Quartz Transparent Crystal Base",
+          "shot_type": "gem luxury staging",
+          "copy_space": true,
+          "prompt": "High-end jewelry or fragrance staging, solid rectangular block of optical smoky quartz crystal with polished top surface and natural chiseled rock crystal edges, dramatic under-table backlight casting amber glow, dark velvet studio background for copy space, Phase One, 90mm macro, f/8, 8k",
+          "negative_prompt": "jewelry, rings, scratches, dust motes, noise"
+        },
+        {
+          "id": "podium_19",
+          "title": "Honed Fossil Limestone Stepped Stage",
+          "shot_type": "natural stone staging",
+          "copy_space": true,
+          "prompt": "Commercial product display, two asymmetrical stepped blocks of natural Jura beige fossil limestone showing subtle ancient shell imprints, warm golden hour light grazing the textured faces, neutral sand-colored studio background with ample negative space, Canon 50mm, f/8, 8k",
+          "negative_prompt": "fossils look fake, dirt, clutter, objects on stone"
+        },
+        {
+          "id": "podium_20",
+          "title": "Solid Dark Walnut Wood Block on Silk",
+          "shot_type": "craft luxury staging",
+          "copy_space": true,
+          "prompt": "Still life product stage, cube of solid American dark walnut wood with rich oiled grain and beveled edges, resting on folded matte ivory raw silk fabric, gentle side lighting highlighting wood grain warmth, clean neutral background for copy space, Leica SL2, 85mm, f/4, 8k",
+          "negative_prompt": "varnish glare, scratches, food, cups, blurry"
+        },
+        {
+          "id": "podium_21",
+          "title": "Perforated Architectural Metal Mesh Riser",
+          "shot_type": "industrial modern staging",
+          "copy_space": true,
+          "prompt": "Commercial tech accessory staging, low riser made of precision laser-perforated dark titanium mesh with solid top plate, soft downlight shining through the micro-perforations casting geometric shadow pattern onto dark slate floor, clean dark copy space on the right, Hasselblad, 80mm, f/8, 8k",
+          "negative_prompt": "bent metal, rust, wires, gadgets on riser, blur"
+        }
+      ]
+    },
+    {
+      "id": "aerodynamic-ufo-chrome",
+      "name": {
+        "en": "Aerodynamic Streamlined UFOs & Organic Chrome",
+        "ru": "Обтекаемые аэродинамические НЛО / Органический хром"
+      },
+      "description": {
+        "en": "Flawless streamlined saucers, liquid mercury, mirror titanium, seamless zero-tolerance hulls, and cinematic atmospheric flight.",
+        "ru": "Бесшовные обтекаемые тарелки, жидкая ртуть, зеркальный хром и монолитная керамика в кинематографичном полете над реальными ландшафтами."
+      },
+      "prompts": [
+        {
+          "id": "ufo_01",
+          "title": "Liquid Mercury Teardrop Saucer Over Icelandic Black Beach",
+          "shot_type": "cinematic telephoto landscape",
+          "copy_space": true,
+          "prompt": "Cinematic 35mm photograph of an ultra-streamlined aerodynamic teardrop saucer hovering silently 3 meters above the black basalt sand of an Icelandic volcanic beach, seamless liquid mercury chrome hull with zero visible panel gaps or rivets, perfectly reflecting the crashing white surf and moody overcast Nordic storm clouds, subtle gravitational mirage heat-shimmer beneath the hull, clean stormy sky on the right for copy space, Hasselblad H6D-100c, 85mm lens, f/4, photorealistic documentary realism, 8k",
+          "negative_prompt": "green lasers, glowing alien lights, cockpit windows, 1950s retro pie pan, cartoon, cgi look, blurry"
+        },
+        {
+          "id": "ufo_02",
+          "title": "Matte White Ceramic Oval Craft Over Desert Salt Flat",
+          "shot_type": "wide establishing desert",
+          "copy_space": true,
+          "prompt": "Wide establishing photograph of an enigmatic smooth oval craft shaped like a polished river stone, constructed from monolithic matte white ceramic composite with zero seams, gliding silently at high speed 1 meter over the geometric hexagonal cracked salt flats of Death Valley, casting a sharp dark shadow on the salt crust, golden hour low sun, vast pristine pale sky for copy space, Phase One IQ4 150MP, 40mm, f/8, 8k",
+          "negative_prompt": "thruster flames, wings, wheels, landing gear, blurry, low res"
+        },
+        {
+          "id": "ufo_03",
+          "title": "Mirror Titanium Toroidal Ring Hovering in Mountain Mist",
+          "shot_type": "telephoto mountain landscape",
+          "copy_space": false,
+          "prompt": "Telephoto documentary photograph taken from an alpine ridge looking at a perfect aerodynamic toroidal ring craft hovering motionless amidst swirling mountain cloud mist, dark polished titanium hull mirroring the snowy jagged peaks of the Swiss Alps, subtle atmospheric refraction bending the clouds behind its central aperture, Leica SL2, 135mm, f/4, National Geographic expedition realism, 8k",
+          "negative_prompt": "glowing alien glyphs, blue beams, spaceships shooting, cartoon"
+        },
+        {
+          "id": "ufo_04",
+          "title": "Polished Obsidian Disk Skimming Glassy Lake",
+          "shot_type": "low water level action",
+          "copy_space": true,
+          "prompt": "Low-angle photograph looking across a tranquil mirror-like mountain lake at dawn, an ultra-thin aerodynamic lenticular saucer made of seamless dark obsidian glass skimming inches above the water without creating ripples, morning mist parting around its streamlined bow, clean twilight gradient sky providing ample copy space, Canon EOS R5, 50mm, f/2.8, 8k",
+          "negative_prompt": "water splash mess, monster, lights blinking, blur"
+        },
+        {
+          "id": "ufo_05",
+          "title": "Organic Bionic Aerodynamic Saucer in Rain Storm",
+          "shot_type": "telephoto aerial storm",
+          "copy_space": true,
+          "prompt": "Cinematic photograph of a sculpted organic saucer with curved swept-back contours resembling a manta ray, satin dark chrome hull sheeting heavy rain drops in aerodynamic laminar flow lines, dark dramatic lightning storm clouds in background, clean dark cloud shelf on the left for headline typography, Sony A7R V, 70mm, 1/1000s, f/4, 8k",
+          "negative_prompt": "propellers, rocket exhaust, pilots visible, cartoon cgi"
+        },
+        {
+          "id": "ufo_06",
+          "title": "Macro Detail of Seamless Liquid Metal Hull",
+          "shot_type": "extreme macro hull detail",
+          "copy_space": false,
+          "prompt": "Extreme macro photograph of the edge of an unidentified aerodynamic craft, seamless transition of curved mirror-polished liquid metal showing no welds or fasteners, reflecting a perfect miniature panorama of a desert sunset along its razor-thin leading edge, 100mm macro lens, f/8, uncanny manufacturing perfection, 8k",
+          "negative_prompt": "dirt, scratches, bolts, rivets, panel lines, blur"
+        },
+        {
+          "id": "ufo_07",
+          "title": "Dual Streamlined Disks in Formation Over Red Dunes",
+          "shot_type": "wide angle landscape",
+          "copy_space": true,
+          "prompt": "Wide angle landscape photograph of two identical streamlined lenticular chrome disks flying in silent tandem formation high over the endless red sand dunes of the Namib Desert, late afternoon sun glinting off their curved dorsal hulls, vast empty sky above for clean editorial layout, Hasselblad, 35mm, f/8, 8k",
+          "negative_prompt": "vapor trails, fire, military jets, cartoon"
+        },
+        {
+          "id": "ufo_08",
+          "title": "Dark Matte Carbon Aerodynamic Triangle Over Foggy Forest",
+          "shot_type": "high angle drone perspective",
+          "copy_space": true,
+          "prompt": "High-angle photograph looking down at an organic rounded-corner triangular craft gliding silently over the dark green spruce canopy of a misty Pacific Northwest forest, matte non-reflective carbon-composite skin, subtle gravitational lensing warping the pine trees directly underneath, clean foggy sky on side for copy space, Leica Q3, 28mm, f/5.6, 8k",
+          "negative_prompt": "military roundels, missiles, antennas, bright lights"
+        },
+        {
+          "id": "ufo_09",
+          "title": "Polished Silver Saucer Above Arctic Sea Ice",
+          "shot_type": "arctic documentary landscape",
+          "copy_space": false,
+          "prompt": "Documentary-style photograph across a fractured blue arctic sea ice shelf, a streamlined circular saucer of mirror-polished silver hovering motionless 10 meters above the ice, crisp reflection of white snow and dark ocean lead on its concave underbelly, cold crisp polar sun, Phase One 150MP, 50mm, f/8, 8k",
+          "negative_prompt": "polar bears, research ships, cartoon snow, blurry"
+        },
+        {
+          "id": "ufo_10",
+          "title": "Iridescent Bismuth Hull Saucer in Sunset Clouds",
+          "shot_type": "telephoto air-to-air",
+          "copy_space": true,
+          "prompt": "Air-to-air telephoto photograph of a streamlined oval disk banking smoothly through towering cumulus sunset clouds, exotic hull material showing faint iridescent color-shifting hues of violet and gold under sunlight angle, clean golden cloud horizon for typography, Nikon Z9, 85mm, f/4, aviation photography realism, 8k",
+          "negative_prompt": "cockpit, pilots, flames, guns, blur, pixelated"
+        },
+        {
+          "id": "ufo_11",
+          "title": "Lenticular Saucer at Twilight Over Pacific Ocean",
+          "shot_type": "wide seascape twilight",
+          "copy_space": true,
+          "prompt": "Long-exposure twilight photograph from a coastal cliff looking over the vast Pacific Ocean, a sleek lenticular chrome saucer suspended perfectly still in the mid-air distance, deep navy blue ocean with gentle swell, soft sunset gradient in the western sky providing expansive copy space, Hasselblad, 50mm, f/5.6, 8k",
+          "negative_prompt": "boats, light trails, bright alien beams, noise"
+        },
+        {
+          "id": "ufo_12",
+          "title": "Subtle Gravitational Lens Distortion Below Hovering Disk",
+          "shot_type": "scientific optical telephoto",
+          "copy_space": false,
+          "prompt": "Telephoto photograph focusing on the gravitational boundary layer directly beneath a stationary streamlined chrome disk hovering over dry cracked clay ground, the distant desert horizon visibly warped and magnified through a spherical gravitational field bubble, Leica SL2, 100mm, f/5.6, scientific enigma, 8k",
+          "negative_prompt": "magical sparkles, cartoon rings, blurry, noisy"
+        },
+        {
+          "id": "ufo_13",
+          "title": "Matte Dark Ceramic Saucer at Rest in Pine Clearing",
+          "shot_type": "ground-level documentary",
+          "copy_space": true,
+          "prompt": "Ground-level documentary photograph in a secluded Swedish pine forest clearing at dawn, a smooth matte dark ceramic saucer resting silently on damp pine needles with zero landing gear, morning mist clinging to the hull curve, soft filtered sunlight, clean forest canopy on top for text, Sony A7R V, 35mm, f/2.8, 8k",
+          "negative_prompt": "aliens standing, footprints, burnt ground, cartoon"
+        },
+        {
+          "id": "ufo_14",
+          "title": "Super-Reflective Chrome Ellipsoid Rising from Sea",
+          "shot_type": "maritime action",
+          "copy_space": true,
+          "prompt": "High-shutter-speed photograph of a seamless chrome ellipsoid craft rising smoothly from ocean waters without splashing, unbroken laminar water film sliding off the hydrophobic mirror surface, ocean horizon and soft morning sky for clean layout, Canon EOS R5, 70mm, 1/4000s, 8k",
+          "negative_prompt": "giant waves, explosion, foam everywhere, blur"
+        },
+        {
+          "id": "ufo_15",
+          "title": "Aerodynamic Saucer Entering Low Cumulus Cloud",
+          "shot_type": "telephoto sky",
+          "copy_space": true,
+          "prompt": "Telephoto shot of a streamlined polished titanium saucer disappearing silently into a dense white cumulus cloud bank, vapor parting smoothly around the knife-edge perimeter without turbulence, clean open blue sky on left for copy space, Phase One, 120mm, f/8, 8k",
+          "negative_prompt": "chemtrails, smoke, military aircraft, blur"
+        },
+        {
+          "id": "ufo_16",
+          "title": "Low-Flying Chrome Toroid Skimming Canyon River",
+          "shot_type": "dramatic canyon perspective",
+          "copy_space": false,
+          "prompt": "Dramatic perspective photograph inside a deep red rock canyon, a sleek toroidal chrome ring craft gliding low above the winding river, sheer sandstone walls and turquoise water mirrored in the curved reflective ring, Hasselblad H6D, 28mm, f/8, cinematic spectacle, 8k",
+          "negative_prompt": "rafts, tourists, oversaturated red, cartoon"
+        },
+        {
+          "id": "ufo_17",
+          "title": "Minimalist Teardrop Craft Hovering Over Salt Lake",
+          "shot_type": "wide minimalist landscape",
+          "copy_space": true,
+          "prompt": "Ultra-minimalist photograph of a solitary teardrop craft made of seamless brushed platinum hovering over a salt lake, pure horizontal horizon line dividing white salt and pale lavender dawn sky, vast empty space on top two-thirds for typography, Leica Q3, 50mm, f/5.6, fine art aesthetic, 8k",
+          "negative_prompt": "busy landscape, mountains, bright lights, clutter"
+        },
+        {
+          "id": "ufo_18",
+          "title": "High-Speed Trans-Medium Saucer Vapor Cone",
+          "shot_type": "telephoto aviation event",
+          "copy_space": true,
+          "prompt": "High-speed shutter photograph of an aerodynamic chrome saucer piercing the sound barrier at low altitude, perfectly symmetrical conical Prandtl-Glauert condensation vapor cone forming around the hull equator, clean blue sky backdrop for copy space, Nikon Z9, 200mm, 1/8000s, f/4, 8k",
+          "negative_prompt": "airplane tail, wings, jet fire, messy cloud, blur"
+        },
+        {
+          "id": "ufo_19",
+          "title": "Seamless Obsidian Disk Over Golden Wheat Field",
+          "shot_type": "rural landscape contrast",
+          "copy_space": true,
+          "prompt": "Cinematic photograph of a seamless obsidian glass disk hovering silently 5 meters above a golden ripe wheat field, gentle wind rippling the grain stalks below while the craft remains mathematically motionless, stormy blue clouds on the horizon providing dramatic copy space, Canon 50mm, f/4, 8k",
+          "negative_prompt": "crop circles, farm tractors, barns, cartoon"
+        },
+        {
+          "id": "ufo_20",
+          "title": "Macro Leading Edge Gravitational Distortion",
+          "shot_type": "macro physics science",
+          "copy_space": false,
+          "prompt": "Macro photograph focusing on the razor-sharp knife-edge rim of a polished chrome saucer in flight, a micro-thin boundary layer of compressed air and violet optical refraction clinging to the zero-tolerance leading edge, Phase One IQ4, 90mm macro, f/8, cutting-edge realism, 8k",
+          "negative_prompt": "lasers, fantasy magic, sparks, blurry, noise"
+        },
+        {
+          "id": "ufo_21",
+          "title": "Streamlined Chrome Disk Resting at Edge of Desert Dune",
+          "shot_type": "ground level still life",
+          "copy_space": true,
+          "prompt": "Documentary-style photograph at sunrise of a sleek aerodynamic chrome saucer resting partially embedded on a crest of windblown sand dune, clean reflection of pink and orange morning sun across the polished hull curve, vast serene desert sky above for headline copy space, Hasselblad, 35mm, f/8, 8k",
+          "negative_prompt": "wreckage, smoke, damage, footprints, cartoon"
+        }
+      ]
+    }
+  ]
+}
