@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <linearGradient id="bgAi3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#05070a"/><stop offset="100%" stop-color="#0a1218"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bgAi3)"/>
+
+  <g transform="translate(80, 60)">
+    <rect width="1440" height="880" rx="16" fill="#080c14" stroke="rgba(74,222,128,0.25)" stroke-width="1.5"/>
+    <rect width="1440" height="48" rx="16" fill="#0e1622"/>
+    <text x="24" y="29" font-family="monospace" font-size="13" font-weight="bold" fill="#ffffff">VISIONQC // REAL-TIME IN-LINE DEFECT DETECTION (YOLOV8 ONNX RUNTIME)</text>
+    <text x="800" y="29" font-family="monospace" font-size="11" fill="#7d90a6">[RTSP CAMERA STREAM #04 · 45.2 FPS · LOCAL INFERENCE]</text>
+
+    <!-- Camera viewport -->
+    <g transform="translate(40, 75)">
+      <rect width="900" height="640" rx="12" fill="#040608" stroke="rgba(255,255,255,0.1)"/>
+
+      <!-- Camera crosshair & overlay -->
+      <g stroke="rgba(255,255,255,0.15)" stroke-width="1">
+        <line x1="450" y1="20" x2="450" y2="620"/><line x1="20" y1="320" x2="880" y2="320"/>
+      </g>
+
+      <!-- Target Object 1 (Passed inspection) -->
+      <rect x="140" y="140" width="280" height="240" rx="6" fill="rgba(74,222,128,0.06)" stroke="#4ade80" stroke-width="2.5"/>
+      <rect x="140" y="115" width="160" height="25" fill="#4ade80"/>
+      <text x="148" y="132" font-family="monospace" font-size="11" font-weight="bold" fill="#000000">COMPONENT #01 [99.4% OK]</text>
+
+      <!-- Target Object 2 (Passed inspection) -->
+      <rect x="480" y="220" width="320" height="260" rx="6" fill="rgba(86,217,254,0.06)" stroke="#56d9fe" stroke-width="2.5"/>
+      <rect x="480" y="195" width="180" height="25" fill="#56d9fe"/>
+      <text x="488" y="212" font-family="monospace" font-size="11" font-weight="bold" fill="#000000">ALIGNMENT [98.9% PASS]</text>
+
+      <text x="30" y="610" font-family="monospace" font-size="12" fill="#4ade80">● INFERENCE SPEED: 14.8 ms • ZERO MISSED DEFECTS</text>
+    </g>
+
+    <!-- Right Side Telemetry -->
+    <g transform="translate(970, 75)">
+      <rect width="430" height="640" rx="12" fill="#0b121e" stroke="rgba(255,255,255,0.08)"/>
+      <text x="24" y="36" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">INSPECTION STATS</text>
+
+      <g transform="translate(20, 60)">
+        <rect width="390" height="80" rx="8" fill="#101928"/>
+        <text x="16" y="26" font-family="monospace" font-size="11" fill="#7d90a6">SHIFT PRODUCTION</text>
+        <text x="16" y="56" font-family="sans-serif" font-size="24" font-weight="bold" fill="#ffffff">42,800 Units</text>
+      </g>
+      <g transform="translate(20, 160)">
+        <rect width="390" height="80" rx="8" fill="#101928"/>
+        <text x="16" y="26" font-family="monospace" font-size="11" fill="#7d90a6">ACCURACY / RECALL</text>
+        <text x="16" y="56" font-family="sans-serif" font-size="24" font-weight="bold" fill="#4ade80">98.6% Recall</text>
+      </g>
+      <g transform="translate(20, 260)">
+        <rect width="390" height="80" rx="8" fill="#101928"/>
+        <text x="16" y="26" font-family="monospace" font-size="11" fill="#7d90a6">REPLACED MANUAL STATIONS</text>
+        <text x="16" y="56" font-family="sans-serif" font-size="24" font-weight="bold" fill="#56d9fe">4 Manual Checks</text>
+      </g>
+    </g>
+  </g>
+</svg>

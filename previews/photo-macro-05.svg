@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Abstract Macro 5">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0f06"/><stop offset="1" stop-color="#2b1408"/>
+    </linearGradient>
+    <radialGradient id="core"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0.45"/><stop offset="0.5" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <g><ellipse cx="683.76" cy="439.95" rx="272.16" ry="301.82" fill="#ffb347" opacity="0.55" filter="url(#soft)" transform="rotate(111.36 683.76 439.95)"/><ellipse cx="1414.25" cy="153.36" rx="523.46" ry="201.95" fill="#ff6b6b" opacity="0.7" filter="url(#soft)" transform="rotate(124.92 1414.25 153.36)"/><ellipse cx="1398.3" cy="817.68" rx="402.68" ry="289.7" fill="#2b1408" opacity="0.61" filter="url(#soft)" transform="rotate(85 1398.3 817.68)"/><ellipse cx="1388.63" cy="897.35" rx="166.89" ry="111.84" fill="#ffb347" opacity="0.34" filter="url(#soft)" transform="rotate(154.25 1388.63 897.35)"/><ellipse cx="1291.97" cy="175.43" rx="540.44" ry="336.35" fill="#ff6b6b" opacity="0.51" filter="url(#soft)" transform="rotate(137.48 1291.97 175.43)"/><ellipse cx="1578.78" cy="830.51" rx="178.38" ry="389.55" fill="#2b1408" opacity="0.61" filter="url(#soft)" transform="rotate(74.19 1578.78 830.51)"/><ellipse cx="1207.42" cy="718.63" rx="297.55" ry="159.01" fill="#ffb347" opacity="0.51" filter="url(#soft)" transform="rotate(9.51 1207.42 718.63)"/></g>
+  <rect width="1600" height="1000" fill="url(#vig)"/>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.09" style="mix-blend-mode:overlay"/>
+</svg>

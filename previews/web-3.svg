@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs>
+    <linearGradient id="bgW3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#05070a"/><stop offset="100%" stop-color="#0a121d"/></linearGradient>
+    <linearGradient id="mrrGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4ade80" stop-opacity="0.38"/><stop offset="100%" stop-color="#4ade80" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bgW3)"/>
+  <g transform="translate(80, 60)">
+    <rect width="1440" height="880" rx="16" fill="#080d16" stroke="rgba(74,222,128,0.2)" stroke-width="1.5"/>
+    <rect width="1440" height="52" rx="16" fill="#0d1522"/>
+    <circle cx="28" cy="26" r="6" fill="#ff5f56"/><circle cx="48" cy="26" r="6" fill="#ffbd2e"/><circle cx="68" cy="26" r="6" fill="#27c93f"/>
+    <rect x="220" y="12" width="600" height="28" rx="6" fill="#131e2e"/>
+    <text x="240" y="31" font-family="monospace" font-size="12" fill="#7d90a6">https://subhub.fintech/billing • 99.99% IDEMPOTENCY • WEBHOOKS HEALTHY</text>
+
+    <g transform="translate(40, 75)">
+      <!-- Top KPIs -->
+      <g>
+        <rect width="320" height="90" rx="10" fill="#0e1724" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="26" font-family="monospace" font-size="11" fill="#7d90a6">MONTHLY RECURRING REVENUE</text>
+        <text x="20" y="60" font-family="sans-serif" font-size="28" font-weight="bold" fill="#ffffff">$482,900</text>
+        <text x="20" y="78" font-family="monospace" font-size="10" fill="#4ade80">● +14.2% MoM Expansion</text>
+      </g>
+      <g transform="translate(350, 0)">
+        <rect width="320" height="90" rx="10" fill="#0e1724" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="26" font-family="monospace" font-size="11" fill="#7d90a6">WEBHOOK INGESTION (24H)</text>
+        <text x="20" y="60" font-family="sans-serif" font-size="28" font-weight="bold" fill="#ffffff">124,800 Events</text>
+        <text x="20" y="78" font-family="monospace" font-size="10" fill="#56d9fe">0 Failed • 100% Reconciled</text>
+      </g>
+      <g transform="translate(700, 0)">
+        <rect width="320" height="90" rx="10" fill="#0e1724" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="26" font-family="monospace" font-size="11" fill="#7d90a6">ACTIVE SUBSCRIPTIONS</text>
+        <text x="20" y="60" font-family="sans-serif" font-size="28" font-weight="bold" fill="#ffffff">14,240 Accounts</text>
+        <text x="20" y="78" font-family="monospace" font-size="10" fill="#4ade80">Churn: 0.82% (Industry Low)</text>
+      </g>
+      <g transform="translate(1050, 0)">
+        <rect width="310" height="90" rx="10" fill="#0e1724" stroke="rgba(255,255,255,0.08)"/>
+        <text x="20" y="26" font-family="monospace" font-size="11" fill="#7d90a6">GATEWAY RECONCILIATION</text>
+        <text x="20" y="60" font-family="sans-serif" font-size="26" font-weight="bold" fill="#4ade80">AUTOMATED</text>
+        <text x="20" y="78" font-family="monospace" font-size="10" fill="#7d90a6">Audit hash: sha256:7f81b</text>
+      </g>
+
+      <!-- MRR Growth Curve -->
+      <g transform="translate(0, 110)">
+        <rect width="1360" height="300" rx="12" fill="#0b111c" stroke="rgba(255,255,255,0.08)"/>
+        <text x="24" y="32" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">REVENUE ACCELERATION &amp; RECURRING COHORTS</text>
+
+        <path d="M40,240 Q 240,210 440,170 T 840,110 T 1320,40 L 1320,270 L 40,270 Z" fill="url(#mrrGrad)"/>
+        <path d="M40,240 Q 240,210 440,170 T 840,110 T 1320,40" fill="none" stroke="#4ade80" stroke-width="3"/>
+        <circle cx="1320" cy="40" r="7" fill="#4ade80"/>
+      </g>
+
+      <!-- Subscriptions Table -->
+      <g transform="translate(0, 430)">
+        <rect width="1360" height="240" rx="10" fill="#0b111c" stroke="rgba(255,255,255,0.08)"/>
+        <rect width="1360" height="36" rx="10" fill="#111824"/>
+        <text x="20" y="22" font-family="monospace" font-size="11" font-weight="bold" fill="#7d90a6">ORGANIZATION</text>
+        <text x="320" y="22" font-family="monospace" font-size="11" font-weight="bold" fill="#7d90a6">PLAN / SEATS</text>
+        <text x="620" y="22" font-family="monospace" font-size="11" font-weight="bold" fill="#7d90a6">GATEWAY</text>
+        <text x="920" y="22" font-family="monospace" font-size="11" font-weight="bold" fill="#7d90a6">STATUS</text>
+        <text x="1180" y="22" font-family="monospace" font-size="11" font-weight="bold" fill="#7d90a6">MRR</text>
+
+        <!-- Rows -->
+        <g transform="translate(0, 36)">
+          <text x="20" y="32" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">AcroVenture Cloud Inc.</text>
+          <text x="320" y="32" font-family="monospace" font-size="12" fill="#56d9fe">Enterprise (250 Seats)</text>
+          <text x="620" y="32" font-family="monospace" font-size="12" fill="#94a3b8">Stripe Custom ACH</text>
+          <rect x="920" y="16" width="90" height="22" rx="4" fill="rgba(74,222,128,0.15)"/>
+          <text x="930" y="31" font-family="monospace" font-size="10.5" font-weight="bold" fill="#4ade80">● ACTIVE</text>
+          <text x="1180" y="32" font-family="monospace" font-size="13" font-weight="bold" fill="#ffffff">$12,500/mo</text>
+        </g>
+        <g transform="translate(0, 92)">
+          <text x="20" y="32" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Nordic Media Group</text>
+          <text x="320" y="32" font-family="monospace" font-size="12" fill="#56d9fe">Scale (120 Seats)</text>
+          <text x="620" y="32" font-family="monospace" font-size="12" fill="#94a3b8">Braintree Vault</text>
+          <rect x="920" y="16" width="90" height="22" rx="4" fill="rgba(74,222,128,0.15)"/>
+          <text x="930" y="31" font-family="monospace" font-size="10.5" font-weight="bold" fill="#4ade80">● ACTIVE</text>
+          <text x="1180" y="32" font-family="monospace" font-size="13" font-weight="bold" fill="#ffffff">$6,800/mo</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
