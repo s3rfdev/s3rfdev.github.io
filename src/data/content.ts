@@ -720,6 +720,22 @@ export const works: Work[] = [
     stack: ['Flutter', 'Dart', 'WebSockets', 'TLS', 'mDNS'],
   },
 
+    {
+    id: 'tellmemore-hud',
+    group: 'ai',
+    featured: true,
+    title: t('TellMeMore: Real-Time AI Negotiation Copilot & Meeting HUD', 'TellMeMore: ИИ-копилот сложных переговоров и встреч'),
+    summary: t(
+      'Intelligent floating HUD and real-time copilot for high-stakes business negotiations and technical consultations on macOS: dual-stream speech isolation (Deepgram), multi-screenshot visual inspection (⌥2), zero screen-share leakage (Presenter Privacy), and multi-LLM orchestration.',
+      'Интеллектуальный плавающий HUD и копилот реального времени для ключевых переговоров и технических консультаций на macOS: двухпоточный слух без задержек (Deepgram), мульти-скриншотный анализ экранов (⌥2), защита от демонстрации в Zoom/Meet и мульти-LLM оркестрация.',
+    ),
+    metric: t('< 300ms latency · 100% Presenter Privacy', '< 300мс задержка · 100% приватность экрана'),
+    cover: 'previews/github/ai-openwebui.png',
+    tags: ['real-time AI', 'Flutter', 'macOS', 'speech-to-text', 'negotiation', 'multimodal'],
+    stack: ['Flutter', 'Dart', 'Deepgram STT', 'Gemini', 'Claude', 'OpenAI', 'BlackHole'],
+    link: 'https://github.com/s3rfdev/TellMeMore',
+  },
+
   // --- MOBILE APPS (FLUTTER & ANDROID) ---
   {
     id: 'dexlist-analytics',
@@ -978,14 +994,14 @@ export const works: Work[] = [
   {
     id: 'flutter-commercial-suite',
     group: 'mobile',
-    title: t('Commercial Flutter Apps Suite (2023–2024)', 'Серия коммерческих мобильных приложений на Flutter (2023–2024)'),
+    title: t('Enterprise Cross-Platform Flutter Suite', 'Серия коммерческих кроссплатформенных приложений на Flutter'),
     summary: t(
-      'Series of 20+ specialized mobile applications engineered on Flutter: sports analytics, prediction engines, live score dashboards, and custom UI systems with offline-first local cache.',
-      'Серия из 20+ специализированных мобильных приложений на Flutter: спортивная аналитика, лайв-дашборды, алгоритмические индикаторы и кастомные UI-системы с офлайн-кэшированием.',
+      'Fleet of 100+ production applications engineered on Flutter across mobile (iOS/Android) and desktop (macOS/Windows): high-load data dashboards, offline-first sync engines, and custom reactive UI architectures.',
+      'Серия из более чем 100 продакшен-релизов на Flutter для мобильных и десктопных платформ: высоконагруженные дашборды данных, офлайн-движки синхронизации и кастомные реактивные UI-архитектуры.',
     ),
-    metric: t('20+ production builds · 100% custom Flutter', '20+ опубликованных сборок · 100% кастомный Flutter'),
+    metric: t('100+ production releases · 100% custom Flutter', '100+ опубликованных сборок · 100% кастомный Flutter'),
     cover: 'previews/mobile-betting-analytics.webp',
-    tags: ['Flutter', 'production archive', 'BLoC', 'sports', 'analytics'],
+    tags: ['Flutter', 'production archive', 'BLoC', 'cross-platform', 'enterprise'],
     stack: ['Flutter', 'Dart', 'BLoC', 'Dio', 'SQLite', 'In-App Subscriptions'],
     link: 'https://github.com/s3rfdev',
   },
